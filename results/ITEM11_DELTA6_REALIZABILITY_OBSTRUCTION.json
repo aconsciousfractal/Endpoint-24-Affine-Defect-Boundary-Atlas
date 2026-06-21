@@ -1,0 +1,272 @@
+{
+  "f2_completability": {
+    "completable": 35,
+    "completable_with_defect6": 35,
+    "method": "equal-rows M=(u,v,u,v); Lemma C / Step5+ bijection_completable",
+    "two_flats_tested": 35
+  },
+  "guardrails": [
+    "Item 11 localizes and explains the residue; it does NOT close the 15/49 matrix.",
+    "All counts are over the full 7040 integer magic squares via the certified pipeline.",
+    "The result is a negative/obstruction theorem: no F2 or linear closure exists.",
+    "No public/PAPP widening or universal Endpoint-24 affine-defect atlas claim is made.",
+    "The B3 support-action matrix remains a finite certificate (L24 framing)."
+  ],
+  "linear_symmetry": {
+    "gl4_2_order": 20160,
+    "stabilizer_of_realized_set_order": 1,
+    "transitive_on_two_flats": true
+  },
+  "metadata": {
+    "description": "The defect-6 error-space realizability (the open residue of the B3 15/49 matrix) is integer-magic, not F2, and has no GL(4,2) symmetry: exactly 13 of 35 two-flats are realized, all 35 are F2-completable, and the stabilizer of the 13-set is trivial.",
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Item11_delta6_realizability_obstruction"
+  },
+  "realized_spaces": [
+    {
+      "directions": [
+        2,
+        5,
+        7
+      ],
+      "multiplicity": 128,
+      "weight_signature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "directions": [
+        2,
+        9,
+        11
+      ],
+      "multiplicity": 128,
+      "weight_signature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "directions": [
+        3,
+        4,
+        7
+      ],
+      "multiplicity": 128,
+      "weight_signature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "directions": [
+        4,
+        10,
+        14
+      ],
+      "multiplicity": 128,
+      "weight_signature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "directions": [
+        5,
+        8,
+        13
+      ],
+      "multiplicity": 128,
+      "weight_signature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "directions": [
+        6,
+        8,
+        14
+      ],
+      "multiplicity": 128,
+      "weight_signature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "directions": [
+        6,
+        11,
+        13
+      ],
+      "multiplicity": 128,
+      "weight_signature": [
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "directions": [
+        7,
+        11,
+        12
+      ],
+      "multiplicity": 128,
+      "weight_signature": [
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "directions": [
+        1,
+        6,
+        7
+      ],
+      "multiplicity": 64,
+      "weight_signature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "directions": [
+        2,
+        12,
+        14
+      ],
+      "multiplicity": 64,
+      "weight_signature": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "directions": [
+        3,
+        13,
+        14
+      ],
+      "multiplicity": 64,
+      "weight_signature": [
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "directions": [
+        5,
+        11,
+        14
+      ],
+      "multiplicity": 64,
+      "weight_signature": [
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "directions": [
+        7,
+        9,
+        14
+      ],
+      "multiplicity": 64,
+      "weight_signature": [
+        2,
+        3,
+        3
+      ]
+    }
+  ],
+  "source_artifacts": [
+    "extensions/main/scripts/generate_defect_dim_dichotomy.py",
+    "extensions/main/scripts/generate_step5plus_delta_dim_first_principles.py",
+    "extensions/main/results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json"
+  ],
+  "summary": {
+    "all_35_completable_have_defect6": true,
+    "all_35_two_flats_f2_completable": true,
+    "all_certified": true,
+    "delta6_realized_record_total": 1344,
+    "delta6_realized_space_count": 13,
+    "delta_distribution": {
+      "0": 3456,
+      "4": 2240,
+      "6": 1344
+    },
+    "gl4_2_order": 20160,
+    "gl4_2_stabilizer_of_realized_set_order": 1,
+    "gl4_2_transitive_on_two_flats": true,
+    "irreducible_arithmetic_cut": "18 weight-qualifying -> 13 realized, no linear symmetry",
+    "magic_square_count": 7040,
+    "public_claim_ready": false,
+    "reading": "Over all 7040 order-4 magic squares the defect-6 stratum realizes exactly 13 of the 35 two-dimensional error spaces.  Every two-flat is the span of an equal-rows one-dependent-side matrix and is Lemma C bijection-completable, so the cut to 13 is not an F2 / bijectivity fact -- it is forced by the integer magic constraints. GL(4,2) is transitive on the 35 two-flats and the stabilizer of the 13-set is trivial, so no linear invariant selects the realized spaces.  A weight-signature necessary condition (the space contains a weight-3 vector and no weight-4 vector, in the anchor basis) cuts 35 to 18; the residual 18 -> 13 cut has no symmetry and is the irreducible arithmetic core of the B3 15/49 matrix.",
+    "realizability_is_integer_magic_not_f2": true,
+    "realized_multiplicity_classes": {
+      "128": 8,
+      "64": 5
+    },
+    "realized_set_has_no_linear_symmetry": true,
+    "realized_subset_of_weight_qualifying": true,
+    "recommended_status": "ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION_CERTIFIED",
+    "scope_note": "This does not close the 15/49 matrix.  It proves the residue is irreducibly integer-arithmetic: neither Lemma C nor any GL(4,2) symmetry can derive it, so the B3 support-action matrix is a genuine finite certificate, as the L24 framing stated.",
+    "symbolic_15_49_realization_complete": false,
+    "total_two_flat_count": 35,
+    "weight_condition": "weight_signature in {(1,2,3),(2,3,3)} (anchor basis)",
+    "weight_qualifying_but_excluded_count": 5,
+    "weight_qualifying_count": 18
+  },
+  "theorem": {
+    "name": "Item 11 defect-6 realizability obstruction",
+    "proof_status": {
+      "matrix_15_49_closed": false,
+      "no_linear_symmetry": true,
+      "not_an_f2_property": true,
+      "realizability_localized_to_13_of_35": true
+    },
+    "statement": "The order-4 magic squares realize exactly 13 of the 35 two-dimensional F2 error spaces at defect 6.  All 35 are Lemma C bijection-completable, so the restriction is not an F2 property; and the GL(4,2) stabilizer of the realized 13-set is trivial while GL(4,2) is transitive on the 35, so the restriction is not a linear-algebraic invariant.  Hence the B3 15/49 realization residue is an irreducible integer-magic certificate."
+  },
+  "weight_qualifying_but_excluded": [
+    [
+      1,
+      10,
+      11
+    ],
+    [
+      1,
+      12,
+      13
+    ],
+    [
+      3,
+      8,
+      11
+    ],
+    [
+      4,
+      9,
+      13
+    ],
+    [
+      7,
+      10,
+      13
+    ]
+  ]
+}

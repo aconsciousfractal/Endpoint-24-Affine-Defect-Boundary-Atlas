@@ -1,0 +1,265 @@
+{
+  "guardrails": [
+    "This manifest certifies draft workspace readiness, not public manuscript completeness.",
+    "Public package release-candidate export is available; first push/tag requires a clean-checkout red-team pass.",
+    "The paper must not claim a symbolic proof of the B3 count 60."
+  ],
+  "metadata": {
+    "extension": "main",
+    "package": "boundary_atlas_paper_workspace",
+    "project": "Endpoint-24 Affine-Defect Boundary Atlas"
+  },
+  "paper_files": [
+    {
+      "exists": true,
+      "path": "README.md",
+      "size_bytes": 3934
+    },
+    {
+      "exists": true,
+      "path": "README_REVIEWER.md",
+      "size_bytes": 1289
+    },
+    {
+      "exists": true,
+      "path": "BUILD.md",
+      "size_bytes": 1033
+    },
+    {
+      "exists": true,
+      "path": "PLAN.md",
+      "size_bytes": 3406
+    },
+    {
+      "exists": true,
+      "path": "OUTLINE.md",
+      "size_bytes": 3471
+    },
+    {
+      "exists": true,
+      "path": "CLAIM_BOUNDARY.md",
+      "size_bytes": 2133
+    },
+    {
+      "exists": true,
+      "path": "SOURCE_MAP.md",
+      "size_bytes": 5076
+    },
+    {
+      "exists": true,
+      "path": "REFERENCE_AUDIT.md",
+      "size_bytes": 2608
+    },
+    {
+      "exists": true,
+      "path": "REPRODUCE.md",
+      "size_bytes": 3738
+    },
+    {
+      "exists": true,
+      "path": "CITATION.cff",
+      "size_bytes": 583
+    },
+    {
+      "exists": true,
+      "path": "LICENSE",
+      "size_bytes": 376
+    },
+    {
+      "exists": true,
+      "path": "requirements.txt",
+      "size_bytes": 132
+    },
+    {
+      "exists": true,
+      "path": "PUBLIC_PACKAGE_MANIFEST.json",
+      "size_bytes": 20085
+    },
+    {
+      "exists": true,
+      "path": "PAPER_SOURCE_BACKED_TABLES.json",
+      "size_bytes": 17979
+    },
+    {
+      "exists": true,
+      "path": "docs/CLAIM_LEDGER.md",
+      "size_bytes": 3506
+    },
+    {
+      "exists": true,
+      "path": "docs/SOURCE_LOCK.md",
+      "size_bytes": 1847
+    },
+    {
+      "exists": true,
+      "path": "docs/NORMALIZATION_LOCK.md",
+      "size_bytes": 1808
+    },
+    {
+      "exists": true,
+      "path": "docs/PROOF_OBLIGATIONS.md",
+      "size_bytes": 2467
+    },
+    {
+      "exists": true,
+      "path": "docs/RED_TEAM_REPORT.md",
+      "size_bytes": 4728
+    },
+    {
+      "exists": true,
+      "path": "docs/PUBLIC_CLAIM_BOUNDARY.md",
+      "size_bytes": 1701
+    },
+    {
+      "exists": true,
+      "path": "docs/PAPER_TO_ENGINE_TRACEABILITY.md",
+      "size_bytes": 2853
+    },
+    {
+      "exists": true,
+      "path": "affine_defect_boundary_atlas.tex",
+      "size_bytes": 3252
+    },
+    {
+      "exists": true,
+      "path": "affine_defect_boundary_atlas.pdf",
+      "size_bytes": 408694
+    },
+    {
+      "exists": true,
+      "path": "refs.bib",
+      "size_bytes": 2524
+    },
+    {
+      "exists": true,
+      "path": "sections/01_introduction.tex",
+      "size_bytes": 2243
+    },
+    {
+      "exists": true,
+      "path": "sections/02_model_and_notation.tex",
+      "size_bytes": 5035
+    },
+    {
+      "exists": true,
+      "path": "sections/03_boundary_theorem.tex",
+      "size_bytes": 10572
+    },
+    {
+      "exists": true,
+      "path": "sections/04_certificate_spine.tex",
+      "size_bytes": 2436
+    },
+    {
+      "exists": true,
+      "path": "sections/05_public_package.tex",
+      "size_bytes": 1225
+    },
+    {
+      "exists": true,
+      "path": "generated/source_backed_tables.tex",
+      "size_bytes": 6229
+    },
+    {
+      "exists": true,
+      "path": "figures/.gitkeep",
+      "size_bytes": 1
+    }
+  ],
+  "source_artifacts": [
+    {
+      "exists": true,
+      "path": "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
+      "size_bytes": 18671
+    },
+    {
+      "exists": true,
+      "path": "docs/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.md",
+      "size_bytes": 2109
+    },
+    {
+      "exists": true,
+      "path": "results/DELTA_STRATIFICATION.json",
+      "size_bytes": 115988
+    },
+    {
+      "exists": true,
+      "path": "results/B3_BILINEAR_SUPPORT_ACTION.json",
+      "size_bytes": 855423
+    },
+    {
+      "exists": true,
+      "path": "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json",
+      "size_bytes": 3304
+    },
+    {
+      "exists": true,
+      "path": "results/STEP9PLUS_ERROR_FIBER_PARITY.json",
+      "size_bytes": 2314
+    },
+    {
+      "exists": true,
+      "path": "results/STEP6PLUS_DEFECT_MASK_CLASSES.json",
+      "size_bytes": 2791
+    },
+    {
+      "exists": true,
+      "path": "results/STEP10PLUS_CLAUSE_FAMILIES.json",
+      "size_bytes": 2256
+    },
+    {
+      "exists": true,
+      "path": "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json",
+      "size_bytes": 13029
+    },
+    {
+      "exists": true,
+      "path": "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+      "size_bytes": 8871
+    },
+    {
+      "exists": true,
+      "path": "results/ITEM8B_FREENESS_COUNT_REDUCTION.json",
+      "size_bytes": 3298
+    },
+    {
+      "exists": true,
+      "path": "results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json",
+      "size_bytes": 6412
+    },
+    {
+      "exists": true,
+      "path": "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json",
+      "size_bytes": 9457
+    },
+    {
+      "exists": true,
+      "path": "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json",
+      "size_bytes": 14619
+    },
+    {
+      "exists": true,
+      "path": "results/P6_final_verification_gate.json",
+      "size_bytes": 10098
+    },
+    {
+      "exists": true,
+      "path": "scripts/generate_paper_public_package_manifest.py",
+      "size_bytes": 11452
+    }
+  ],
+  "summary": {
+    "claim_boundary_file": "paper/CLAIM_BOUNDARY.md",
+    "latest_pdf": "paper/affine_defect_boundary_atlas.pdf",
+    "next_task": "Run final PAPP red-team and human license/citation review before public export.",
+    "paper_file_count": 31,
+    "paper_workspace_ready": true,
+    "pdf_build_ready": true,
+    "public_export_ready": false,
+    "recommended_status": "PAPER_WORKSPACE_DRAFT_READY",
+    "source_artifact_count": 16,
+    "source_artifacts_ready": true,
+    "source_map_file": "paper/SOURCE_MAP.md",
+    "tex_entrypoint": "paper/affine_defect_boundary_atlas.tex"
+  }
+}

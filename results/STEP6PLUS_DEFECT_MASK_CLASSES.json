@@ -1,0 +1,57 @@
+{
+  "guardrails": [
+    "6 of the 8 defect-mask classes are fixed by bilinear-error invariants; the 2 remaining splits need the mask-transport (canonical mask-count) profile.",
+    "This is a structural decomposition of the column classification, not an atlas-independent theorem; the 15/49 realization is item 7.",
+    "No public/PAPP widening or universal-24 claim is made."
+  ],
+  "metadata": {
+    "description": "Structural decomposition of the 8 B3 defect-mask classes into a bilinear-determined part (6 classes) and a mask-transport residue (2 further splits).",
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Step6plus_defect_mask_classes"
+  },
+  "source_artifacts": [
+    "extensions/main/results/B3_BILINEAR_SUPPORT_ACTION.json"
+  ],
+  "summary": {
+    "all_certified": true,
+    "defect_mask_class_count": 8,
+    "dm_defect_orbit_pure": true,
+    "dm_mask_count_orbit_pure": true,
+    "each_dm_in_single_intrinsic_class": true,
+    "intrinsic_class_count": 6,
+    "intrinsic_key_plus_mask_counts_determines_dm": true,
+    "intrinsic_singleton_class_count": 4,
+    "intrinsic_split_class_count": 2,
+    "next_task": "Proceed to item 6 (the 13 NF1/NF2/NF3 clauses) and item 7 (the 15/49 matrix as an abstract theorem).",
+    "orbit_count": 15,
+    "public_claim_ready": false,
+    "reading": "The intrinsic key (defect, factorization orientation, pair/triple relation of error directions to the selected signature) -- all bilinear-error data from Steps 5+/9+ -- fixes 6 of the 8 defect-mask classes. The two splits {DM01,DM02} (defect 4) and {DM04,DM06} (defect 6) are resolved by the T/K+D4 canonical mask-count profile, equivalently the error support set; these are the mask-transport residue. All eight classes are orbit-pure functions of intrinsic (bilinear + mask) invariants.",
+    "recommended_status": "STEP6PLUS_DEFECT_MASK_CLASS_DECOMPOSITION_CERTIFIED",
+    "scope_note": "This is NOT atlas-independent like Steps 3-5: the 8 classes classify the actual B3 orbits. It separates the bilinear-fixed part (6/8) from the mask-transport part (2 splits). Which class realizes which signature (the 15/49 matrix) is item 7.",
+    "singleton_classes": {
+      "(6, (('col', 1), ('row', 3)), True, False)": [
+        "L19-DM05"
+      ],
+      "(6, (('col', 2), ('row', 2)), False, True)": [
+        "L19-DM07"
+      ],
+      "(6, (('col', 3), ('row', 1)), False, True)": [
+        "L19-DM03"
+      ],
+      "(6, (('col', 4),), False, True)": [
+        "L19-DM08"
+      ]
+    },
+    "split_classes": {
+      "(4, (('both', 4),), False, False)": [
+        "L19-DM01",
+        "L19-DM02"
+      ],
+      "(6, (('col', 2), ('row', 2)), True, False)": [
+        "L19-DM04",
+        "L19-DM06"
+      ]
+    }
+  }
+}

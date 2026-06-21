@@ -1,0 +1,210 @@
+{
+  "constraint_model": {
+    "labels": "0..15 (magic values minus one)",
+    "line_sum": 30,
+    "magic_filter": "both diagonal sums equal 30",
+    "row_pair_key": "(used-value mask, four column partial sums)",
+    "rows": "ordered distinct 4-tuples with sum 30",
+    "semimagic_pairing_rule": "(M, s) pairs with (complement(M), 30-s)"
+  },
+  "guardrails": [
+    "This is a finite derivation from the row/column/diagonal constraint system, not a replay of the saved 880 atlas.",
+    "The result proves Lemma B for normal order-4 magic squares in label units 0..15.",
+    "It does not prove the defect/dimD dichotomy or the B3 15/49 multiplicity matrix.",
+    "No public/PAPP widening is introduced."
+  ],
+  "line_profile": {
+    "defective_examples": [
+      [
+        0,
+        4,
+        12,
+        14
+      ],
+      [
+        0,
+        5,
+        12,
+        13
+      ],
+      [
+        0,
+        6,
+        10,
+        14
+      ],
+      [
+        0,
+        8,
+        9,
+        13
+      ],
+      [
+        0,
+        8,
+        10,
+        12
+      ],
+      [
+        0,
+        9,
+        10,
+        11
+      ],
+      [
+        1,
+        3,
+        11,
+        15
+      ],
+      [
+        1,
+        4,
+        12,
+        13
+      ]
+    ],
+    "sum30_unordered_balanced_count": 52,
+    "sum30_unordered_defective_count": 34,
+    "sum30_unordered_line_count": 86,
+    "sum30_unordered_xor_distribution": {
+      "0": 52,
+      "12": 4,
+      "14": 2,
+      "2": 8,
+      "4": 8,
+      "6": 4,
+      "8": 8
+    },
+    "xor_zero_iff_bit_balanced": true
+  },
+  "metadata": {
+    "description": "Independent row-pair derivation of Lemma B from the order-4 normal magic constraints.",
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Step4_lemma_b_line_xor_derivation"
+  },
+  "source_artifacts": [],
+  "summary": {
+    "all_certified": true,
+    "frenicle_essential_count_implied_by_d4": 880,
+    "lemmaB_all_cols_xor_zero": true,
+    "lemmaB_all_rows_xor_zero": true,
+    "lemmaB_bits_1_3_closed_by_row_pair_derivation": true,
+    "line_profile_certified": true,
+    "magic_bad_col_count": 0,
+    "magic_bad_row_count": 0,
+    "magic_bad_row_or_col_count": 0,
+    "magic_square_count": 7040,
+    "next_task": "Derive the defect/dimD dichotomy delta in {0,4,6} with dimD in {0,1,2} from the quadratic error structure.",
+    "ordered_row_pair_count": 1238400,
+    "ordered_sum30_line_count": 2064,
+    "ordered_sum30_line_xor_distribution": {
+      "0": 1248,
+      "12": 96,
+      "14": 48,
+      "2": 192,
+      "4": 192,
+      "6": 96,
+      "8": 192
+    },
+    "public_claim_ready": false,
+    "recommended_status": "LEMMA_B_LINE_XOR_DERIVED",
+    "remaining_residue": "An elementary non-enumerative proof is still optional; defect/dimD dichotomy and B3 15/49 multiplicity remain open.",
+    "row_pair_signature_count": 475807,
+    "semimagic_bad_row_or_col_count": 241920,
+    "semimagic_good_row_col_nonmagic_count": 300544,
+    "semimagic_square_count": 549504,
+    "sum30_unordered_balanced_count": 52,
+    "sum30_unordered_defective_count": 34,
+    "sum30_unordered_line_count": 86,
+    "xor_zero_iff_bit_balanced_for_sum30_lines": true
+  },
+  "witnesses": {
+    "magic_bad_witness": null,
+    "semimagic_col_bad_nonmagic": {
+      "anti_diag_sum": 45,
+      "col_xors": [
+        4,
+        8,
+        12,
+        0
+      ],
+      "main_diag_sum": 15,
+      "row_xors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "square_labels": [
+        [
+          0,
+          1,
+          14,
+          15
+        ],
+        [
+          5,
+          10,
+          6,
+          9
+        ],
+        [
+          12,
+          11,
+          3,
+          4
+        ],
+        [
+          13,
+          8,
+          7,
+          2
+        ]
+      ]
+    },
+    "semimagic_row_bad_nonmagic": {
+      "anti_diag_sum": 36,
+      "col_xors": [
+        4,
+        8,
+        0,
+        12
+      ],
+      "main_diag_sum": 6,
+      "row_xors": [
+        2,
+        2,
+        0,
+        0
+      ],
+      "square_labels": [
+        [
+          0,
+          10,
+          14,
+          6
+        ],
+        [
+          5,
+          1,
+          9,
+          15
+        ],
+        [
+          12,
+          8,
+          3,
+          7
+        ],
+        [
+          13,
+          11,
+          4,
+          2
+        ]
+      ]
+    }
+  }
+}

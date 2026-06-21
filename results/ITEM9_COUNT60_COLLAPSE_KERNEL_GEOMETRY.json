@@ -1,0 +1,544 @@
+{
+  "class_delta_kernel_rows": [
+    {
+      "class_label": "exact_affine_v4_144",
+      "delta": 0,
+      "preserved_permutation_diagonal_planes": 24,
+      "record_count": 144,
+      "tk_orbit_count": 36
+    },
+    {
+      "class_label": "selected_affine_extra32",
+      "delta": 4,
+      "preserved_permutation_diagonal_planes": 8,
+      "record_count": 32,
+      "tk_orbit_count": 8
+    },
+    {
+      "class_label": "outside_main_60",
+      "delta": 4,
+      "preserved_permutation_diagonal_planes": 8,
+      "record_count": 32,
+      "tk_orbit_count": 8
+    },
+    {
+      "class_label": "outside_main_60",
+      "delta": 6,
+      "preserved_permutation_diagonal_planes": 0,
+      "record_count": 28,
+      "tk_orbit_count": 7
+    }
+  ],
+  "collapse_statements": [
+    {
+      "statement": "The B3 quotient count is not independent: the verified free T/K action gives 15 = 60/4.",
+      "statement_id": "ITEM9-C01",
+      "status": "closed_finite",
+      "verified": true
+    },
+    {
+      "statement": "The eight non-affine selected signatures have record pattern 4,4,4,8,8,4,16,12 and quotient row-degree pattern 1,1,1,2,2,1,4,3.",
+      "statement_id": "ITEM9-C02",
+      "status": "closed_finite",
+      "verified": true
+    },
+    {
+      "statement": "On endpoint 24, preserved permutation diagonal planes give the finite avatar delta 0/4/6 <-> 24/8/0.",
+      "statement_id": "ITEM9-C03",
+      "status": "closed_finite",
+      "verified": true
+    },
+    {
+      "statement": "Because T/K orbits are size-four and pure for class, delta, and selected signature, the action divides pure strata but does not derive the base kernel counts.",
+      "statement_id": "ITEM9-C04",
+      "status": "boundary",
+      "verified": true
+    }
+  ],
+  "guardrails": [
+    "Item9 is a finite collapse of the count debt, not a symbolic proof of the count 60.",
+    "The formal object remains a square-mask pair; source-square uniqueness is a finite endpoint-24 fact, not a change of definition.",
+    "The diagonal-plane invariant is finite-certified on endpoint 24 but not yet first-principles derived.",
+    "T/K freeness divides pure strata by four; it must not be presented as deriving the base endpoint-24 kernel counts.",
+    "No public/PAPP widening or universal Endpoint-24 affine-defect atlas claim is authorized."
+  ],
+  "kernel_rows": [
+    {
+      "delta": 0,
+      "preserved_permutation_diagonal_planes": 24,
+      "record_count": 144,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 36
+    },
+    {
+      "delta": 4,
+      "preserved_permutation_diagonal_planes": 8,
+      "record_count": 64,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 16
+    },
+    {
+      "delta": 6,
+      "preserved_permutation_diagonal_planes": 0,
+      "record_count": 28,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 7
+    }
+  ],
+  "metadata": {
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Item9_count60_collapse_kernel_geometry"
+  },
+  "proof_debt_rows": [
+    {
+      "current_source": "L3 records plus L8 finite T/K quotient",
+      "debt": "derive_endpoint24_delta_quotient_kernel_36_16_7_symbolically",
+      "status": "open"
+    },
+    {
+      "current_source": "L3 finite endpoint-24 records and Item8-C selector probe",
+      "debt": "prove_selected_label_nonaffine_record_count_60_symbolically",
+      "status": "open"
+    },
+    {
+      "current_source": "finite L3 signature counts plus B3 matrix comparison",
+      "debt": "derive_b3_signature_row_degree_pattern_symbolically",
+      "status": "open"
+    },
+    {
+      "current_source": "finite L3 preserved-permutation-diagonal-plane field",
+      "debt": "prove_delta_diagonal_plane_avatar_from_first_principles",
+      "status": "open"
+    }
+  ],
+  "signature_universe_rows": [
+    {
+      "b3_matrix_realized_row_degree": 0,
+      "class_record_counts": {},
+      "delta_record_counts": {},
+      "labels": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "observed": false,
+      "record_count": 0,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": true,
+      "selected_value_key": "11,12,13,14",
+      "selected_xor_label": 0,
+      "tk_orbit_count_by_freeness": 0,
+      "values": [
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 1,
+      "class_record_counts": {
+        "outside_main_60": 4
+      },
+      "delta_record_counts": {
+        "4": 4
+      },
+      "labels": [
+        10,
+        11,
+        12,
+        14
+      ],
+      "observed": true,
+      "record_count": 4,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,12,13,15",
+      "selected_xor_label": 3,
+      "tk_orbit_count_by_freeness": 1,
+      "values": [
+        11,
+        12,
+        13,
+        15
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 1,
+      "class_record_counts": {
+        "outside_main_60": 4
+      },
+      "delta_record_counts": {
+        "4": 4
+      },
+      "labels": [
+        10,
+        11,
+        12,
+        15
+      ],
+      "observed": true,
+      "record_count": 4,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,12,13,16",
+      "selected_xor_label": 2,
+      "tk_orbit_count_by_freeness": 1,
+      "values": [
+        11,
+        12,
+        13,
+        16
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 1,
+      "class_record_counts": {
+        "outside_main_60": 4
+      },
+      "delta_record_counts": {
+        "4": 4
+      },
+      "labels": [
+        10,
+        11,
+        13,
+        14
+      ],
+      "observed": true,
+      "record_count": 4,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,12,14,15",
+      "selected_xor_label": 2,
+      "tk_orbit_count_by_freeness": 1,
+      "values": [
+        11,
+        12,
+        14,
+        15
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 2,
+      "class_record_counts": {
+        "outside_main_60": 8
+      },
+      "delta_record_counts": {
+        "4": 4,
+        "6": 4
+      },
+      "labels": [
+        10,
+        11,
+        13,
+        15
+      ],
+      "observed": true,
+      "record_count": 8,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,12,14,16",
+      "selected_xor_label": 3,
+      "tk_orbit_count_by_freeness": 2,
+      "values": [
+        11,
+        12,
+        14,
+        16
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 0,
+      "class_record_counts": {
+        "exact_affine_v4_144": 144,
+        "selected_affine_extra32": 32
+      },
+      "delta_record_counts": {
+        "0": 144,
+        "4": 32
+      },
+      "labels": [
+        10,
+        11,
+        14,
+        15
+      ],
+      "observed": true,
+      "record_count": 176,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": true,
+      "selected_value_key": "11,12,15,16",
+      "selected_xor_label": 0,
+      "tk_orbit_count_by_freeness": 44,
+      "values": [
+        11,
+        12,
+        15,
+        16
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 2,
+      "class_record_counts": {
+        "outside_main_60": 8
+      },
+      "delta_record_counts": {
+        "4": 4,
+        "6": 4
+      },
+      "labels": [
+        10,
+        12,
+        13,
+        14
+      ],
+      "observed": true,
+      "record_count": 8,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,13,14,15",
+      "selected_xor_label": 5,
+      "tk_orbit_count_by_freeness": 2,
+      "values": [
+        11,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 1,
+      "class_record_counts": {
+        "outside_main_60": 4
+      },
+      "delta_record_counts": {
+        "4": 4
+      },
+      "labels": [
+        10,
+        12,
+        13,
+        15
+      ],
+      "observed": true,
+      "record_count": 4,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,13,14,16",
+      "selected_xor_label": 4,
+      "tk_orbit_count_by_freeness": 1,
+      "values": [
+        11,
+        13,
+        14,
+        16
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 4,
+      "class_record_counts": {
+        "outside_main_60": 16
+      },
+      "delta_record_counts": {
+        "6": 16
+      },
+      "labels": [
+        10,
+        12,
+        14,
+        15
+      ],
+      "observed": true,
+      "record_count": 16,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,13,15,16",
+      "selected_xor_label": 7,
+      "tk_orbit_count_by_freeness": 4,
+      "values": [
+        11,
+        13,
+        15,
+        16
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 3,
+      "class_record_counts": {
+        "outside_main_60": 12
+      },
+      "delta_record_counts": {
+        "4": 8,
+        "6": 4
+      },
+      "labels": [
+        10,
+        13,
+        14,
+        15
+      ],
+      "observed": true,
+      "record_count": 12,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,14,15,16",
+      "selected_xor_label": 6,
+      "tk_orbit_count_by_freeness": 3,
+      "values": [
+        11,
+        14,
+        15,
+        16
+      ]
+    }
+  ],
+  "source_artifacts": [
+    "extensions/main/results/L3_terminal24_boundary_atlas.json",
+    "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
+    "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+    "extensions/main/results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json",
+    "extensions/main/results/B3_BILINEAR_SUPPORT_ACTION.json"
+  ],
+  "source_boundary": {
+    "construction_inputs": [
+      "extensions/main/results/L3_terminal24_boundary_atlas.json",
+      "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
+      "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+      "extensions/main/results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json",
+      "extensions/main/results/B3_BILINEAR_SUPPORT_ACTION.json"
+    ],
+    "public_papp_widening_used": false,
+    "symbolic_count60_derivation_used": false,
+    "uses_b3_matrix_only_for_row_degree_comparison": true,
+    "uses_item8_freeness_and_selector_packages": true,
+    "uses_l3_endpoint24_records": true,
+    "uses_l8_tk_orbit_purity": true
+  },
+  "summary": {
+    "affine_signature_keys": [
+      "11,12,13,14",
+      "11,12,15,16"
+    ],
+    "all_certified": true,
+    "b3_count_reduction": "15 = 60 / 4",
+    "b3_delta_quotient_split": {
+      "4": 8,
+      "6": 7
+    },
+    "b3_delta_record_split": {
+      "4": 32,
+      "6": 28
+    },
+    "b3_matrix_absent_cell_count": 49,
+    "b3_matrix_realized_cell_count": 15,
+    "b3_matrix_row_degree_pattern": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3
+    ],
+    "b3_record_count": 60,
+    "b3_row_sum_identity": "60 = 4 * (1+1+1+2+2+1+4+3)",
+    "b3_tk_orbit_count": 15,
+    "class_quotient_split": {
+      "exact_affine_v4_144": 36,
+      "outside_main_60": 15,
+      "selected_affine_extra32": 8
+    },
+    "class_record_split": {
+      "exact_affine_v4_144": 144,
+      "outside_main_60": 60,
+      "selected_affine_extra32": 32
+    },
+    "count60_kernel_reduced": true,
+    "diagonal_plane_delta_equivalence_certified": true,
+    "diagonal_plane_delta_map": {
+      "0": 24,
+      "4": 8,
+      "6": 0
+    },
+    "diagonal_plane_record_distribution": {
+      "0": 28,
+      "24": 144,
+      "8": 64
+    },
+    "endpoint24_delta_quotient_kernel": {
+      "0": 36,
+      "4": 16,
+      "6": 7
+    },
+    "endpoint24_delta_record_split": {
+      "0": 144,
+      "4": 64,
+      "6": 28
+    },
+    "endpoint24_record_count": 236,
+    "endpoint24_source_square_count": 236,
+    "endpoint24_source_square_unique": true,
+    "endpoint24_tk_orbit_count": 59,
+    "hard_residual": "derive the endpoint-24 quotient kernel {0:36,4:16,6:7} and the selected-label-nonaffine record count 60 without the finite scan",
+    "missing_endpoint24_signature_keys": [
+      "11,12,13,14"
+    ],
+    "next_task": "Use Item9 in the paper package, then decide whether to attempt the hard symbolic kernel count or proceed to standalone TeX export.",
+    "nonaffine_signature_orbit_pattern": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3
+    ],
+    "nonaffine_signature_record_counts": {
+      "11,12,13,15": 4,
+      "11,12,13,16": 4,
+      "11,12,14,15": 4,
+      "11,12,14,16": 8,
+      "11,13,14,15": 8,
+      "11,13,14,16": 4,
+      "11,13,15,16": 16,
+      "11,14,15,16": 12
+    },
+    "nonaffine_signature_record_pattern": [
+      4,
+      4,
+      4,
+      8,
+      8,
+      4,
+      16,
+      12
+    ],
+    "nonaffine_signature_tk_orbit_counts": {
+      "11,12,13,15": 1,
+      "11,12,13,16": 1,
+      "11,12,14,15": 1,
+      "11,12,14,16": 2,
+      "11,13,14,15": 2,
+      "11,13,14,16": 1,
+      "11,13,15,16": 4,
+      "11,14,15,16": 3
+    },
+    "observed_endpoint24_signature_count": 9,
+    "possible_endpoint24_signature_count": 10,
+    "public_claim_ready": false,
+    "quotient_order": 4,
+    "recommended_status": "ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY_CERTIFIED",
+    "row_sums_match_b3_matrix": true,
+    "selected_label_affine_record_count": 176,
+    "selected_label_nonaffine_record_count": 60,
+    "symbolic_count60_complete": false,
+    "symbolic_diagonal_plane_invariant_proof_complete": false,
+    "symbolic_endpoint24_kernel_count_complete": false,
+    "tk_action_only_divides_pure_strata": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "guardrails": [
+    "The three normal-form families and clause templates are first-principles refinements of the Step 9+ error-fiber parity.",
+    "The 13 specific clause instances are the realized cells of the 15/49 matrix (item 7) and remain a finite certificate.",
+    "No public/PAPP widening or universal-24 claim is made."
+  ],
+  "metadata": {
+    "description": "The 13 B3 clause templates are first-principles refinements of the Step 9+ error-fiber parity; the three normal-form families are determined by intrinsic (defect, pair/triple incidence) data.",
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Step10plus_clause_families"
+  },
+  "source_artifacts": [
+    "extensions/main/results/STEP10_SYMBOLIC_SUPPORT_ACTION_NORMAL_FORMS.json"
+  ],
+  "summary": {
+    "all_certified": true,
+    "clause_count": 13,
+    "delta4_error_set_is_singleton_x": true,
+    "delta6_x_equals_xor_of_nonxor_errors": true,
+    "family_counts": {
+      "NF1": 6,
+      "NF2": 3,
+      "NF3": 4
+    },
+    "family_determined_by_defect_and_pair_triple_incidence": true,
+    "next_task": "Proceed to item 7 (the 15/49 matrix as an abstract theorem), the hardest residue.",
+    "pair_and_triple_mutually_exclusive": true,
+    "pair_witnesses_are_signature_pair_xors": true,
+    "public_claim_ready": false,
+    "reading": "Each clause template is forced: x is an error direction (Direction Lemma); at defect 4 the error set is {x} (NF1); at defect 6 the error space is 2-dim and x = xor of the two non-xor directions; the pair/triple witnesses are pair/triple xors of the selected signature. The family (NF1/NF2/NF3) is then a function of (defect, pair/triple incidence). So the three normal-form families and the clause relation-code shape are first-principles refinements of the Step 9+ error-fiber parity.",
+    "recommended_status": "STEP10PLUS_CLAUSE_FAMILY_TEMPLATES_FIRST_PRINCIPLES_CERTIFIED",
+    "scope_note": "NOT atlas-independent: the 13 specific clause instances are the realized signature/profile cells -- the 15/49 matrix (item 7). Step 10+ fixes the clause TEMPLATES, not which instances occur.",
+    "triple_witnesses_are_signature_triple_xors": true,
+    "x_is_an_error_direction": true
+  }
+}

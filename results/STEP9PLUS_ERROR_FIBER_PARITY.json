@@ -1,0 +1,44 @@
+{
+  "guardrails": [
+    "The error-fiber structure is a Lemma C corollary, certified atlas-independently; the parity formula is its regrouping.",
+    "Step 9+ makes the selected-xor parity axis first-principles; it does NOT derive the B3 multiplicity matrix (which masks meet which fibers).",
+    "No public/PAPP widening or universal-24 claim is made; the B3 15/49 matrix remains a finite certificate (item 7)."
+  ],
+  "metadata": {
+    "description": "Error-fiber parity made first-principles: the fiber structure is a Lemma C corollary (atlas-independent); the selected-xor parity formulas follow from it plus the Direction Lemma.",
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Step9plus_error_fiber_parity"
+  },
+  "source_artifacts": [
+    "data/order4_normal_essential_880.json",
+    "extensions/main/results/L3_terminal24_boundary_atlas.json"
+  ],
+  "summary": {
+    "all_certified": true,
+    "atlas_delta4_b2b3_parity_split": {
+      "B2,parity=0": 32,
+      "B3,parity=1": 32
+    },
+    "atlas_delta4_parity_formula_ok": true,
+    "atlas_delta4_records": 64,
+    "atlas_delta6_records": 28,
+    "atlas_delta6_selected_error_count_distribution": {
+      "1": 14,
+      "2": 14
+    },
+    "atlas_delta6_three_fiber_formula_ok": true,
+    "atlas_direction_lemma_holds": true,
+    "atlas_independent_completable_d1": 27,
+    "atlas_independent_completable_d2": 36,
+    "atlas_masks_all_affine_planes": true,
+    "atlas_records": 236,
+    "fiber_structure_atlas_independent_ok": true,
+    "fiber_structure_d1_violations": 0,
+    "fiber_structure_d2_violations": 0,
+    "next_task": "Item 4 closed. Proceed to item 5 (the 8 defect-mask B3 classes) of the non-enumerative programme.",
+    "public_claim_ready": false,
+    "reading": "The fiber structure (d=1 constant 4-fiber; d=2 three 2-fibers) is a corollary of the Lemma C factorization and holds for every degree-<=2 bijection, atlas-independently. Given it, the selected-xor parity formulas are the regrouping of xor_M E by fiber, and xor_M L = xor_M E is the Direction Lemma. So the selected-xor axis (the B2/B3 cut at delta=4 and the delta=6 three-fiber law) is first-principles, not atlas-fitted.",
+    "recommended_status": "STEP9PLUS_ERROR_FIBER_PARITY_FIRST_PRINCIPLES_CERTIFIED"
+  }
+}

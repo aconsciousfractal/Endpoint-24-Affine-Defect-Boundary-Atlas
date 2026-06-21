@@ -1,0 +1,856 @@
+{
+  "b3_matrix_columns": [
+    "L19-DM01",
+    "L19-DM02",
+    "L19-DM03",
+    "L19-DM04",
+    "L19-DM05",
+    "L19-DM06",
+    "L19-DM07",
+    "L19-DM08"
+  ],
+  "b3_matrix_rows": [
+    {
+      "cells": [
+        "1",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      "row_degree": 1,
+      "selected_value_key": "11,12,13,15"
+    },
+    {
+      "cells": [
+        ".",
+        "1",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      "row_degree": 1,
+      "selected_value_key": "11,12,13,16"
+    },
+    {
+      "cells": [
+        ".",
+        "1",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      "row_degree": 1,
+      "selected_value_key": "11,12,14,15"
+    },
+    {
+      "cells": [
+        "1",
+        ".",
+        "1",
+        ".",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      "row_degree": 2,
+      "selected_value_key": "11,12,14,16"
+    },
+    {
+      "cells": [
+        "1",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "1",
+        "."
+      ],
+      "row_degree": 2,
+      "selected_value_key": "11,13,14,15"
+    },
+    {
+      "cells": [
+        ".",
+        "1",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      "row_degree": 1,
+      "selected_value_key": "11,13,14,16"
+    },
+    {
+      "cells": [
+        ".",
+        ".",
+        ".",
+        "1",
+        "1",
+        "1",
+        ".",
+        "1"
+      ],
+      "row_degree": 4,
+      "selected_value_key": "11,13,15,16"
+    },
+    {
+      "cells": [
+        "1",
+        "1",
+        ".",
+        ".",
+        ".",
+        ".",
+        "1",
+        "."
+      ],
+      "row_degree": 3,
+      "selected_value_key": "11,14,15,16"
+    }
+  ],
+  "b3_post_item11_rows": [
+    {
+      "block": "Intrinsic columns",
+      "certified_content": "8/8 B3 profile columns intrinsic to (S,M)",
+      "paper_consequence": "the column side has no mask-transport residue"
+    },
+    {
+      "block": "Defect-6 residue",
+      "certified_content": "defect 6 realizes 13 of 35 two-flats; all 35 are F2-completable",
+      "paper_consequence": "the realization cut is integer-magic, not F2-linear"
+    },
+    {
+      "block": "Defect-6 residue",
+      "certified_content": "the realized 13-set has GL(4,2) stabilizer order 1",
+      "paper_consequence": "no linear symmetry selects the remaining cut"
+    }
+  ],
+  "b3_profile_rows": [
+    {
+      "affine_defect": 4,
+      "allowed_xors": [
+        3,
+        5,
+        6
+      ],
+      "clause_count": 3,
+      "families": [
+        "NF1"
+      ],
+      "mask_counts": {
+        "1320": 1,
+        "3021": 1,
+        "3102": 2
+      },
+      "orbit_count": 4,
+      "profile_id": "L19-DM01"
+    },
+    {
+      "affine_defect": 4,
+      "allowed_xors": [
+        2,
+        4,
+        6
+      ],
+      "clause_count": 3,
+      "families": [
+        "NF1"
+      ],
+      "mask_counts": {
+        "2130": 2,
+        "3021": 2
+      },
+      "orbit_count": 4,
+      "profile_id": "L19-DM02"
+    },
+    {
+      "affine_defect": 6,
+      "allowed_xors": [
+        3
+      ],
+      "clause_count": 1,
+      "families": [
+        "NF3"
+      ],
+      "mask_counts": {
+        "1320": 1,
+        "3021": 1,
+        "3102": 2
+      },
+      "orbit_count": 1,
+      "profile_id": "L19-DM03"
+    },
+    {
+      "affine_defect": 6,
+      "allowed_xors": [
+        7
+      ],
+      "clause_count": 1,
+      "families": [
+        "NF2"
+      ],
+      "mask_counts": {
+        "1320": 2,
+        "3102": 2
+      },
+      "orbit_count": 1,
+      "profile_id": "L19-DM04"
+    },
+    {
+      "affine_defect": 6,
+      "allowed_xors": [
+        7
+      ],
+      "clause_count": 1,
+      "families": [
+        "NF2"
+      ],
+      "mask_counts": {
+        "2013": 2,
+        "3021": 1,
+        "3102": 1
+      },
+      "orbit_count": 1,
+      "profile_id": "L19-DM05"
+    },
+    {
+      "affine_defect": 6,
+      "allowed_xors": [
+        7
+      ],
+      "clause_count": 1,
+      "families": [
+        "NF2"
+      ],
+      "mask_counts": {
+        "2013": 4
+      },
+      "orbit_count": 1,
+      "profile_id": "L19-DM06"
+    },
+    {
+      "affine_defect": 6,
+      "allowed_xors": [
+        5,
+        6
+      ],
+      "clause_count": 2,
+      "families": [
+        "NF3"
+      ],
+      "mask_counts": {
+        "2130": 2,
+        "3021": 2
+      },
+      "orbit_count": 2,
+      "profile_id": "L19-DM07"
+    },
+    {
+      "affine_defect": 6,
+      "allowed_xors": [
+        7
+      ],
+      "clause_count": 1,
+      "families": [
+        "NF3"
+      ],
+      "mask_counts": {
+        "3021": 2,
+        "3102": 2
+      },
+      "orbit_count": 1,
+      "profile_id": "L19-DM08"
+    }
+  ],
+  "b3_signature_rows": [
+    {
+      "b3_matrix_realized_row_degree": 1,
+      "class_record_counts": {
+        "outside_main_60": 4
+      },
+      "delta_record_counts": {
+        "4": 4
+      },
+      "labels": [
+        10,
+        11,
+        12,
+        14
+      ],
+      "observed": true,
+      "record_count": 4,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,12,13,15",
+      "selected_xor_label": 3,
+      "tk_orbit_count_by_freeness": 1,
+      "values": [
+        11,
+        12,
+        13,
+        15
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 1,
+      "class_record_counts": {
+        "outside_main_60": 4
+      },
+      "delta_record_counts": {
+        "4": 4
+      },
+      "labels": [
+        10,
+        11,
+        12,
+        15
+      ],
+      "observed": true,
+      "record_count": 4,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,12,13,16",
+      "selected_xor_label": 2,
+      "tk_orbit_count_by_freeness": 1,
+      "values": [
+        11,
+        12,
+        13,
+        16
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 1,
+      "class_record_counts": {
+        "outside_main_60": 4
+      },
+      "delta_record_counts": {
+        "4": 4
+      },
+      "labels": [
+        10,
+        11,
+        13,
+        14
+      ],
+      "observed": true,
+      "record_count": 4,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,12,14,15",
+      "selected_xor_label": 2,
+      "tk_orbit_count_by_freeness": 1,
+      "values": [
+        11,
+        12,
+        14,
+        15
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 2,
+      "class_record_counts": {
+        "outside_main_60": 8
+      },
+      "delta_record_counts": {
+        "4": 4,
+        "6": 4
+      },
+      "labels": [
+        10,
+        11,
+        13,
+        15
+      ],
+      "observed": true,
+      "record_count": 8,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,12,14,16",
+      "selected_xor_label": 3,
+      "tk_orbit_count_by_freeness": 2,
+      "values": [
+        11,
+        12,
+        14,
+        16
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 2,
+      "class_record_counts": {
+        "outside_main_60": 8
+      },
+      "delta_record_counts": {
+        "4": 4,
+        "6": 4
+      },
+      "labels": [
+        10,
+        12,
+        13,
+        14
+      ],
+      "observed": true,
+      "record_count": 8,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,13,14,15",
+      "selected_xor_label": 5,
+      "tk_orbit_count_by_freeness": 2,
+      "values": [
+        11,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 1,
+      "class_record_counts": {
+        "outside_main_60": 4
+      },
+      "delta_record_counts": {
+        "4": 4
+      },
+      "labels": [
+        10,
+        12,
+        13,
+        15
+      ],
+      "observed": true,
+      "record_count": 4,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,13,14,16",
+      "selected_xor_label": 4,
+      "tk_orbit_count_by_freeness": 1,
+      "values": [
+        11,
+        13,
+        14,
+        16
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 4,
+      "class_record_counts": {
+        "outside_main_60": 16
+      },
+      "delta_record_counts": {
+        "6": 16
+      },
+      "labels": [
+        10,
+        12,
+        14,
+        15
+      ],
+      "observed": true,
+      "record_count": 16,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,13,15,16",
+      "selected_xor_label": 7,
+      "tk_orbit_count_by_freeness": 4,
+      "values": [
+        11,
+        13,
+        15,
+        16
+      ]
+    },
+    {
+      "b3_matrix_realized_row_degree": 3,
+      "class_record_counts": {
+        "outside_main_60": 12
+      },
+      "delta_record_counts": {
+        "4": 8,
+        "6": 4
+      },
+      "labels": [
+        10,
+        13,
+        14,
+        15
+      ],
+      "observed": true,
+      "record_count": 12,
+      "record_count_divided_by_four_matches_matrix_row_degree": true,
+      "selected_value_affine": false,
+      "selected_value_key": "11,14,15,16",
+      "selected_xor_label": 6,
+      "tk_orbit_count_by_freeness": 3,
+      "values": [
+        11,
+        14,
+        15,
+        16
+      ]
+    }
+  ],
+  "checks": {
+    "clause_count": 13,
+    "family_counts_match_step10plus": true,
+    "item10_profiles_intrinsic": true,
+    "item11_not_f2_linear": true,
+    "item11_realized_13_of_35": true,
+    "matrix_absent_cell_count": 49,
+    "matrix_realized_cell_count": 15,
+    "profile_count": 8,
+    "row_degrees_match_item9": true
+  },
+  "class_delta_kernel_rows": [
+    {
+      "class_label": "exact_affine_v4_144",
+      "delta": 0,
+      "preserved_permutation_diagonal_planes": 24,
+      "record_count": 144,
+      "tk_orbit_count": 36
+    },
+    {
+      "class_label": "selected_affine_extra32",
+      "delta": 4,
+      "preserved_permutation_diagonal_planes": 8,
+      "record_count": 32,
+      "tk_orbit_count": 8
+    },
+    {
+      "class_label": "outside_main_60",
+      "delta": 4,
+      "preserved_permutation_diagonal_planes": 8,
+      "record_count": 32,
+      "tk_orbit_count": 8
+    },
+    {
+      "class_label": "outside_main_60",
+      "delta": 6,
+      "preserved_permutation_diagonal_planes": 0,
+      "record_count": 28,
+      "tk_orbit_count": 7
+    }
+  ],
+  "clause_family_rows": [
+    {
+      "count": 6,
+      "family": "NF1",
+      "rule": "defect 4; singleton xor-error direction"
+    },
+    {
+      "count": 3,
+      "family": "NF2",
+      "rule": "defect 6; non-xor pair witness"
+    },
+    {
+      "count": 4,
+      "family": "NF3",
+      "rule": "defect 6; non-xor triple witness"
+    }
+  ],
+  "clause_instance_rows": [
+    {
+      "clause_id": "L20-C01",
+      "error_set": [
+        3
+      ],
+      "family": "NF1",
+      "profile_id": "L19-DM01",
+      "witness": [],
+      "x": 3
+    },
+    {
+      "clause_id": "L20-C02",
+      "error_set": [
+        5
+      ],
+      "family": "NF1",
+      "profile_id": "L19-DM01",
+      "witness": [],
+      "x": 5
+    },
+    {
+      "clause_id": "L20-C03",
+      "error_set": [
+        6
+      ],
+      "family": "NF1",
+      "profile_id": "L19-DM01",
+      "witness": [],
+      "x": 6
+    },
+    {
+      "clause_id": "L20-C04",
+      "error_set": [
+        2
+      ],
+      "family": "NF1",
+      "profile_id": "L19-DM02",
+      "witness": [],
+      "x": 2
+    },
+    {
+      "clause_id": "L20-C05",
+      "error_set": [
+        4
+      ],
+      "family": "NF1",
+      "profile_id": "L19-DM02",
+      "witness": [],
+      "x": 4
+    },
+    {
+      "clause_id": "L20-C06",
+      "error_set": [
+        6
+      ],
+      "family": "NF1",
+      "profile_id": "L19-DM02",
+      "witness": [],
+      "x": 6
+    },
+    {
+      "clause_id": "L20-C07",
+      "error_set": [
+        3,
+        13,
+        14
+      ],
+      "family": "NF3",
+      "profile_id": "L19-DM03",
+      "witness": [
+        14
+      ],
+      "x": 3
+    },
+    {
+      "clause_id": "L20-C08",
+      "error_set": [
+        2,
+        5,
+        7
+      ],
+      "family": "NF2",
+      "profile_id": "L19-DM04",
+      "witness": [
+        2,
+        5
+      ],
+      "x": 7
+    },
+    {
+      "clause_id": "L20-C09",
+      "error_set": [
+        1,
+        6,
+        7
+      ],
+      "family": "NF2",
+      "profile_id": "L19-DM05",
+      "witness": [
+        1,
+        6
+      ],
+      "x": 7
+    },
+    {
+      "clause_id": "L20-C10",
+      "error_set": [
+        3,
+        4,
+        7
+      ],
+      "family": "NF2",
+      "profile_id": "L19-DM06",
+      "witness": [
+        3,
+        4
+      ],
+      "x": 7
+    },
+    {
+      "clause_id": "L20-C11",
+      "error_set": [
+        5,
+        8,
+        13
+      ],
+      "family": "NF3",
+      "profile_id": "L19-DM07",
+      "witness": [
+        8
+      ],
+      "x": 5
+    },
+    {
+      "clause_id": "L20-C12",
+      "error_set": [
+        6,
+        8,
+        14
+      ],
+      "family": "NF3",
+      "profile_id": "L19-DM07",
+      "witness": [
+        8
+      ],
+      "x": 6
+    },
+    {
+      "clause_id": "L20-C13",
+      "error_set": [
+        7,
+        11,
+        12
+      ],
+      "family": "NF3",
+      "profile_id": "L19-DM08",
+      "witness": [
+        11
+      ],
+      "x": 7
+    }
+  ],
+  "endpoint_kernel_rows": [
+    {
+      "delta": 0,
+      "preserved_permutation_diagonal_planes": 24,
+      "record_count": 144,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 36
+    },
+    {
+      "delta": 4,
+      "preserved_permutation_diagonal_planes": 8,
+      "record_count": 64,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 16
+    },
+    {
+      "delta": 6,
+      "preserved_permutation_diagonal_planes": 0,
+      "record_count": 28,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 7
+    }
+  ],
+  "endpoint_two_invariant_table": [
+    {
+      "affine_defect": 0,
+      "class": "exact_affine_v4_144",
+      "record_count": 144,
+      "selected_affine": true,
+      "structurally_empty": false
+    },
+    {
+      "affine_defect": 4,
+      "class": "selected_affine_extra32",
+      "record_count": 32,
+      "selected_affine": true,
+      "structurally_empty": false
+    },
+    {
+      "affine_defect": 6,
+      "class": null,
+      "record_count": 0,
+      "selected_affine": true,
+      "structurally_empty": true
+    },
+    {
+      "affine_defect": 0,
+      "class": null,
+      "record_count": 0,
+      "selected_affine": false,
+      "structurally_empty": true
+    },
+    {
+      "affine_defect": 4,
+      "class": "outside_main_60",
+      "record_count": 32,
+      "selected_affine": false,
+      "structurally_empty": false
+    },
+    {
+      "affine_defect": 6,
+      "class": "outside_main_60",
+      "record_count": 28,
+      "selected_affine": false,
+      "structurally_empty": false
+    }
+  ],
+  "sources": {
+    "b3": "results/B3_BILINEAR_SUPPORT_ACTION.json",
+    "delta": "results/DELTA_STRATIFICATION.json",
+    "item10": "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json",
+    "item11": "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json",
+    "item8a": "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+    "item8b": "results/ITEM8B_FREENESS_COUNT_REDUCTION.json",
+    "item9": "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json",
+    "step10plus": "results/STEP10PLUS_CLAUSE_FAMILIES.json",
+    "step6plus": "results/STEP6PLUS_DEFECT_MASK_CLASSES.json"
+  },
+  "summary": {
+    "all_certified": true,
+    "b3_absent_cells": 49,
+    "b3_matrix_shape": [
+      8,
+      8
+    ],
+    "b3_realized_cells": 15,
+    "b3_signature_orbit_pattern": [
+      1,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3
+    ],
+    "clause_count": 13,
+    "clause_family_counts": {
+      "NF1": 6,
+      "NF2": 3,
+      "NF3": 4
+    },
+    "endpoint_quotient_split": {
+      "exact_affine_v4_144": 36,
+      "outside_main_60": 15,
+      "selected_affine_extra32": 8
+    },
+    "endpoint_record_split": {
+      "exact_affine_v4_144": 144,
+      "outside_main_60": 60,
+      "selected_affine_extra32": 32
+    },
+    "item10_distinct_intrinsic_keys": 15,
+    "item10_intrinsic_b3_record_count": 60,
+    "item10_intrinsic_key": "(selected_value_key, affine_defect, M_zero_pattern, error_space_D)",
+    "item10_intrinsic_profile_count": 8,
+    "item10_symbolic_15_49_realization_complete": false,
+    "item11_all_two_flats_f2_completable": true,
+    "item11_delta6_realized_space_count": 13,
+    "item11_gl_stabilizer_order": 1,
+    "item11_symbolic_15_49_realization_complete": false,
+    "item11_total_two_flat_count": 35,
+    "profile_count": 8,
+    "recommended_status": "PAPER_SOURCE_BACKED_TABLES_READY",
+    "source_backed_tables_ready": true
+  }
+}

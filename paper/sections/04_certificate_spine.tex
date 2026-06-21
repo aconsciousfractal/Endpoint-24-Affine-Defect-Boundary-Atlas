@@ -1,0 +1,55 @@
+\section{Certificate Spine}
+\label{sec:certificates}
+
+The paper-facing certificate table is maintained in \texttt{paper/SOURCE\_MAP.md}.
+Before public export, every displayed number in the manuscript must be tied to
+one source artifact and one regression test.  The local test count is deliberately
+not hardcoded in the mathematical text; it is a build artifact recorded by the
+current regression run.
+
+The key public-safe statement is that the B3 matrix is finite-certified, while
+the symbolic derivation of the count \(60\) remains open.  The count-collapse
+certificate reduces that debt to the finite endpoint quotient kernel
+\[
+  \delta=0,4,6 \mapsto 36,16,7
+\]
+and to the B3 row-degree pattern
+\[
+  1,1,1,2,2,1,4,3.
+\]
+The intrinsic column-classification certificate closes the column side by proving that all eight B3 profile columns are
+intrinsic to \((S,M)\).  The defect-6 realizability-obstruction certificate does not close the realization side; it proves
+that the defect-6 residue is an irreducible integer-magic cut, not a consequence
+of \(\F_2\)-completability or linear symmetry.
+
+\begin{certprop}[Reproducibility artifact table]
+The manuscript depends on the following certified artifacts.  Exact file names
+are kept in \texttt{paper/SOURCE\_MAP.md}; this table uses only reproducibility
+handles and mathematical block names.
+\begin{center}
+\scriptsize
+\begin{tabular}{lll}
+\toprule
+Claim block & Reproducibility handle & Status\\
+\midrule
+endpoint split & endpoint split certificate & certified\\
+defect dichotomy & first-principles defect dichotomy & structural\\
+error parity & error-fiber parity bridge & structural\\
+B3 matrix & support-action matrix summary & finite\\
+B3 intrinsic columns & intrinsic column classification & finite\\
+B3 defect-6 residue & defect-6 realizability obstruction & finite\\
+endpoint transport & endpoint transport package & finite\\
+\(\TK\) freeness & global free-transport theorem & finite\\
+B2 package & B2 endpoint boundary package & finite\\
+count collapse & count-collapse kernel geometry & finite\\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{certprop}
+
+\begin{remark}[Attribution and proof source]
+The row/column nim-sum property is positioned against the classical order-four
+literature, including Ollerenshaw--Bondi and Ward.  Until a precise external
+bibliographic statement is pinned down, the manuscript treats the local Step4
+derivation as the proof source.
+\end{remark}

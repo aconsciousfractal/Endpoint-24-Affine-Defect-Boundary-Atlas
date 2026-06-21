@@ -1,0 +1,5057 @@
+{
+  "guardrails": [
+    "delta is recomputed from the raw squares; the saved L3 labels are used only as a cross-check oracle.",
+    "This certifies an intrinsic two-invariant classifier of endpoint 24, not a public/PAPP theorem or a full non-affine classification.",
+    "The freeness of T/K is an orbit-stabilizer corollary of the L7 size-four orbit certificate, not a new group-action derivation.",
+    "Do not promote to public/PAPP wording; the P6/L24 boundary holds."
+  ],
+  "metadata": {
+    "description": "Standalone recomputation of the affine defect delta and the (selected-affine, delta) two-invariant classifier of endpoint 24.",
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Step2_delta_stratification"
+  },
+  "records": [
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R001",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 5,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R002",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 14,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R003",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 16,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R004",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 17,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R005",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 21,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R006",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 23,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R007",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 26,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R008",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 30,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R009",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 31,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R010",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 34,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "2013",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R011",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 42,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R012",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 72,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3021",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R013",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        16
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 74,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R014",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 76,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R015",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 78,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R016",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        16
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 79,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R017",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 81,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R018",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 84,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R019",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 86,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R020",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 87,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R021",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 89,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R022",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 91,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2013",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R023",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 93,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R024",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 95,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R025",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 96,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R026",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 99,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R027",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 101,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R028",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 102,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R029",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 109,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R030",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 112,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R031",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 113,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R032",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 116,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R033",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 123,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R034",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 124,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R035",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        16
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 132,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R036",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 133,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R037",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 136,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3102",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R038",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        16
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 137,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R039",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 140,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R040",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 143,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "2013",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R041",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 144,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R042",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 145,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R043",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 147,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1203",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R044",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 172,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1203",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R045",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 174,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R046",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 176,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R047",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 181,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R048",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 186,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R049",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 190,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R050",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 195,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R051",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 200,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R052",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 201,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2013",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R053",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 204,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R054",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 205,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R055",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 213,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3021",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R056",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 214,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R057",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 215,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R058",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 224,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R059",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 225,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R060",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 227,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R061",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 230,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R062",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 232,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3021",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R063",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "selected_xor_label": 5,
+      "source_square_index": 234,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R064",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 236,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R065",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        13,
+        16
+      ],
+      "selected_xor_label": 2,
+      "source_square_index": 237,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R066",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 238,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R067",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        15
+      ],
+      "selected_xor_label": 2,
+      "source_square_index": 243,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2013",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R068",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 244,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3021",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R069",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 253,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R070",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 257,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3102",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R071",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 259,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R072",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        15
+      ],
+      "selected_xor_label": 2,
+      "source_square_index": 271,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R073",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 278,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R074",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 281,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R075",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 284,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R076",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 286,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R077",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 289,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R078",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 300,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R079",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        13,
+        16
+      ],
+      "selected_xor_label": 2,
+      "source_square_index": 302,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R080",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 304,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R081",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 305,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R082",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 308,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R083",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 309,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R084",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 312,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R085",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        13,
+        15
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 313,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R086",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "selected_xor_label": 5,
+      "source_square_index": 314,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R087",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 315,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R088",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 317,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R089",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 321,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R090",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 323,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R091",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 324,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "2013",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R092",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 326,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R093",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 328,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R094",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 329,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R095",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 333,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R096",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "selected_xor_label": 5,
+      "source_square_index": 335,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R097",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        13,
+        15
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 337,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R098",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 341,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R099",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 343,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2013",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R100",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 348,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R101",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 349,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "2130",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R102",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 352,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "2130",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R103",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "selected_xor_label": 5,
+      "source_square_index": 353,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1203",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R104",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 359,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1203",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R105",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 361,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "1320",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R106",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 365,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R107",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 366,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "1320",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R108",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 368,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "1320",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R109",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 370,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R110",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 371,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3102",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R111",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 380,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R112",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 392,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R113",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 394,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R114",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 398,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R115",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 401,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "2013",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R116",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 402,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3102",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R117",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 409,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R118",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        13,
+        16
+      ],
+      "selected_xor_label": 2,
+      "source_square_index": 410,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R119",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 411,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R120",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        15
+      ],
+      "selected_xor_label": 2,
+      "source_square_index": 414,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2013",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R121",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 415,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R122",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 416,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R123",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 419,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R124",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 420,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R125",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 423,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R126",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 424,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R127",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 431,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "2013",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R128",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 433,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R129",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 435,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R130",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 442,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R131",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 445,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R132",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 460,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R133",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 461,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R134",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 464,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R135",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 465,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R136",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 475,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R137",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 476,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R138",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 480,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R139",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 482,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R140",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        15
+      ],
+      "selected_xor_label": 2,
+      "source_square_index": 485,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R141",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        13,
+        16
+      ],
+      "selected_xor_label": 2,
+      "source_square_index": 508,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "2013",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R142",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 528,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R143",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 536,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2013",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R144",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 537,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R145",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 539,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R146",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 548,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "1320",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R147",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 550,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R148",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 552,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R149",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 554,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R150",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 557,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "1320",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R151",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 562,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R152",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 564,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R153",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 565,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R154",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 571,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R155",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 575,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R156",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 576,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R157",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 578,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R158",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 581,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R159",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 582,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R160",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        16
+      ],
+      "selected_xor_label": 4,
+      "source_square_index": 587,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R161",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 588,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R162",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 591,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R163",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "selected_xor_label": 5,
+      "source_square_index": 596,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R164",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 598,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R165",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 603,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R166",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 610,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3102",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R167",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 613,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3102",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R168",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 615,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R169",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 627,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R170",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 630,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R171",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 632,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R172",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 641,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R173",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 645,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R174",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 649,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2013",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R175",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 654,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R176",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 657,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R177",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 658,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R178",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 661,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R179",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 662,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R180",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        16
+      ],
+      "selected_xor_label": 4,
+      "source_square_index": 686,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R181",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 688,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R182",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 698,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2013",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R183",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 699,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R184",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 703,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R185",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 719,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R186",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 721,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R187",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 729,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R188",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 734,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R189",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 735,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3021",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R190",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 737,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3021",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R191",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        15,
+        16
+      ],
+      "selected_xor_label": 7,
+      "source_square_index": 739,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R192",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 740,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "1320",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R193",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "selected_xor_label": 5,
+      "source_square_index": 746,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R194",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 747,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R195",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        16
+      ],
+      "selected_xor_label": 4,
+      "source_square_index": 752,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R196",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        16
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 759,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "2130",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R197",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 769,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R198",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 770,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R199",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 773,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R200",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 777,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R201",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 778,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R202",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 782,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R203",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 783,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R204",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 784,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R205",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 789,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R206",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 790,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R207",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        16
+      ],
+      "selected_xor_label": 4,
+      "source_square_index": 794,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R208",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 795,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R209",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 797,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3021",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R210",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        14,
+        15,
+        16
+      ],
+      "selected_xor_label": 6,
+      "source_square_index": 798,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R211",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 802,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R212",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 805,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "1320",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R213",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        16
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 806,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R214",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 808,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R215",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        13,
+        15
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 820,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3021",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R216",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "selected_xor_label": 5,
+      "source_square_index": 822,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "3102",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R217",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        16
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 824,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R218",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 826,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R219",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 827,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3102",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R220",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 829,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "3021",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R221",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 830,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R222",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 834,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R223",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 835,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3102",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R224",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 839,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "3021",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R225",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 841,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R226",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 842,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2130",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R227",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 843,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "2130",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R228",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        13,
+        14,
+        15
+      ],
+      "selected_xor_label": 5,
+      "source_square_index": 844,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "2130",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R229",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 846,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R230",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 849,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "2013",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R231",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 852,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R232",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 853,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "1320",
+      "oracle_affine_defect": 4,
+      "oracle_class": "selected_affine_extra32",
+      "predicted_class": "selected_affine_extra32",
+      "record_id": "L3-R233",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 855,
+      "two_invariant_key": [
+        true,
+        4
+      ]
+    },
+    {
+      "affine_defect": 6,
+      "mask": "1320",
+      "oracle_affine_defect": 6,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R234",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        14,
+        16
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 856,
+      "two_invariant_key": [
+        false,
+        6
+      ]
+    },
+    {
+      "affine_defect": 0,
+      "mask": "1320",
+      "oracle_affine_defect": 0,
+      "oracle_class": "exact_affine_v4_144",
+      "predicted_class": "exact_affine_v4_144",
+      "record_id": "L3-R235",
+      "selected_affine": true,
+      "selected_values": [
+        11,
+        12,
+        15,
+        16
+      ],
+      "selected_xor_label": 0,
+      "source_square_index": 858,
+      "two_invariant_key": [
+        true,
+        0
+      ]
+    },
+    {
+      "affine_defect": 4,
+      "mask": "1320",
+      "oracle_affine_defect": 4,
+      "oracle_class": "outside_main_60",
+      "predicted_class": "outside_main_60",
+      "record_id": "L3-R236",
+      "selected_affine": false,
+      "selected_values": [
+        11,
+        12,
+        13,
+        15
+      ],
+      "selected_xor_label": 3,
+      "source_square_index": 860,
+      "two_invariant_key": [
+        false,
+        4
+      ]
+    }
+  ],
+  "source_artifacts": [
+    "data/order4_normal_essential_880.json",
+    "extensions/main/results/L3_terminal24_boundary_atlas.json",
+    "extensions/main/results/L7_global_t_action.json"
+  ],
+  "summary": {
+    "all_certified": true,
+    "class_recovered_records": 236,
+    "delta_recompute_oracle_mismatches": 0,
+    "delta_record_split": {
+      "0": 144,
+      "4": 64,
+      "6": 28
+    },
+    "delta_split_matches_144_64_28": true,
+    "delta_values_subset_of_0_4_6": true,
+    "delta_zero_iff_exact_v4": true,
+    "endpoint": 24,
+    "next_task": "Proceed to Step 3: attempt a symbolic proof of the L16 direction lemma (selected-label xor = cell-value error direction) with the delta=4 / delta=6 dichotomy; leave the B3 15/49 matrix as a certified finite classification.",
+    "public_claim_ready": false,
+    "quotient_orbit_split": {
+      "exact_affine_v4_144": 36,
+      "outside_main_60": 15,
+      "selected_affine_extra32": 8
+    },
+    "recommended_status": "DELTA_STRATIFICATION_CERTIFIED",
+    "record_count": 236,
+    "selected_value_oracle_mismatches": 0,
+    "structural_empty_cells_confirmed": true,
+    "tk_free_action_by_orbit_stabilizer": true,
+    "tk_quotient_is_v4": true,
+    "tk_quotient_order": 4,
+    "two_invariant_cell_counts": {
+      "False|4": 32,
+      "False|6": 28,
+      "True|0": 144,
+      "True|4": 32
+    },
+    "two_invariant_cell_counts_match": true,
+    "two_invariant_classification_exact": true
+  },
+  "two_invariant_table": [
+    {
+      "affine_defect": 0,
+      "class": "exact_affine_v4_144",
+      "record_count": 144,
+      "selected_affine": true,
+      "structurally_empty": false
+    },
+    {
+      "affine_defect": 4,
+      "class": "selected_affine_extra32",
+      "record_count": 32,
+      "selected_affine": true,
+      "structurally_empty": false
+    },
+    {
+      "affine_defect": 6,
+      "class": null,
+      "record_count": 0,
+      "selected_affine": true,
+      "structurally_empty": true
+    },
+    {
+      "affine_defect": 0,
+      "class": null,
+      "record_count": 0,
+      "selected_affine": false,
+      "structurally_empty": true
+    },
+    {
+      "affine_defect": 4,
+      "class": "outside_main_60",
+      "record_count": 32,
+      "selected_affine": false,
+      "structurally_empty": false
+    },
+    {
+      "affine_defect": 6,
+      "class": "outside_main_60",
+      "record_count": 28,
+      "selected_affine": false,
+      "structurally_empty": false
+    }
+  ]
+}

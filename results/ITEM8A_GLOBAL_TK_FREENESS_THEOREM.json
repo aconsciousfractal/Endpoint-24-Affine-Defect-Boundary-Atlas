@@ -1,0 +1,268 @@
+{
+  "corollaries": [
+    {
+      "corollary_id": "ITEM8A-C01",
+      "name": "global_count_reduction",
+      "statement": "The full 7040 pair atlas quotients to 1760 T/K orbits.",
+      "verified": true
+    },
+    {
+      "corollary_id": "ITEM8A-C02",
+      "name": "endpoint24_class_count_reduction",
+      "statement": "Endpoint 24 has quotient split 36+8+15=59, corresponding to record split 144+32+60=236.",
+      "verified": true
+    }
+  ],
+  "endpoint24_class_count_corollaries": [
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "class_label": "exact_affine_v4_144",
+      "quotient_order": 4,
+      "record_count": 144,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 36
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "class_label": "outside_main_60",
+      "quotient_order": 4,
+      "record_count": 60,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 15
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "class_label": "selected_affine_extra32",
+      "quotient_order": 4,
+      "record_count": 32,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 8
+    }
+  ],
+  "endpoint_count_corollaries": [
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 22,
+      "quotient_order": 4,
+      "record_count": 176,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 44,
+      "unique_target_count_distribution": {
+        "4": 176
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 23,
+      "quotient_order": 4,
+      "record_count": 44,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 11,
+      "unique_target_count_distribution": {
+        "4": 44
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 24,
+      "quotient_order": 4,
+      "record_count": 236,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 59,
+      "unique_target_count_distribution": {
+        "4": 236
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 25,
+      "quotient_order": 4,
+      "record_count": 268,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 67,
+      "unique_target_count_distribution": {
+        "4": 268
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 26,
+      "quotient_order": 4,
+      "record_count": 676,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 169,
+      "unique_target_count_distribution": {
+        "4": 676
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 27,
+      "quotient_order": 4,
+      "record_count": 108,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 27,
+      "unique_target_count_distribution": {
+        "4": 108
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 28,
+      "quotient_order": 4,
+      "record_count": 328,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 82,
+      "unique_target_count_distribution": {
+        "4": 328
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 29,
+      "quotient_order": 4,
+      "record_count": 376,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 94,
+      "unique_target_count_distribution": {
+        "4": 376
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 30,
+      "quotient_order": 4,
+      "record_count": 772,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 193,
+      "unique_target_count_distribution": {
+        "4": 772
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 31,
+      "quotient_order": 4,
+      "record_count": 420,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 105,
+      "unique_target_count_distribution": {
+        "4": 420
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 32,
+      "quotient_order": 4,
+      "record_count": 884,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 221,
+      "unique_target_count_distribution": {
+        "4": 884
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 33,
+      "quotient_order": 4,
+      "record_count": 992,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 248,
+      "unique_target_count_distribution": {
+        "4": 992
+      }
+    },
+    {
+      "all_sources_endpoint_preserved": true,
+      "all_sources_full_16_hit": true,
+      "endpoint": 34,
+      "quotient_order": 4,
+      "record_count": 1760,
+      "record_count_equals_four_times_orbits": true,
+      "tk_orbit_count": 440,
+      "unique_target_count_distribution": {
+        "4": 1760
+      }
+    }
+  ],
+  "guardrails": [
+    "This packages the L7 finite certificate as a named theorem; it is not a new symbolic derivation.",
+    "Do not claim T/K is B3-specific; L7 proves it is global across all endpoints.",
+    "Do not promote to a public/PAPP theorem without a separate widening gate."
+  ],
+  "metadata": {
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Item8A_global_tk_freeness_theorem"
+  },
+  "proof_debt_rows": [
+    {
+      "current_source": "L7 finite global T/K action certificate",
+      "debt": "derive_T_over_K_action_symbolically_without_L7_scan",
+      "status": "open"
+    }
+  ],
+  "source_artifacts": [
+    "extensions/main/results/L7_global_t_action.json",
+    "extensions/main/tests/test_l7_global_t_action.py"
+  ],
+  "source_boundary": {
+    "construction_inputs": [
+      "extensions/main/results/L7_global_t_action.json"
+    ],
+    "l7_used_as_finite_certificate": true,
+    "public_papp_widening_used": false,
+    "symbolic_group_action_derivation_used": false
+  },
+  "summary": {
+    "all_endpoint24_class_count_reductions_verified": true,
+    "all_endpoint_count_reductions_verified": true,
+    "all_orbits_size_four": true,
+    "all_sources_endpoint_preserved": true,
+    "corollary_count": 2,
+    "endpoint24_class_orbit_split": {
+      "exact_affine_v4_144": 36,
+      "outside_main_60": 15,
+      "selected_affine_extra32": 8
+    },
+    "endpoint24_count_reduction": "236 = 59 * 4",
+    "endpoint24_record_count": 236,
+    "endpoint24_tk_orbit_count": 59,
+    "endpoint_count": 13,
+    "full_pair_count": 7040,
+    "global_count_reduction": "7040 = 1760 * 4",
+    "global_tk_orbit_count": 1760,
+    "next_task": "Item8-B: isolate the B3 15=60/4 freeness count reduction.",
+    "paper_named_theorem_ready": true,
+    "public_claim_ready": false,
+    "quotient_is_v4": true,
+    "quotient_name": "T/K",
+    "quotient_order": 4,
+    "recommended_status": "ITEM8A_GLOBAL_TK_FREENESS_THEOREM_READY",
+    "symbolic_group_action_derivation_complete": false,
+    "theorem_count": 1
+  },
+  "theorem": {
+    "latex_statement": "\\begin{theorem}[Global $T/K\\cong V_4$ freeness, finite certificate form]\\label{thm:global-tk-freeness}\nIn the certified Endpoint-24 affine-defect atlas extension atlas, the quotient $T/K$ has order four and is isomorphic to $V_4$.  The L7 certificate verifies that it preserves every endpoint and acts freely on all $7040$ square-mask pairs.  Consequently each endpoint stratum, and each certified endpoint-24 class stratum, has record count equal to four times its $T/K$ quotient-orbit count.\n\\end{theorem}",
+    "name": "Global T/K=V4 freeness theorem, finite certificate form",
+    "statement": "In the certified Endpoint-24 affine-defect atlas extension atlas, the L7 quotient T/K is V4 of order four, preserves every endpoint, and acts freely on the 7040 square-mask pairs.  Hence every endpoint and every endpoint-24 class has record count equal to four times its T/K quotient-orbit count.",
+    "status": "paper_ready_named_finite_theorem",
+    "theorem_id": "ITEM8A-T01",
+    "verified": true
+  }
+}

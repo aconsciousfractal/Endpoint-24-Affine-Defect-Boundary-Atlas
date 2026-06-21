@@ -1,0 +1,66 @@
+{
+  "guardrails": [
+    "Lemma C (degree-<=2 bijection => one dependent side, dim D<=2) is PROVEN by a GL(4,2)-symmetry-complete finite check, atlas-independent.",
+    "Step5+ upgrades the dichotomy from 'verified over 7040 magic squares' to a proven property of quadratic bijections of F2^4; magic enters only via Lemma B (Step4/item1) and bijectivity.",
+    "The corner identity B11(+)B10(+)B01(+)B00=0 is a magic refinement, NOT part of Lemma C and NOT needed for the dichotomy.",
+    "No public/PAPP widening or universal-24 claim is made; the B3 multiplicity matrix remains a finite certificate."
+  ],
+  "metadata": {
+    "description": "Atlas-independent (delta, dim D) dichotomy: 'one dependent side' is a property of degree-<=2 bijections of F2^4 (Lemma C), not of the magic sums.",
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Step5plus_delta_dim_first_principles"
+  },
+  "source_artifacts": [
+    "data/order4_normal_essential_880.json"
+  ],
+  "summary": {
+    "all_certified": true,
+    "atlas_delta_dimD_distribution": {
+      "0,0": 432,
+      "4,1": 280,
+      "6,2": 168
+    },
+    "atlas_dichotomy_holds": true,
+    "atlas_equal_side_split": {
+      "both": 528,
+      "col_only": 184,
+      "row_only": 168
+    },
+    "atlas_factorization_formula": true,
+    "atlas_one_dependent_side": true,
+    "atlas_square_count": 880,
+    "atlas_sum_of_coeffs_zero": true,
+    "corner_sum_zero_is_magic_not_bijection": "B11(+)B10(+)B01(+)B00=0 holds on the atlas (corner xor 0) but is NOT a bijection consequence; some completable M have nonzero sum. It is a magic refinement, not part of Lemma C.",
+    "lemma_c_completable": 316,
+    "lemma_c_completable_dim_distribution": {
+      "0": 1,
+      "1": 63,
+      "2": 252
+    },
+    "lemma_c_completable_dim_gt2": 0,
+    "lemma_c_dim4_basis_completable": false,
+    "lemma_c_matrices_checked": 4096,
+    "lemma_c_one_dependent_side_violations": 0,
+    "lemma_c_proof_space": "entries in <e0,e1,e2> (covers dim D<=3 up to GL(4,2)) + dim-4 basis orbit",
+    "lemma_c_proven": true,
+    "next_task": "Item 3 closed. Optionally fold Lemma C into the paper as a GL(4,2)-symmetry-complete finite theorem, or proceed to another item of the non-enumerative programme.",
+    "public_claim_ready": false,
+    "recommended_status": "STEP5PLUS_DELTA_DIM_DICHOTOMY_ATLAS_INDEPENDENT_PROVEN",
+    "residual": "Lemma C is now CLOSED as a finite theorem: a symmetry-complete check (codomain GL(4,2) transitive on subspaces) verifies that every degree-<=2 bijection has one dependent side and dim D<=2. Item 3 (the delta/dimD dichotomy) is therefore atlas-independent and proven. The B3 15/49 multiplicity matrix remains finite-certified (item 7).",
+    "universe_bijection_completable": 64,
+    "universe_completable_not_one_side_violations": 0,
+    "universe_delta_dimD_distribution": {
+      "0,0": 1,
+      "4,1": 27,
+      "6,2": 36
+    },
+    "universe_dichotomy_only_0_0__4_1__6_2": true,
+    "universe_factorization_violations": 0,
+    "universe_matrices_checked": 256,
+    "universe_space": "entries in <e0,e1> (2-dim)",
+    "witness_both_independent_not_completable": true,
+    "witness_dim_ge_3_not_completable": true,
+    "witness_equal_side_completable": true
+  }
+}

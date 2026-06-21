@@ -1,0 +1,99 @@
+% Endpoint-24 Affine-Defect Boundary Atlas --- paper source
+%
+% Public-facing claims are controlled by paper/CLAIM_BOUNDARY.md.
+% Finite replay statements must point to paper/SOURCE_MAP.md rows.
+
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{xurl}
+\usepackage{xspace}
+\usepackage{hyperref}
+\usepackage{placeins}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!55!black,
+  citecolor=blue!55!black,
+  urlcolor=blue!55!black,
+  pdftitle={Endpoint-24 Affine-Defect Boundary Atlas},
+  pdfauthor={Oleksiy Babanskyy},
+  pdfsubject={Endpoint-24 affine-defect boundary atlas for order-four magic squares},
+  pdfkeywords={magic squares, Durer square, F2-to-the-4, affine geometry, finite certificates}
+}
+\emergencystretch=2em
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{certprop}[theorem]{Certified Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\F}{\mathbb F}
+\newcommand{\A}{\mathcal A}
+\newcommand{\Derr}{\mathcal D}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\TK}{T/K}
+\newcommand{\Durer}{D\"urer\xspace}
+
+\title{Endpoint-24 Affine-Defect Boundary Atlas:\\
+B1/B2/B3, \(F_2^4\) Error Geometry, and Finite Transport}
+\author{Oleksiy Babanskyy}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We extract a paper-local finite theorem from the certified endpoint-24
+order-four magic-square atlas.  In value-minus-one coordinates over \(\F_2^4\), the affine
+interpolation error \(E=L+A\) has defect \(\delta\in\{0,4,6\}\).  On endpoint
+\(24\), this defect and the selected-label xor split the certified atlas into
+an exact affine core, a selected-affine B2 boundary, and a selected-non-affine
+B3 boundary:
+\[
+  236=144+32+60.
+\]
+The verified free quotient \(\TK\cong V_4\) gives
+\[
+  59=36+8+15.
+\]
+The B3 support-action matrix has \(64\) candidate signature/profile cells,
+with exactly \(15\) realized and \(49\) absent cells.  The eight B3 profile
+columns are now certified intrinsic to the selected signature and bilinear error
+matrix; the remaining realization cut is certified finite and integer-arithmetic,
+not an \(\F_2\)-linear closure.  We separate the first-principles part of the
+argument, namely the degree/defect and error-fiber parity spine, from the finite
+transport and matrix certificates.  The symbolic derivation of the B3 count
+\(60\) remains an explicit open debt.
+\end{abstract}
+
+\noindent\textbf{Keywords.} Magic squares, \Durer square, affine geometry over
+\(F_2\), finite certificates, endpoint atlas.
+
+\input{sections/01_introduction}
+\input{sections/02_model_and_notation}
+\input{sections/03_boundary_theorem}
+\input{generated/source_backed_tables}
+\FloatBarrier
+\input{sections/04_certificate_spine}
+\input{sections/05_public_package}
+\FloatBarrier
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\end{document}

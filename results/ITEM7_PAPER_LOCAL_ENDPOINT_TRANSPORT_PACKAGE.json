@@ -1,0 +1,324 @@
+{
+  "carrier_certificate_rows": [
+    {
+      "defect": 4,
+      "endpoint_orbit_id": "E24-TK045",
+      "relation_code": "x=6|E=6|pair=|triple=",
+      "selected_value_key": "11,14,15,16",
+      "support_action_orbit_id": "STEP6-SA01"
+    },
+    {
+      "defect": 6,
+      "endpoint_orbit_id": "E24-TK046",
+      "relation_code": "x=7|E=3,4,7|pair=3,4|triple=",
+      "selected_value_key": "11,13,15,16",
+      "support_action_orbit_id": "STEP6-SA02"
+    },
+    {
+      "defect": 6,
+      "endpoint_orbit_id": "E24-TK047",
+      "relation_code": "x=3|E=3,13,14|pair=|triple=14",
+      "selected_value_key": "11,12,14,16",
+      "support_action_orbit_id": "STEP6-SA03"
+    },
+    {
+      "defect": 4,
+      "endpoint_orbit_id": "E24-TK048",
+      "relation_code": "x=3|E=3|pair=|triple=",
+      "selected_value_key": "11,12,14,16",
+      "support_action_orbit_id": "STEP6-SA04"
+    },
+    {
+      "defect": 4,
+      "endpoint_orbit_id": "E24-TK049",
+      "relation_code": "x=6|E=6|pair=|triple=",
+      "selected_value_key": "11,14,15,16",
+      "support_action_orbit_id": "STEP6-SA05"
+    },
+    {
+      "defect": 6,
+      "endpoint_orbit_id": "E24-TK050",
+      "relation_code": "x=6|E=6,8,14|pair=|triple=8",
+      "selected_value_key": "11,14,15,16",
+      "support_action_orbit_id": "STEP6-SA06"
+    },
+    {
+      "defect": 6,
+      "endpoint_orbit_id": "E24-TK051",
+      "relation_code": "x=5|E=5,8,13|pair=|triple=8",
+      "selected_value_key": "11,13,14,15",
+      "support_action_orbit_id": "STEP6-SA07"
+    },
+    {
+      "defect": 4,
+      "endpoint_orbit_id": "E24-TK052",
+      "relation_code": "x=2|E=2|pair=|triple=",
+      "selected_value_key": "11,12,13,16",
+      "support_action_orbit_id": "STEP6-SA08"
+    },
+    {
+      "defect": 4,
+      "endpoint_orbit_id": "E24-TK053",
+      "relation_code": "x=2|E=2|pair=|triple=",
+      "selected_value_key": "11,12,14,15",
+      "support_action_orbit_id": "STEP6-SA09"
+    },
+    {
+      "defect": 6,
+      "endpoint_orbit_id": "E24-TK054",
+      "relation_code": "x=7|E=7,11,12|pair=|triple=11",
+      "selected_value_key": "11,13,15,16",
+      "support_action_orbit_id": "STEP6-SA10"
+    },
+    {
+      "defect": 6,
+      "endpoint_orbit_id": "E24-TK055",
+      "relation_code": "x=7|E=2,5,7|pair=2,5|triple=",
+      "selected_value_key": "11,13,15,16",
+      "support_action_orbit_id": "STEP6-SA11"
+    },
+    {
+      "defect": 4,
+      "endpoint_orbit_id": "E24-TK056",
+      "relation_code": "x=3|E=3|pair=|triple=",
+      "selected_value_key": "11,12,13,15",
+      "support_action_orbit_id": "STEP6-SA12"
+    },
+    {
+      "defect": 4,
+      "endpoint_orbit_id": "E24-TK057",
+      "relation_code": "x=5|E=5|pair=|triple=",
+      "selected_value_key": "11,13,14,15",
+      "support_action_orbit_id": "STEP6-SA13"
+    },
+    {
+      "defect": 6,
+      "endpoint_orbit_id": "E24-TK058",
+      "relation_code": "x=7|E=1,6,7|pair=1,6|triple=",
+      "selected_value_key": "11,13,15,16",
+      "support_action_orbit_id": "STEP6-SA14"
+    },
+    {
+      "defect": 4,
+      "endpoint_orbit_id": "E24-TK059",
+      "relation_code": "x=4|E=4|pair=|triple=",
+      "selected_value_key": "11,13,14,16",
+      "support_action_orbit_id": "STEP6-SA15"
+    }
+  ],
+  "definitions": [
+    {
+      "definition_id": "ITEM7-J-D01",
+      "name": "endpoint_24_tk_quotient",
+      "text": "The finite endpoint-24 quotient is the L8 T/K orbit set of the 236 endpoint-24 records; it has 59 size-four orbits and three affineness states."
+    },
+    {
+      "definition_id": "ITEM7-J-D02",
+      "name": "b3_endpoint_selector",
+      "text": "The B3 endpoint selector is selected_value_nonaffine, i.e. the L8 state selected_value_affine=false, selected_mask_affine=false, cell_value_affine=false."
+    },
+    {
+      "definition_id": "ITEM7-J-D03",
+      "name": "transport_atom_payload",
+      "text": "A transport atom payload is the Item7-H support-action atom attached to an endpoint orbit: support-action id, defect, signature, error directions, and relation code."
+    },
+    {
+      "definition_id": "ITEM7-J-D04",
+      "name": "paper_local_endpoint_transport_theorem",
+      "text": "A paper-local endpoint transport theorem may state the finite selector and payload inside the certified Endpoint-24 affine-defect atlas extension atlas, without claiming a symbolic endpoint classification or public/PAPP widening."
+    }
+  ],
+  "guardrails": [
+    "Item7-J is paper-local finite packaging, not new symbolic mathematics.",
+    "Do not claim the selected_value_nonaffine orbit count is derived non-enumeratively.",
+    "Do not claim a non-enumerative endpoint-24 T/K quotient classification.",
+    "Do not claim public/PAPP readiness or full non-affine endpoint-24 classification."
+  ],
+  "lemmas": [
+    {
+      "evidence": [
+        "results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json",
+        "tests/test_item7_endpoint_transport_selector_bridge.py"
+      ],
+      "lemma_id": "ITEM7-J-L01",
+      "name": "endpoint_selector_exactness",
+      "statement": "In the L8 endpoint-24 T/K quotient, selected_value_nonaffine selects exactly 15 orbits and 60 records, with zero false positives, zero false negatives, and no partial orbit.",
+      "status": "paper_ready_finite_lemma",
+      "verified": true
+    },
+    {
+      "evidence": [
+        "results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json",
+        "results/ITEM7_TRANSPORT_ATOM_LOWER_GEOMETRY.json"
+      ],
+      "lemma_id": "ITEM7-J-L02",
+      "name": "carrier_atom_bijection",
+      "statement": "The 15 selected endpoint orbits are exactly the 15 Item7-H lower-geometry transport atoms, ordered as STEP6-SA01 through STEP6-SA15.",
+      "status": "paper_ready_finite_lemma",
+      "verified": true
+    },
+    {
+      "evidence": [
+        "results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json",
+        "results/ITEM7_TRANSPORT_ATOM_LOWER_GEOMETRY.json"
+      ],
+      "lemma_id": "ITEM7-J-L03",
+      "name": "transport_payload_consistency",
+      "statement": "The attached endpoint transport payload has defect split d4=8,d6=7 and signature multiplicities 1,1,1,2,2,1,4,3 across the eight B3 signatures.",
+      "status": "paper_ready_finite_lemma",
+      "verified": true
+    },
+    {
+      "evidence": [
+        "results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json",
+        "docs/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.md"
+      ],
+      "lemma_id": "ITEM7-J-L04",
+      "name": "paper_boundary",
+      "statement": "The endpoint transport theorem is finite and paper-local: the symbolic endpoint count proof, non-enumerative T/K quotient derivation, and non-enumerative support/error payload attachment remain open.",
+      "status": "paper_ready_guardrail",
+      "verified": true
+    }
+  ],
+  "metadata": {
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Item7_paper_local_endpoint_transport_package"
+  },
+  "proof_debt_rows": [
+    {
+      "current_source": "L8 finite endpoint quotient",
+      "debt": "prove_selected_value_nonaffine_orbit_count_symbolically",
+      "status": "open"
+    },
+    {
+      "current_source": "L7/L8 finite T/K quotient construction",
+      "debt": "derive_endpoint24_tk_quotient_without_finite_orbit_scan",
+      "status": "open"
+    },
+    {
+      "current_source": "Item7-H lower finite geometry",
+      "debt": "attach_support_error_payload_non_enumeratively",
+      "status": "open"
+    }
+  ],
+  "proof_steps": [
+    {
+      "claim": "Use L8/Item7-I to fix the finite endpoint-24 T/K quotient and exact B3 endpoint selector.",
+      "step_id": "ITEM7-J-P01",
+      "uses": [
+        "ITEM7-J-D01",
+        "ITEM7-J-L01"
+      ]
+    },
+    {
+      "claim": "Identify the selected endpoint orbits with the Item7-H lower-geometry transport atoms.",
+      "step_id": "ITEM7-J-P02",
+      "uses": [
+        "ITEM7-J-D03",
+        "ITEM7-J-L02"
+      ]
+    },
+    {
+      "claim": "Attach the defect, signature, error-direction, and relation-code payload to each carrier orbit.",
+      "step_id": "ITEM7-J-P03",
+      "uses": [
+        "ITEM7-J-L03"
+      ]
+    },
+    {
+      "claim": "Preserve the finite paper-local boundary and keep symbolic endpoint debts open.",
+      "step_id": "ITEM7-J-P04",
+      "uses": [
+        "ITEM7-J-D04",
+        "ITEM7-J-L04"
+      ]
+    },
+    {
+      "claim": "Export the theorem block, certificate rows, and guardrails into the final paper package.",
+      "step_id": "ITEM7-J-P05",
+      "uses": [
+        "ITEM7-J-T01"
+      ]
+    }
+  ],
+  "source_artifacts": [
+    "extensions/main/results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json",
+    "extensions/main/results/ITEM7_TRANSPORT_ATOM_LOWER_GEOMETRY.json",
+    "extensions/main/docs/PAPER_FINAL_THEOREM_B1_B2_B3.md"
+  ],
+  "source_boundary": {
+    "construction_inputs": [
+      "extensions/main/results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json",
+      "extensions/main/results/ITEM7_TRANSPORT_ATOM_LOWER_GEOMETRY.json"
+    ],
+    "paper_text_input": "extensions/main/docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
+    "public_papp_widening_used": false,
+    "symbolic_endpoint_count_proof_used": false,
+    "uses_item7h_as_transport_payload_source": true,
+    "uses_item7i_as_endpoint_selector_source": true
+  },
+  "summary": {
+    "all_lemmas_verified": true,
+    "b3_endpoint_selector_exact": true,
+    "b3_endpoint_selector_id": "selected_value_nonaffine",
+    "b3_endpoint_selector_orbit_count": 15,
+    "b3_endpoint_selector_record_count": 60,
+    "carrier_certificate_row_count": 15,
+    "carrier_orbits_match_item7h_atoms": true,
+    "carrier_transport_atom_count": 15,
+    "carrier_transport_atoms_all_size_four": true,
+    "defect_counts": {
+      "4": 8,
+      "6": 7
+    },
+    "definition_count": 4,
+    "endpoint24_tk_orbit_count": 59,
+    "endpoint_affineness_state_count": 3,
+    "expected_full_suite_after_item7j": 410,
+    "final_theorem_doc_has_item7i_source": true,
+    "final_theorem_doc_has_item7j_source": true,
+    "first_principles_endpoint_transport_classification_complete": false,
+    "lemma_count": 4,
+    "next_task": "Create the standalone .tex export from PAPER_FINAL_THEOREM_B1_B2_B3.md plus the Item7-J endpoint transport package.",
+    "paper_package_ready": true,
+    "proof_debt_count": 3,
+    "proof_step_count": 5,
+    "public_claim_ready": false,
+    "recommended_status": "ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE_READY",
+    "signature_counts": {
+      "11,12,13,15": 1,
+      "11,12,13,16": 1,
+      "11,12,14,15": 1,
+      "11,12,14,16": 2,
+      "11,13,14,15": 2,
+      "11,13,14,16": 1,
+      "11,13,15,16": 4,
+      "11,14,15,16": 3
+    },
+    "symbolic_endpoint_count_proof_complete": false,
+    "tex_export_ready": true,
+    "theorem_count": 1
+  },
+  "tex_export_checklist": [
+    "Include theorem thm:b123-affine-defect-boundary from PAPER_FINAL_THEOREM_B1_B2_B3.md.",
+    "Include theorem thm:b3-endpoint-transport from Item7-J.",
+    "Include Item7-I and Item7-J in the certificate/source table.",
+    "Keep the Nimm0 attribution caveat unless the bibliographic source is verified.",
+    "Keep public/PAPP, universal, full-classification, and symbolic endpoint-count claims out."
+  ],
+  "theorem": {
+    "latex_statement": "\\begin{theorem}[B3 endpoint transport, paper-local finite form]\\label{thm:b3-endpoint-transport}\nInside the certified endpoint-24 quotient by the verified free $T/K$ action, an endpoint orbit is a B3 support-action carrier if and only if its selected value set is non-affine over $\\mathbb F_2^4$.  Equivalently, the exact B3 endpoint selector is \\texttt{selected\\_value\\_nonaffine}.  It selects 15 quotient orbits and 60 records, and these 15 orbits are precisely the Item7-H lower-geometry transport atoms with support-action labels \\texttt{STEP6-SA01},\\ldots,\\texttt{STEP6-SA15}.\n\\end{theorem}",
+    "name": "B3 endpoint transport theorem, paper-local finite form",
+    "not_claimed": [
+      "a symbolic proof that selected_value_nonaffine must have exactly 15 T/K orbits",
+      "a non-enumerative derivation of the endpoint-24 T/K quotient",
+      "a non-enumerative attachment of the support/error payload",
+      "a public/PAPP theorem",
+      "a full non-affine endpoint-24 classification"
+    ],
+    "statement": "Inside the certified Endpoint-24 affine-defect atlas endpoint-24 T/K quotient, an endpoint orbit is a B3 support-action carrier if and only if its selected values are non-affine. Equivalently, the exact endpoint selector is selected_value_nonaffine.  The selector has exactly 15 orbits and 60 records.  These 15 orbits are in canonical bijection with the Item7-H lower-geometry transport atoms, carrying the 15 support-action payloads STEP6-SA01 through STEP6-SA15.",
+    "status": "tex_ready_paper_local_finite_theorem",
+    "theorem_id": "ITEM7-J-T01"
+  }
+}

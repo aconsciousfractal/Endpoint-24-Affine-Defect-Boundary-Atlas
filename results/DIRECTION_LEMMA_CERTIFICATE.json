@@ -1,0 +1,5537 @@
+{
+  "guardrails": [
+    "Proof steps (a)-(c) are symbolic char-2 algebra; H1 is derived by Step 3+/Step 4 and the defect/dimD refinement is derived by Step 5; H2 remains the endpoint-24 affine-mask input.",
+    "The direction lemma is the 'direction half' of B3 only; the multiplicity half (15/49 mask matrix) remains a finite certificate.",
+    "This does not widen the P6/L24 boundary: no public/PAPP, universal, full-classification, or complete first-principles claim is made."
+  ],
+  "metadata": {
+    "description": "Symbolic direction lemma: selected-value xor lies in the quadratic error space D; for B3 it is a nonzero error direction.",
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Step3_direction_lemma"
+  },
+  "records": [
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        14
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R001",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R002",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R003",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R004",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R005",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R006",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R007",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R008",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R009",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R010",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R011",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R012",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        3,
+        13,
+        14
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3,
+        13,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R013",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R014",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        14
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R015",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        3
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R016",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R017",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R018",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R019",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R020",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R021",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R022",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R023",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R024",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R025",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R026",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R027",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R028",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R029",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R030",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R031",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R032",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R033",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R034",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        3
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R035",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        14
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R036",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R037",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        3,
+        13,
+        14
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3,
+        13,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R038",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R039",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        14
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R040",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R041",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R042",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R043",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R044",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R045",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R046",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R047",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R048",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R049",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R050",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R051",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R052",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R053",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R054",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R055",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        6,
+        8,
+        14
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6,
+        8,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R056",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R057",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R058",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R059",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R060",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R061",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R062",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "error_mask_sum": 5,
+      "error_space": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R063",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 5
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R064",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 2,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R065",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 2
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R066",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 2,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R067",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 2
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R068",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        7,
+        11,
+        12
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        7,
+        11,
+        12
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R069",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R070",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R071",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 2,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R072",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 2
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R073",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R074",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R075",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R076",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R077",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R078",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 2,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R079",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 2
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R080",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R081",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R082",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R083",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R084",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        3
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R085",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        5
+      ],
+      "error_mask_sum": 5,
+      "error_space": [
+        0,
+        5
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R086",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 5
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R087",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R088",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R089",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R090",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R091",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R092",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R093",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R094",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R095",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        5
+      ],
+      "error_mask_sum": 5,
+      "error_space": [
+        0,
+        5
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R096",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 5
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        3
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R097",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R098",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R099",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R100",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R101",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        6,
+        8,
+        14
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6,
+        8,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R102",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "error_mask_sum": 5,
+      "error_space": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R103",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 5
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R104",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R105",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R106",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R107",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R108",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R109",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R110",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        7,
+        11,
+        12
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        7,
+        11,
+        12
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R111",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R112",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R113",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R114",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R115",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R116",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R117",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 2,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R118",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 2
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R119",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 2,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R120",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 2
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R121",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        8
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        8
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R122",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R123",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R124",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R125",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R126",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R127",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R128",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R129",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R130",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R131",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R132",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R133",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R134",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R135",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R136",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R137",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R138",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R139",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 2,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R140",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 2
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 2,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R141",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 2
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R142",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R143",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R144",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R145",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R146",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        2
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        2
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R147",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R148",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        8
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        8
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R149",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R150",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        2,
+        5,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R151",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R152",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R153",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R154",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R155",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R156",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        8
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        8
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R157",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R158",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R159",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        4
+      ],
+      "error_mask_sum": 4,
+      "error_space": [
+        0,
+        4
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R160",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 4
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R161",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R162",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        5
+      ],
+      "error_mask_sum": 5,
+      "error_space": [
+        0,
+        5
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R163",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 5
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R164",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R165",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        14
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R166",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        7,
+        11,
+        12
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        7,
+        11,
+        12
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R167",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R168",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R169",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        14
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R170",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R171",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R172",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R173",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R174",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R175",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R176",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R177",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R178",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R179",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        4
+      ],
+      "error_mask_sum": 4,
+      "error_space": [
+        0,
+        4
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R180",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 4
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R181",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R182",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        6
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        6
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R183",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R184",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R185",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R186",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R187",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R188",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        8
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        8
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R189",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R190",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        7,
+        11,
+        12
+      ],
+      "error_mask_sum": 7,
+      "error_space": [
+        0,
+        7,
+        11,
+        12
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R191",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 7
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R192",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        5
+      ],
+      "error_mask_sum": 5,
+      "error_space": [
+        0,
+        5
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R193",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 5
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R194",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        4
+      ],
+      "error_mask_sum": 4,
+      "error_space": [
+        0,
+        4
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R195",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 4
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        3
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R196",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        6,
+        8,
+        14
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6,
+        8,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R197",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R198",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R199",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R200",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R201",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        8
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        8
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R202",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R203",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R204",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R205",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R206",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        4
+      ],
+      "error_mask_sum": 4,
+      "error_space": [
+        0,
+        4
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R207",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 4
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        8
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        8
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R208",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R209",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        6,
+        8,
+        14
+      ],
+      "error_mask_sum": 6,
+      "error_space": [
+        0,
+        6,
+        8,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R210",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 6
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R211",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R212",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        3
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R213",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R214",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        3
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R215",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "error_mask_sum": 5,
+      "error_space": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R216",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 5
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        3,
+        13,
+        14
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3,
+        13,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R217",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R218",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R219",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        14
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R220",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        8
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        8
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R221",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R222",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R223",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R224",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R225",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R226",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R227",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "error_mask_sum": 5,
+      "error_space": [
+        0,
+        5,
+        8,
+        13
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R228",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 5
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        8
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        8
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R229",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R230",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R231",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R232",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "selected_affine_extra32",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        14
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R233",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 6,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 2,
+      "error_image": [
+        0,
+        3,
+        13,
+        14
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3,
+        13,
+        14
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R234",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    },
+    {
+      "affine_defect": 0,
+      "affine_part_mask_sum": 0,
+      "class_label": "exact_affine_v4_144",
+      "deg_L": 1,
+      "dim_error_space": 0,
+      "error_image": [
+        0
+      ],
+      "error_mask_sum": 0,
+      "error_space": [
+        0
+      ],
+      "image_in_error_space": true,
+      "is_b3": false,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R235",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 0
+    },
+    {
+      "affine_defect": 4,
+      "affine_part_mask_sum": 0,
+      "class_label": "outside_main_60",
+      "deg_L": 2,
+      "dim_error_space": 1,
+      "error_image": [
+        0,
+        3
+      ],
+      "error_mask_sum": 3,
+      "error_space": [
+        0,
+        3
+      ],
+      "image_in_error_space": true,
+      "is_b3": true,
+      "mask_cell_xor": 0,
+      "mask_is_affine_plane": true,
+      "record_id": "L3-R236",
+      "sel_xor_equals_error_sum": true,
+      "sel_xor_in_error_space": true,
+      "selected_xor": 3
+    }
+  ],
+  "source_artifacts": [
+    "data/order4_normal_essential_880.json",
+    "extensions/main/results/L3_terminal24_boundary_atlas.json"
+  ],
+  "summary": {
+    "corollary_nonzero_direction_iff_b3": true,
+    "defect_vs_dim_D": {
+      "(0, 0)": 144,
+      "(4, 1)": 64,
+      "(6, 2)": 28
+    },
+    "delta4_error_constant_on_support": true,
+    "delta4_implies_dim1": true,
+    "delta6_image_is_full_D_minus_0": true,
+    "delta6_implies_dim2": true,
+    "dim_D_by_class": {
+      "('exact_affine_v4_144', 0)": 144,
+      "('outside_main_60', 1)": 32,
+      "('outside_main_60', 2)": 28,
+      "('selected_affine_extra32', 1)": 32
+    },
+    "direction_lemma_certified": true,
+    "hypothesis_H1_deg_L_le_2": true,
+    "hypothesis_H2_masks_are_affine_planes": true,
+    "next_task": "Derive the B3 15/49 support-action multiplicity matrix from the bilinear support-action structure.",
+    "proof_affine_part_cancels_on_mask": true,
+    "proof_error_image_in_subspace_D": true,
+    "proof_sel_xor_equals_error_mask_sum": true,
+    "proof_sel_xor_in_D": true,
+    "public_claim_ready": false,
+    "recommended_status": "DIRECTION_LEMMA_CERTIFIED",
+    "record_count": 236,
+    "residue_left_certified": "deg L <= 2 is derived by Step 3+/Step 4 and the defect/dimD dichotomy is derived by Step 5. The remaining B3 residue is the 15/49 support-action mask-multiplicity matrix, which stays a finite classification."
+  }
+}

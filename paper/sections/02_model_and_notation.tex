@@ -1,0 +1,113 @@
+\section{Model and Notation}
+
+Cells are indexed by \(\F_2^4\), and square values are converted to labels by
+subtracting one.  Thus the values \(1,\ldots,16\) become labels
+\(0,\ldots,15\).  For a normal order-four magic square, let
+\[
+  L:\F_2^4\to\F_2^4
+\]
+be the label map.  Let \(A\) be the affine interpolation of \(L\) on the five
+base points \(\{0,e_1,e_2,e_3,e_4\}\), and define the error map
+\[
+  E=L+A,\qquad \delta=|\supp(E)|.
+\]
+
+For four distinct selected labels, the selected set is an affine plane exactly
+when its xor is zero.  This selected-xor axis is the finite selector used to
+separate the exact affine row, B2, and B3 on endpoint \(24\).
+
+\begin{definition}[Square-mask pair and endpoint]
+A square-mask pair is a normal order-four magic square together with a
+one-incidence mask.  The mask selects one cell in each row, one cell in each
+column, and one cell on each of the two main diagonals.  The endpoint is
+\(34-t\), where \(t=\min_{c\in M} L(c)\) is the minimum selected label (the
+minimum selected value minus one).  Equivalently, endpoint \(24\) is exactly
+the slice whose minimum selected value is \(11\).  This paper works inside the
+certified endpoint \(24\) subatlas, which contains \(236\) such records.  In
+particular every endpoint-\(24\) selected four-set contains the value \(11\),
+which is why the B3 signatures are four-subsets of \(\{11,\ldots,16\}\)
+containing \(11\).
+\end{definition}
+
+\begin{definition}[Selected mask and selected labels]
+For a square-mask pair, \(M\subset \F_2^4\) denotes the four selected cells.
+The selected labels are the four elements \(L(M)\subset \F_2^4\).  The selected
+set is affine if and only if
+\[
+  \bigoplus_{c\in M}L(c)=0.
+\]
+Equivalently, in value notation, the selected values form an affine four-set
+after subtracting one from each value.
+\end{definition}
+
+\begin{definition}[Endpoint-24 record]
+An endpoint-24 record is a certified square-mask pair whose endpoint is \(24\).
+The development atlas contains \(236\) such records.
+\end{definition}
+
+\begin{definition}[Cell-value affineness and essential representatives]
+A record is cell-value affine when its full label map \(L:\F_2^4\to\F_2^4\) is
+affine.  The finite atlas is stored modulo the usual dihedral \(D_4\) symmetries
+of the square; theorem statements that count quotient objects explicitly say
+when the free \(\TK\) quotient is also being used.
+\end{definition}
+
+\begin{definition}[The \(\TK\) quotient]
+The finite transport group \(T\) is the row/column relation group used by the
+extension certificates, and \(K\) is its loop stabilizer.  The verified quotient
+\(\TK\cong V_4\) acts freely on every certified square-mask pair and preserves
+the endpoint, affine-defect class, and selected signature.  Hence each
+\(\TK\)-orbit has four records.
+\end{definition}
+
+\begin{definition}[Signature and support-action profile]
+For B3, a signature is one of the eight non-affine selected-label four-sets
+containing the minimum selected value \(11\).  A support-action profile records
+the defect \(\delta\), the error-direction space \(\Derr\), and the finite
+defect-mask support type seen by the selected mask.  The B3 support-action
+matrix has these eight signatures as rows and the eight realized profiles as
+columns.
+\end{definition}
+
+\begin{definition}[Clause templates]
+The public names NF1, NF2, and NF3 refer to the three B3 support-action clause
+templates.  NF1 is the defect-\(4\) singleton xor-error case.  NF2 is the
+defect-\(6\) non-xor pair-support case.  NF3 is the defect-\(6\) non-xor
+triple-support case.  The templates are structural; the thirteen profile-level
+instances are finite-certified.
+\end{definition}
+
+\begin{definition}[Affine defect]
+The affine defect of a record is \(\delta=|\supp(E)|\), where \(E=L+A\).  The
+associated error direction space \(\Derr\) is the span of the bilinear error
+coefficients.  The certified dichotomy is
+\[
+  (\delta,\dim \Derr)\in\{(0,0),(4,1),(6,2)\}.
+\]
+\end{definition}
+
+\begin{definition}[Boundary labels]
+Inside endpoint \(24\), we use the following names.
+\begin{center}
+\begin{tabular}{llrr}
+\toprule
+Name & Selector & Records & \(\TK\)-orbits\\
+\midrule
+exact affine core & selected affine, \(\delta=0\) & \(144\) & \(36\)\\
+B2 & selected affine, \(\delta=4\) & \(32\) & \(8\)\\
+B3 & selected non-affine, \(\delta\in\{4,6\}\) & \(60\) & \(15\)\\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{definition}
+
+The classical context is the order-four magic-square structure of Ollerenshaw
+and Bondi~\cite{ollerenshawBondi}, vector-space viewpoints on magic
+squares~\cite{wardMagicVectorSpaces}, the \Durer tesseract
+interpretation~\cite{sudberyTesseract}, and enumeration work on magic squares
+and the order-four case~\cite{beckCohenCuomoGribelyukMagic,
+beckVanHerick4x4Enumeration}.  A recent
+computational classification of the 880 essentially different normal
+fourth-order magic squares is recorded by Takemura~\cite{takemura880}.  The
+operative finite proofs in this paper are the local certificates listed in
+Section~\ref{sec:certificates}.

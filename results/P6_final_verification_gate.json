@@ -1,0 +1,221 @@
+{
+  "blocked_claims": [
+    "endpoint-24 atlas is universal",
+    "B1 is a full endpoint-23/27 classification theorem",
+    "B2 has a complete conceptual classification theorem",
+    "B3 gives a full non-affine endpoint-24 classification",
+    "public/PAPP exposes full record-level atlas payloads",
+    "symbolic first-principles derivation of B3 is complete"
+  ],
+  "final_checklist": [
+    {
+      "check_id": "P6-C01",
+      "name": "P5 spine ready",
+      "passed": true
+    },
+    {
+      "check_id": "P6-C02",
+      "name": "all verification groups passed",
+      "passed": true
+    },
+    {
+      "check_id": "P6-C03",
+      "name": "public/PAPP widening blocked",
+      "passed": true
+    },
+    {
+      "check_id": "P6-C04",
+      "name": "record-level payload promotion blocked",
+      "passed": true
+    },
+    {
+      "check_id": "P6-C05",
+      "name": "B3 full classification blocked",
+      "passed": true
+    },
+    {
+      "check_id": "P6-C06",
+      "name": "B3 first-principles derivation blocked",
+      "passed": true
+    },
+    {
+      "check_id": "P6-C07",
+      "name": "no new classifier introduced in P5",
+      "passed": true
+    },
+    {
+      "check_id": "P6-C08",
+      "name": "paper draft handoff ready",
+      "passed": true
+    }
+  ],
+  "guardrails": [
+    "P6 is a verification gate, not a new theorem.",
+    "P6 does not make B1, B2, or B3 public/PAPP claim ready.",
+    "P6 does not authorize record-level payload promotion.",
+    "P6 preserves all P5 and L24 blocked wording."
+  ],
+  "metadata": {
+    "extension": "main",
+    "phase": "p6_final_verification_gate",
+    "project": "Endpoint-24 Affine-Defect Boundary Atlas"
+  },
+  "promotion_decision": {
+    "allowed_next_action": "Create the standalone .tex export from PAPER_FINAL_THEOREM_B1_B2_B3.md with Step5+/Step9+/Step6+/Step10+ included.",
+    "historical_p6_allowed_next_action": "Create docs/PAPER_DRAFT_B1_B2_B3.md from results/PAPER_B1_B2_B3_SPINE.md without widening claims.",
+    "paper_draft_handoff_ready": true,
+    "public_papp_widening_allowed": false,
+    "record_level_payload_allowed": false
+  },
+  "source_artifacts": [
+    "extensions/main/results/P5_unified_paper_spine.json",
+    "extensions/main/results/L24_claim_boundary_review.json",
+    "extensions/main/levels/L0_source_boundary/SOURCE_CROSSWALK.md",
+    "extensions/main/levels/P6_final_verification_gate/FINAL_GATE.md",
+    "extensions/main/docs/PAPER_DRAFT_B1_B2_B3.md",
+    "extensions/main/docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
+    "extensions/main/results/DELTA_STRATIFICATION.json",
+    "extensions/main/results/DIRECTION_LEMMA_CERTIFICATE.json",
+    "extensions/main/results/DEGREE_BOUND_CERTIFICATE.json",
+    "extensions/main/results/LEMMA_B_LINE_XOR_DERIVATION.json",
+    "extensions/main/results/DEFECT_DIM_DICHOTOMY.json",
+    "extensions/main/results/B3_BILINEAR_SUPPORT_ACTION.json",
+    "extensions/main/docs/STEP6_B3_BILINEAR_SUPPORT_ACTION.md",
+    "extensions/main/results/STEP9_ERROR_FIBER_PARITY_BRIDGE.json",
+    "extensions/main/docs/STEP9_ERROR_FIBER_PARITY_BRIDGE.md",
+    "extensions/main/results/STEP10_SYMBOLIC_SUPPORT_ACTION_NORMAL_FORMS.json",
+    "extensions/main/docs/STEP10_SYMBOLIC_SUPPORT_ACTION_NORMAL_FORMS.md",
+    "extensions/main/results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json",
+    "extensions/main/docs/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.md",
+    "extensions/main/results/STEP9PLUS_ERROR_FIBER_PARITY.json",
+    "extensions/main/docs/STEP9PLUS_ERROR_FIBER_PARITY.md",
+    "extensions/main/results/STEP6PLUS_DEFECT_MASK_CLASSES.json",
+    "extensions/main/docs/STEP6PLUS_DEFECT_MASK_CLASSES.md",
+    "extensions/main/results/STEP10PLUS_CLAUSE_FAMILIES.json",
+    "extensions/main/docs/STEP10PLUS_CLAUSE_FAMILIES.md"
+  ],
+  "summary": {
+    "all_test_paths_exist": true,
+    "blocked_claim_count": 6,
+    "checklist_count": 8,
+    "checklist_passed": true,
+    "extension_full_suite_pass_count": 251,
+    "extension_full_suite_passed": true,
+    "final_gate_passed": true,
+    "new_mathematical_classifier_introduced": false,
+    "next_task": "Create the standalone .tex export from PAPER_FINAL_THEOREM_B1_B2_B3.md with Step5+/Step9+/Step6+/Step10+ included.",
+    "original_project_target_gate_passed": true,
+    "original_project_target_pass_count": 35,
+    "p5_paper_spine_ready": true,
+    "p6_regression_test_expected_pass_count": 6,
+    "paper_draft_handoff_ready": true,
+    "papp_public_aggregate_gate_passed": true,
+    "papp_public_aggregate_pass_count": 20,
+    "post_p6_b3_bilinear_support_action_derived": true,
+    "post_p6_defect_dim_dichotomy_derived": true,
+    "post_p6_degree_bound_certified": true,
+    "post_p6_delta_stratification_certified": true,
+    "post_p6_direction_lemma_certified": true,
+    "post_p6_error_fiber_parity_bridge_certified": true,
+    "post_p6_extension_suite_command": "python -m pytest tests -q -p no:cacheprovider",
+    "post_p6_extension_suite_observed_result": "completed; current pass count belongs to the live regression run",
+    "post_p6_extension_suite_pass_count": 342,
+    "post_p6_extension_suite_passed": true,
+    "post_p6_extension_suite_warning_count": 1,
+    "post_p6_final_theorem_section_drafted": true,
+    "post_p6_latex_ready_final_theorem_extracted": true,
+    "post_p6_lemma_b_line_xor_derived": true,
+    "post_p6_open_residue": "The finite 15/49 support-action matrix is closed and the intrinsic/template structure is isolated; a complete abstract non-enumerative derivation of the 15/49 realization pattern remains open.",
+    "post_p6_paper_draft_exists": true,
+    "post_p6_public_claim_ready": false,
+    "post_p6_status": "STEP1_10PLUS_CONSISTENCY_CHECKPOINT",
+    "post_p6_step10plus_clause_families_certified": true,
+    "post_p6_step5plus_delta_dim_first_principles_proven": true,
+    "post_p6_step6plus_defect_mask_classes_certified": true,
+    "post_p6_step9plus_error_fiber_parity_certified": true,
+    "post_p6_steps_done": [
+      "Step1_paper_draft_defect_spine",
+      "Step2_delta_stratification",
+      "Step3_direction_lemma",
+      "Step3plus_degree_bound",
+      "Step4_lemma_b_line_xor_derivation",
+      "Step5_defect_dim_dichotomy",
+      "Step5plus_delta_dim_first_principles",
+      "Step6_b3_bilinear_support_action",
+      "Step6plus_defect_mask_classes",
+      "Step7_final_theorem_proof_section",
+      "Step8_latex_ready_final_theorem_extraction",
+      "Step9_error_fiber_parity_bridge",
+      "Step9plus_error_fiber_parity",
+      "Step10_symbolic_support_action_normal_forms",
+      "Step10plus_clause_families"
+    ],
+    "post_p6_symbolic_support_action_normal_forms_derived": true,
+    "public_claim_ready": false,
+    "public_or_papp_widening_allowed": false,
+    "recommended_status": "P6_FINAL_VERIFICATION_GATE_COMPLETE",
+    "record_level_payload_promotion_allowed": false,
+    "source_uses_p5_l24_l0_boundary_status_only": true,
+    "total_recorded_pass_count": 306,
+    "verification_group_count": 3,
+    "verification_groups_passed": true,
+    "warning_count_total": 3
+  },
+  "verification_groups": [
+    {
+      "command": "pytest extensions/main/tests -q -p no:cacheprovider",
+      "group_id": "P6-V01",
+      "name": "extension_full_suite",
+      "observed_result": "completed; pass count recorded separately",
+      "pass_count": 251,
+      "passed": true,
+      "path_count": 1,
+      "paths_exist": true,
+      "scope": "all extension-local tests after P5",
+      "warning_count": 1
+    },
+    {
+      "command": "pytest <project-root>/tests/test_affine_normal_layer.py <project-root>/tests/test_affine_normal_count_derivation.py <project-root>/tests/test_selected_plane_six_of_nine_o5d.py <project-root>/tests/test_torsor_parametrization_o5e_o5f.py <project-root>/tests/test_order4_f2_extension.py <project-root>/tests/test_inside_out_main_signature_split.py <project-root>/tests/test_order4_v4_subclass.py <project-root>/tests/test_order4_v4_quotient.py <project-root>/tests/test_order4_durer_cell.py <project-root>/tests/test_forbidden_shadow_split_p6.py <project-root>/tests/test_o5e_collision_forbidden_shadow_p5.py -q -p no:cacheprovider",
+      "group_id": "P6-V02",
+      "name": "original_project_target_gate",
+      "observed_result": "completed; pass count recorded separately",
+      "pass_count": 35,
+      "passed": true,
+      "path_count": 11,
+      "paths_exist": true,
+      "scope": "affine normal, six-of-nine, torsor, F2/V4/inside-out, forbidden-shadow tests",
+      "test_paths": [
+        "tests/test_affine_normal_layer.py",
+        "tests/test_affine_normal_count_derivation.py",
+        "tests/test_selected_plane_six_of_nine_o5d.py",
+        "tests/test_torsor_parametrization_o5e_o5f.py",
+        "tests/test_order4_f2_extension.py",
+        "tests/test_inside_out_main_signature_split.py",
+        "tests/test_order4_v4_subclass.py",
+        "tests/test_order4_v4_quotient.py",
+        "tests/test_order4_durer_cell.py",
+        "tests/test_forbidden_shadow_split_p6.py",
+        "tests/test_o5e_collision_forbidden_shadow_p5.py"
+      ],
+      "warning_count": 1
+    },
+    {
+      "command": "pytest tests/test_affine_defect_atlas_core.py tests/test_affine_defect_atlas_catalog.py tests/test_affine_defect_atlas_engine.py tests/test_m5_endpoint24_certificate_product_pack.py -q -p no:cacheprovider",
+      "group_id": "P6-V03",
+      "name": "papp_public_aggregate_gate",
+      "observed_result": "completed; pass count recorded separately",
+      "pass_count": 20,
+      "passed": true,
+      "path_count": 4,
+      "paths_exist": true,
+      "scope": "affine-defect atlas public aggregate and product-pack claim controls",
+      "test_paths": [
+        "tests/test_affine_defect_atlas_core.py",
+        "tests/test_affine_defect_atlas_catalog.py",
+        "tests/test_affine_defect_atlas_engine.py",
+        "tests/test_m5_endpoint24_certificate_product_pack.py"
+      ],
+      "warning_count": 1
+    }
+  ]
+}

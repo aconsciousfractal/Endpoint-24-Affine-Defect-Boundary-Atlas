@@ -1,0 +1,288 @@
+{
+  "guardrails": [
+    "Item8-D is a finite endpoint package for B2, not a complete conceptual B2 theorem.",
+    "Do not claim selected-mask affineness alone characterizes exact V4.",
+    "Do not claim public/PAPP readiness or record-level payload promotion."
+  ],
+  "metadata": {
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Item8D_b2_endpoint_boundary_package"
+  },
+  "orbit_payload_rows": [
+    {
+      "affine_defect": 4,
+      "affineness_state": "selected_value_affine=true|selected_mask_affine=true|cell_value_affine=false",
+      "b2_record_ids": [
+        "B2-R001",
+        "B2-R006",
+        "B2-R020",
+        "B2-R021"
+      ],
+      "canonicalized_component_ids": [
+        "B2-CRC01"
+      ],
+      "class_label": "selected_affine_extra32",
+      "endpoint_orbit_id": "E24-TK037",
+      "endpoint_orbit_size": 4,
+      "endpoint_record_ids": [
+        "L3-R001",
+        "L3-R040",
+        "L3-R166",
+        "L3-R170"
+      ],
+      "selected_value_key": "11,12,15,16",
+      "single_component_orbit": true
+    },
+    {
+      "affine_defect": 4,
+      "affineness_state": "selected_value_affine=true|selected_mask_affine=true|cell_value_affine=false",
+      "b2_record_ids": [
+        "B2-R002",
+        "B2-R005",
+        "B2-R029",
+        "B2-R032"
+      ],
+      "canonicalized_component_ids": [
+        "B2-CRC02"
+      ],
+      "class_label": "selected_affine_extra32",
+      "endpoint_orbit_id": "E24-TK038",
+      "endpoint_orbit_size": 4,
+      "endpoint_record_ids": [
+        "L3-R015",
+        "L3-R036",
+        "L3-R220",
+        "L3-R233"
+      ],
+      "selected_value_key": "11,12,15,16",
+      "single_component_orbit": true
+    },
+    {
+      "affine_defect": 4,
+      "affineness_state": "selected_value_affine=true|selected_mask_affine=true|cell_value_affine=false",
+      "b2_record_ids": [
+        "B2-R003",
+        "B2-R007",
+        "B2-R022",
+        "B2-R024"
+      ],
+      "canonicalized_component_ids": [
+        "B2-CRC03"
+      ],
+      "class_label": "selected_affine_extra32",
+      "endpoint_orbit_id": "E24-TK039",
+      "endpoint_orbit_size": 4,
+      "endpoint_record_ids": [
+        "L3-R020",
+        "L3-R052",
+        "L3-R174",
+        "L3-R181"
+      ],
+      "selected_value_key": "11,12,15,16",
+      "single_component_orbit": true
+    },
+    {
+      "affine_defect": 4,
+      "affineness_state": "selected_value_affine=true|selected_mask_affine=true|cell_value_affine=false",
+      "b2_record_ids": [
+        "B2-R004",
+        "B2-R008",
+        "B2-R023",
+        "B2-R025"
+      ],
+      "canonicalized_component_ids": [
+        "B2-CRC04"
+      ],
+      "class_label": "selected_affine_extra32",
+      "endpoint_orbit_id": "E24-TK040",
+      "endpoint_orbit_size": 4,
+      "endpoint_record_ids": [
+        "L3-R023",
+        "L3-R053",
+        "L3-R175",
+        "L3-R183"
+      ],
+      "selected_value_key": "11,12,15,16",
+      "single_component_orbit": true
+    },
+    {
+      "affine_defect": 4,
+      "affineness_state": "selected_value_affine=true|selected_mask_affine=true|cell_value_affine=false",
+      "b2_record_ids": [
+        "B2-R009",
+        "B2-R012",
+        "B2-R013",
+        "B2-R017"
+      ],
+      "canonicalized_component_ids": [
+        "B2-CRC05"
+      ],
+      "class_label": "selected_affine_extra32",
+      "endpoint_orbit_id": "E24-TK041",
+      "endpoint_orbit_size": 4,
+      "endpoint_record_ids": [
+        "L3-R066",
+        "L3-R109",
+        "L3-R119",
+        "L3-R147"
+      ],
+      "selected_value_key": "11,12,15,16",
+      "single_component_orbit": true
+    },
+    {
+      "affine_defect": 4,
+      "affineness_state": "selected_value_affine=true|selected_mask_affine=true|cell_value_affine=false",
+      "b2_record_ids": [
+        "B2-R010",
+        "B2-R011",
+        "B2-R014",
+        "B2-R016"
+      ],
+      "canonicalized_component_ids": [
+        "B2-CRC06"
+      ],
+      "class_label": "selected_affine_extra32",
+      "endpoint_orbit_id": "E24-TK042",
+      "endpoint_orbit_size": 4,
+      "endpoint_record_ids": [
+        "L3-R068",
+        "L3-R100",
+        "L3-R121",
+        "L3-R144"
+      ],
+      "selected_value_key": "11,12,15,16",
+      "single_component_orbit": true
+    },
+    {
+      "affine_defect": 4,
+      "affineness_state": "selected_value_affine=true|selected_mask_affine=true|cell_value_affine=false",
+      "b2_record_ids": [
+        "B2-R015",
+        "B2-R018",
+        "B2-R027",
+        "B2-R028"
+      ],
+      "canonicalized_component_ids": [
+        "B2-CRC07"
+      ],
+      "class_label": "selected_affine_extra32",
+      "endpoint_orbit_id": "E24-TK043",
+      "endpoint_orbit_size": 4,
+      "endpoint_record_ids": [
+        "L3-R122",
+        "L3-R149",
+        "L3-R202",
+        "L3-R208"
+      ],
+      "selected_value_key": "11,12,15,16",
+      "single_component_orbit": true
+    },
+    {
+      "affine_defect": 4,
+      "affineness_state": "selected_value_affine=true|selected_mask_affine=true|cell_value_affine=false",
+      "b2_record_ids": [
+        "B2-R019",
+        "B2-R026",
+        "B2-R030",
+        "B2-R031"
+      ],
+      "canonicalized_component_ids": [
+        "B2-CRC08"
+      ],
+      "class_label": "selected_affine_extra32",
+      "endpoint_orbit_id": "E24-TK044",
+      "endpoint_orbit_size": 4,
+      "endpoint_record_ids": [
+        "L3-R157",
+        "L3-R189",
+        "L3-R221",
+        "L3-R229"
+      ],
+      "selected_value_key": "11,12,15,16",
+      "single_component_orbit": true
+    }
+  ],
+  "proof_debt_rows": [
+    {
+      "current_source": "L8 finite endpoint quotient and P3 finite B2 package",
+      "debt": "prove_selected_affine_extra32_record_count_32_symbolically",
+      "status": "open"
+    },
+    {
+      "current_source": "P3 finite boundary theorem",
+      "debt": "complete_conceptual_B2_boundary_theorem",
+      "status": "open"
+    }
+  ],
+  "source_artifacts": [
+    "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
+    "extensions/main/results/L3_terminal24_boundary_atlas.json",
+    "extensions/main/results/B2_selected_affine_extra32_atlas.json",
+    "extensions/main/results/P3_B2_finite_boundary_theorem_draft.json",
+    "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
+  ],
+  "source_boundary": {
+    "construction_inputs": [
+      "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
+      "extensions/main/results/L3_terminal24_boundary_atlas.json",
+      "extensions/main/results/B2_selected_affine_extra32_atlas.json",
+      "extensions/main/results/P3_B2_finite_boundary_theorem_draft.json",
+      "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
+    ],
+    "public_papp_widening_used": false,
+    "symbolic_b2_count_proof_used": false,
+    "uses_global_freeness_item8a": true,
+    "uses_l8_endpoint_selector": true,
+    "uses_p3_b2_boundary_payload": true
+  },
+  "summary": {
+    "affine_defect_counts": {
+      "4": 8
+    },
+    "all_endpoint_orbits_size_four": true,
+    "b2_count_reduction": "8 = 32 / 4",
+    "b2_endpoint_selector_exact": true,
+    "b2_endpoint_selector_id": "selected_value_affine_and_cell_value_nonaffine",
+    "b2_endpoint_selector_orbit_count": 8,
+    "b2_endpoint_selector_record_count": 32,
+    "b2_orbit_count": 8,
+    "b2_record_count": 32,
+    "canonicalized_component_count": 8,
+    "canonicalized_component_size_distribution": {
+      "4": 8
+    },
+    "conceptual_b2_theorem_complete": false,
+    "endpoint_orbits_match_p3_components": true,
+    "forbidden_shadow_mass_distribution": {
+      "12": 16,
+      "16": 16
+    },
+    "next_task": "Update final theorem docs with Item8-A/B/C/D, then run the suite.",
+    "orbit_payload_row_count": 8,
+    "paper_package_ready": true,
+    "proof_debt_count": 2,
+    "proof_step_count": 5,
+    "public_claim_ready": false,
+    "quotient_order": 4,
+    "recommended_status": "ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE_READY",
+    "selected_value_keys": [
+      "11,12,15,16"
+    ],
+    "terminal_set_class_counts": {
+      "two_diagonal_pair": 16,
+      "v4_like_0213": 8,
+      "v4_like_1302": 8
+    },
+    "tex_export_ready": true,
+    "theorem_count": 1
+  },
+  "theorem": {
+    "latex_statement": "\\begin{theorem}[B2 endpoint boundary, paper-local finite form]\\label{thm:b2-endpoint-boundary}\nInside the certified endpoint-24 quotient by the verified free $T/K$ action, the B2 boundary is selected by affine selected values together with non-affine cell-value labelling.  Equivalently, the exact finite selector is \\texttt{selected\\_value\\_affine\\_and\\_cell\\_value\\_nonaffine}.  It selects 8 quotient orbits and 32 records, and these orbits match the eight P3 canonicalized selected-affine boundary components, each of size four.\n\\end{theorem}",
+    "name": "B2 endpoint boundary theorem, paper-local finite form",
+    "statement": "Inside endpoint 24, the exact B2 selector is selected_value_affine_and_cell_value_nonaffine. It selects 8 free T/K orbits and 32 records, and these orbits match the eight P3 canonicalized B2 boundary components of size four.",
+    "status": "tex_ready_paper_local_finite_theorem",
+    "theorem_id": "ITEM8D-T01",
+    "verified": true
+  }
+}

@@ -1,0 +1,3 @@
+# Python replay requirements for the paper package.
+# TeX requirements are external: pdfLaTeX and BibTeX, tested with MiKTeX.
+pytest

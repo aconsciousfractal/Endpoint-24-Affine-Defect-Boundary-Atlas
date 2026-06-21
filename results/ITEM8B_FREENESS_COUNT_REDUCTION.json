@@ -1,0 +1,77 @@
+{
+  "guardrails": [
+    "This reduces the orbit-count debt to a record-count debt; it does not solve the record count symbolically.",
+    "The equality 15=60/4 depends on the finite L7/Item8-A freeness certificate.",
+    "Do not claim a non-enumerative endpoint-24 quotient classification."
+  ],
+  "metadata": {
+    "extension": "main",
+    "project": "Endpoint-24 affine-defect atlas",
+    "step": "Item8B_freeness_count_reduction"
+  },
+  "proof_debt_rows": [
+    {
+      "current_source": "Item8-A global T/K freeness theorem",
+      "debt": "divide_b3_record_count_by_free_tk_orbit_order",
+      "status": "closed_finite"
+    },
+    {
+      "current_source": "L8 finite endpoint quotient and Item7-I finite selector",
+      "debt": "prove_selected_value_nonaffine_record_count_60_symbolically",
+      "status": "open"
+    },
+    {
+      "current_source": "L7/L8 finite quotient construction",
+      "debt": "derive_endpoint24_tk_quotient_without_finite_orbit_scan",
+      "status": "open"
+    }
+  ],
+  "reduction_statement": {
+    "statement": "Given the Item8-A free T/K action of order four, the finite B3 orbit count is a quotient of the B3 record count: 15 = 60/4.  Thus the remaining endpoint-count problem is the record-side count 60 for selected_value_nonaffine, not a separate orbit-count problem.",
+    "statement_id": "ITEM8B-R01",
+    "verified": true
+  },
+  "source_artifacts": [
+    "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+    "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
+    "extensions/main/results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json"
+  ],
+  "source_boundary": {
+    "construction_inputs": [
+      "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+      "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
+      "extensions/main/results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json"
+    ],
+    "public_papp_widening_used": false,
+    "symbolic_record_count_proof_used": false,
+    "uses_freeness_theorem_item8a": true,
+    "uses_item7i_transport_bridge": true,
+    "uses_l8_selector_count": true
+  },
+  "summary": {
+    "b3_count_reduction": "15 = 60 / 4",
+    "b3_orbit_count_derived_from_records": 15,
+    "b3_orbit_count_observed": 15,
+    "b3_record_count": 60,
+    "b3_selector_id": "selected_value_nonaffine",
+    "count_reduction_certified": true,
+    "debt_reframed_to_record_count": true,
+    "endpoint24_orbit_count": 59,
+    "endpoint24_record_count": 236,
+    "exact_division": true,
+    "next_task": "Item8-C: test whether the B3 selector can be decoupled from orbit count at record/two-invariant level.",
+    "public_claim_ready": false,
+    "quotient_is_v4": true,
+    "quotient_order": 4,
+    "recommended_status": "ITEM8B_FREENESS_COUNT_REDUCTION_CERTIFIED",
+    "remaining_hard_debt": "prove selected_value_nonaffine endpoint-24 record count = 60 symbolically",
+    "selector_exact": true,
+    "selector_false_negative_orbits": 0,
+    "selector_false_positive_orbits": 0,
+    "selector_partial_orbits": 0,
+    "symbolic_b3_orbit_count_independent_debt_remaining": false,
+    "symbolic_b3_record_count_proof_complete": false,
+    "transport_atom_count": 15,
+    "transport_atoms_match_selector_orbits": true
+  }
+}

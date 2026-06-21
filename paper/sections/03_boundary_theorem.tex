@@ -1,0 +1,230 @@
+\section{Algebraic Spine and Boundary Theorem}
+\label{sec:theorem}
+
+The theorem below states the paper-local boundary result in public notation.
+Each finite assertion is tied to a source artifact in
+\(\texttt{paper/SOURCE\_MAP.md}\); the proof uses those artifacts as certified
+finite inputs rather than as hidden mathematical assumptions.
+
+\begin{certprop}[Line-xor and degree-bound certificate]
+\label{cert:line-xor-degree}
+In value-minus-one labels, every row and every column of each certified normal
+order-four magic square has xor zero.  This is the local Nimm0/Lemma B input.
+The manuscript treats the Step4 finite derivation as the proof source; the
+classical order-four literature supplies context rather than an unverified
+quoted theorem~\cite{ollerenshawBondi,wardMagicVectorSpaces}.  With the
+row/column line-xor input, the degree-bound argument gives
+\[
+  \deg L\le 2.
+\]
+\end{certprop}
+
+\begin{proof}
+Write each output bit of \(L(r_1,r_0,c_1,c_0)\) in algebraic normal form over
+\(\F_2\).  For a monomial \(r^{S_r}c^{S_c}\), xoring over a fixed row leaves it
+alive exactly when \(S_c=\{c_1,c_0\}\).  Hence the condition that every row xors
+to zero kills precisely the monomials divisible by \(c_1c_0\).  Similarly,
+column-xor zero kills precisely the monomials divisible by \(r_1r_0\).  Every
+degree-three or degree-four monomial in the four variables is divisible by one
+of these two pairs, so no monomial of degree at least three remains.  The
+row/column line-xor premise itself is the Step4 finite row-pair derivation from
+the full row, column, and diagonal magic constraints.
+\end{proof}
+
+\begin{lemma}[Quadratic error form]
+\label{lem:quadratic-error-form}
+Let \(A\) be the affine interpolation of \(L\) on
+\(\{0,e_1,e_2,e_3,e_4\}\), and set \(E=L+A\).  For the certified normal
+magic-square records, the pure row-pair and pure column-pair quadratic
+coefficients vanish.  Hence the error has bilinear form
+\[
+  E(r,c)=B_{11}r_1c_1+B_{10}r_1c_0+B_{01}r_0c_1+B_{00}r_0c_0.
+\]
+\end{lemma}
+
+\begin{proof}
+The affine interpolation \(A\) absorbs the constant and linear parts of \(L\).
+By Proposition~\ref{cert:line-xor-degree}, no terms of degree at least three
+occur.  The row-xor condition kills the pure column-pair term \(c_1c_0\), while
+the column-xor condition kills the pure row-pair term \(r_1r_0\).  The only
+quadratic terms left are the four mixed row/column monomials displayed above.
+\end{proof}
+
+\begin{theorem}[Defect dichotomy / Lemma C]
+\label{thm:defect-dichotomy}
+For the degree-at-most-two bijections of \(\F_2^4\) covered by the certificate,
+the bilinear coefficient matrix has the certified one-dependent-side property.
+Consequently the error-direction span \(\Derr\) has dimension at most two and
+\[
+  (\delta,\dim\Derr)\in\{(0,0),(4,1),(6,2)\}.
+\]
+This is the first-principles structural part of the affine-defect spine.
+\end{theorem}
+
+\begin{proof}
+Let \(M=(B_{ij})\) be the \(2\times2\) matrix of mixed bilinear coefficients.
+The property that a bilinear matrix is completable to a degree-at-most-two
+bijection \(x\mapsto A_0x+E(x)\), and the property that one side of \(M\) is
+dependent, are invariant under the codomain action of \(GL(4,2)\).  The
+Step5+ check therefore reduces the obstruction to a symmetry-complete finite
+set: all \(4096\) matrices with entries in a fixed three-dimensional subspace,
+plus one representative for the four-dimensional span case.  In that reduced
+universe every completable matrix has one dependent side, and the
+four-dimensional representative is not completable.  Thus a quadratic
+bijection has \(\dim\Derr\le2\) and a dependent side.
+
+With one dependent side, \(E\) factors as a nonzero scalar linear form on one
+\(\F_2^2\) coordinate side times a vector-valued linear map on the other side.
+If \(d=\dim\Derr\), the scalar form is nonzero on two points and the vector map
+is nonzero on \(4-2^{2-d}\) points.  Hence
+\[
+  \delta=2(4-2^{2-d}),
+\]
+which gives exactly \((0,0),(4,1),(6,2)\).
+\end{proof}
+
+\begin{lemma}[Error-fiber parity bridge]
+\label{lem:error-fiber-parity}
+Let \(M\) be the selected mask.  If \(\delta=4\), then
+\(\Derr=\{0,u\}\) and \(E=u\) on a four-cell support \(\Sigma\), so
+\[
+  \bigoplus_{c\in M} L(c)=u\cdot(|M\cap\Sigma|\bmod 2).
+\]
+If \(\delta=6\), the three nonzero fibers
+\(\Sigma_u,\Sigma_v,\Sigma_{u+v}\) contribute
+\[
+  \bigoplus_{c\in M}L(c)=
+  (|M\cap\Sigma_u|\bmod2)u+
+  (|M\cap\Sigma_v|\bmod2)v+
+  (|M\cap\Sigma_{u+v}|\bmod2)(u+v).
+\]
+Thus selected-label affineness is controlled by error-fiber parity.
+\end{lemma}
+
+\begin{proof}
+The selected masks in this endpoint atlas are affine planes in the cell space,
+so the affine part cancels:
+\[
+  \bigoplus_{c\in M}A(c)=0.
+\]
+Thus \(\bigoplus_{c\in M}L(c)=\bigoplus_{c\in M}E(c)\).  The factorization in
+Theorem~\ref{thm:defect-dichotomy} gives the fiber shapes: for \(\delta=4\) a
+single nonzero error value \(u\) occurs on a four-cell support, and for
+\(\delta=6\) the three nonzero values \(u,v,u+v\) occur on three two-cell
+fibers.  Grouping the xor of \(E\) over \(M\) by these fibers gives exactly the
+two displayed parity formulas.
+\end{proof}
+
+\begin{certprop}[Free \(\TK\)-transport]
+\label{cert:tk-transport}
+The finite transport certificate proves a free global \(\TK\cong V_4\) action on
+the certified atlas.  It preserves endpoint, class, defect, and selected
+signature.  Therefore endpoint \(24\) has \(236=59\cdot4\), with quotient split
+\[
+  59=36+8+15.
+\]
+\end{certprop}
+
+\begin{certprop}[B2 selected-affine boundary]
+\label{cert:b2-boundary}
+Inside endpoint \(24\), B2 is the selected-affine, cell-value-non-affine
+boundary.  It has \(32\) records and \(8\) free \(\TK\)-orbits.  In the
+\(\delta=4\) fiber picture it is the even side of the constant-error support
+parity:
+\[
+  |M\cap\Sigma|\equiv0\pmod2.
+\]
+The endpoint package verifies this selected-affine, cell-value-non-affine
+finite selector and closes the \(32/8\) count inside the saved endpoint atlas.
+This is a structural parity selector plus a finite endpoint package, not a
+complete conceptual B2 classification theorem.
+\end{certprop}
+
+\begin{certprop}[B3 support-action matrix]
+\label{cert:b3-support-action}
+Inside endpoint \(24\), B3 is the selected-non-affine boundary.  It has
+\(60\) records and \(15\) free \(\TK\)-orbits.  The support-action matrix has
+eight non-affine selected signatures against eight support-action profiles,
+hence \(64\) candidate cells.  The finite bilinear transport package verifies
+exactly \(15\) realized cells and \(49\) absent cells, with no false positives
+or false negatives.  The intrinsic column-classification certificate refines
+the column side: all eight profile columns are intrinsic to the selected
+signature and the bilinear error matrix \(M\), through \(\delta\), the zero
+pattern of \(M\), and \(\Derr=\operatorname{span}(M)\).  The defect-6
+realizability-obstruction certificate identifies the remaining realization side
+as an integer-magic residue: at defect \(6\), the order-four magic-square
+constraints realize \(13\) of the \(35\) two-dimensional error spaces, although
+all \(35\) are \(\F_2\)-completable and the realized \(13\)-set has trivial
+\(GL(4,2)\) stabilizer.  Thus the column classification is intrinsic, while
+the \(15/49\) realization cut remains a finite arithmetic certificate.  The
+NF1/NF2/NF3 templates are structural clause shapes; the thirteen profile-level
+instances are finite-certified.
+\end{certprop}
+
+\begin{certprop}[B3 count collapse]
+\label{cert:b3-count-collapse}
+The quotient count \(15\) is not an independent count once freeness is known:
+\[
+  15=60/4.
+\]
+The finite residual is the row-degree pattern
+\[
+  1,1,1,2,2,1,4,3
+\]
+and the endpoint quotient kernel
+\[
+  \delta=0,4,6\mapsto36,16,7.
+\]
+This is a finite debt reduction, not a symbolic proof of the count \(60\).  A
+non-enumerative derivation of that count remains outside the claim.
+\end{certprop}
+
+\begin{certprop}[B1 scoped affine-plane absence]
+\label{cert:b1-absence}
+B1 is the scoped endpoint \(23/27\) absence statement for the affine
+selected-plane layer.  In that layer every selected four-set has selected-label
+xor zero.  The endpoint \(23/27\) signatures under discussion have nonzero
+selected-label xor, and therefore cannot occur in the affine selected-plane
+layer.  This is not a full endpoint \(23/27\) classification.
+\end{certprop}
+
+\begin{theorem}[Affine-defect boundary atlas, paper-local form]
+\label{thm:b123-affine-defect-boundary}
+Inside the certified endpoint-24 order-four magic-square atlas, consider square-mask pairs in
+the bounded one-incidence model.  Quotient statements are taken modulo the
+verified \(D_4\) essential representatives and the verified free \(\TK\)
+action.  Then:
+\begin{enumerate}[leftmargin=*]
+\item endpoint \(24\) has \(236\) records and \(59\) free \(\TK\)-orbits;
+\item the affine defect satisfies \(\delta\in\{0,4,6\}\), with record split
+  \(144/64/28\);
+\item the exact affine core has \(144\) records and \(36\) \(\TK\)-orbits;
+\item B2 has \(32\) records and \(8\) \(\TK\)-orbits;
+\item B3 has \(60\) records and \(15\) \(\TK\)-orbits.  Its support-action
+  matrix has \(64\) candidate cells, exactly \(15\) realized cells, and
+  exactly \(49\) absent cells;
+\item B1 is the scoped endpoint \(23/27\) absence statement from the affine
+  selected-plane layer, not a full endpoint \(23/27\) classification.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+Proposition~\ref{cert:line-xor-degree} gives \(\deg L\le2\) from row/column
+line xor zero, and Lemma~\ref{lem:quadratic-error-form} writes \(E=L+A\) as a
+bilinear error on row/column coordinates.  Theorem~\ref{thm:defect-dichotomy}
+gives \(\delta\in\{0,4,6\}\) with
+\((\delta,\dim\Derr)=(0,0),(4,1),(6,2)\), and the error-fiber parity bridge
+identifies the selected-label xor from the selected mask's intersections with
+the error fibers.
+
+The free \(\TK\)-transport proposition gives \(236=59\cdot4\) on endpoint
+\(24\).  The exact affine core is the selected-affine, \(\delta=0\) cell and
+has \(144\) records, hence \(36\) free \(\TK\)-orbits.  The B2 proposition gives
+the selected-affine boundary as \(32\) records and \(8\) orbits.  The B3
+support-action proposition gives the selected-non-affine boundary as \(60\)
+records and \(15\) orbits, with the \(15/49\) support-action matrix.  The
+count-collapse proposition records the sharper finite residual without turning
+it into a symbolic count proof.  Finally, the B1 proposition gives the scoped
+endpoint \(23/27\) absence from the affine selected-plane layer.  These blocks
+are exactly the assertions of the theorem.
+\end{proof}

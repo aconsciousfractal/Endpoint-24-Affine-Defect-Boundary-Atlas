@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# LaTeX auxiliaries
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+
+# Local/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Public checks may rewrite this report.
+results/public_staging_check.json
