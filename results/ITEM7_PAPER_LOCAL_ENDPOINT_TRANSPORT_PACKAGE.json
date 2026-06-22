@@ -125,14 +125,14 @@
     {
       "definition_id": "ITEM7-J-D04",
       "name": "paper_local_endpoint_transport_theorem",
-      "text": "A paper-local endpoint transport theorem may state the finite selector and payload inside the certified Endpoint-24 affine-defect atlas extension atlas, without claiming a symbolic endpoint classification or public/PAPP widening."
+      "text": "A paper-local endpoint transport theorem may state the finite selector and payload inside the certified Endpoint-24 affine-defect atlas extension atlas, without claiming a symbolic endpoint classification or public record-level widening."
     }
   ],
   "guardrails": [
     "Item7-J is paper-local finite packaging, not new symbolic mathematics.",
     "Do not claim the selected_value_nonaffine orbit count is derived non-enumeratively.",
     "Do not claim a non-enumerative endpoint-24 T/K quotient classification.",
-    "Do not claim public/PAPP readiness or full non-affine endpoint-24 classification."
+    "Do not claim public-release readiness or full non-affine endpoint-24 classification."
   ],
   "lemmas": [
     {
@@ -243,17 +243,17 @@
     }
   ],
   "source_artifacts": [
-    "extensions/main/results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json",
-    "extensions/main/results/ITEM7_TRANSPORT_ATOM_LOWER_GEOMETRY.json",
-    "extensions/main/docs/PAPER_FINAL_THEOREM_B1_B2_B3.md"
+    "development provenance not shipped: results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json",
+    "development provenance not shipped: results/ITEM7_TRANSPORT_ATOM_LOWER_GEOMETRY.json",
+    "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md"
   ],
   "source_boundary": {
     "construction_inputs": [
-      "extensions/main/results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json",
-      "extensions/main/results/ITEM7_TRANSPORT_ATOM_LOWER_GEOMETRY.json"
+      "development provenance not shipped: results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json",
+      "development provenance not shipped: results/ITEM7_TRANSPORT_ATOM_LOWER_GEOMETRY.json"
     ],
-    "paper_text_input": "extensions/main/docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
-    "public_papp_widening_used": false,
+    "paper_text_input": "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
+    "public_record_widening_used": false,
     "symbolic_endpoint_count_proof_used": false,
     "uses_item7h_as_transport_payload_source": true,
     "uses_item7i_as_endpoint_selector_source": true
@@ -305,7 +305,7 @@
     "Include theorem thm:b3-endpoint-transport from Item7-J.",
     "Include Item7-I and Item7-J in the certificate/source table.",
     "Keep the Nimm0 attribution caveat unless the bibliographic source is verified.",
-    "Keep public/PAPP, universal, full-classification, and symbolic endpoint-count claims out."
+    "Keep public record-level scope, universal, full-classification, and symbolic endpoint-count claims out."
   ],
   "theorem": {
     "latex_statement": "\\begin{theorem}[B3 endpoint transport, paper-local finite form]\\label{thm:b3-endpoint-transport}\nInside the certified endpoint-24 quotient by the verified free $T/K$ action, an endpoint orbit is a B3 support-action carrier if and only if its selected value set is non-affine over $\\mathbb F_2^4$.  Equivalently, the exact B3 endpoint selector is \\texttt{selected\\_value\\_nonaffine}.  It selects 15 quotient orbits and 60 records, and these 15 orbits are precisely the Item7-H lower-geometry transport atoms with support-action labels \\texttt{STEP6-SA01},\\ldots,\\texttt{STEP6-SA15}.\n\\end{theorem}",
@@ -314,7 +314,7 @@
       "a symbolic proof that selected_value_nonaffine must have exactly 15 T/K orbits",
       "a non-enumerative derivation of the endpoint-24 T/K quotient",
       "a non-enumerative attachment of the support/error payload",
-      "a public/PAPP theorem",
+      "a public theorem",
       "a full non-affine endpoint-24 classification"
     ],
     "statement": "Inside the certified Endpoint-24 affine-defect atlas endpoint-24 T/K quotient, an endpoint orbit is a B3 support-action carrier if and only if its selected values are non-affine. Equivalently, the exact endpoint selector is selected_value_nonaffine.  The selector has exactly 15 orbits and 60 records.  These 15 orbits are in canonical bijection with the Item7-H lower-geometry transport atoms, carrying the 15 support-action payloads STEP6-SA01 through STEP6-SA15.",

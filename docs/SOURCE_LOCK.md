@@ -42,7 +42,7 @@ These must stay out of the public package unless the export policy is deliberate
 - `data/order4_normal_essential_880.json`
 - `results/L[0-9]*.json` and `results/L[0-9]*.md`
 - record-level support/action payload rows inside large JSON artifacts
-- `results/B3_BILINEAR_SUPPORT_ACTION.json`
+- private B3 record-level support-action source (not shipped)
 - local LaTeX auxiliaries `*.aux`, `*.bbl`, `*.blg`, `*.log`, `*.out`
 
 ## Enforcement

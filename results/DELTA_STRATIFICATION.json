@@ -1,9 +1,9 @@
 {
   "guardrails": [
     "delta is recomputed from the raw squares; the saved L3 labels are used only as a cross-check oracle.",
-    "This certifies an intrinsic two-invariant classifier of endpoint 24, not a public/PAPP theorem or a full non-affine classification.",
+    "This certifies an intrinsic two-invariant classifier of endpoint 24, not a public theorem or a full non-affine classification.",
     "The freeness of T/K is an orbit-stabilizer corollary of the L7 size-four orbit certificate, not a new group-action derivation.",
-    "Do not promote to public/PAPP wording; the P6/L24 boundary holds."
+    "Do not promote to public-release wording; the P6/L24 boundary holds."
   ],
   "metadata": {
     "description": "Standalone recomputation of the affine defect delta and the (selected-affine, delta) two-invariant classifier of endpoint 24.",
@@ -4971,8 +4971,8 @@
   ],
   "source_artifacts": [
     "data/order4_normal_essential_880.json",
-    "extensions/main/results/L3_terminal24_boundary_atlas.json",
-    "extensions/main/results/L7_global_t_action.json"
+    "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
+    "development provenance not shipped: results/L7_global_t_action.json"
   ],
   "summary": {
     "all_certified": true,

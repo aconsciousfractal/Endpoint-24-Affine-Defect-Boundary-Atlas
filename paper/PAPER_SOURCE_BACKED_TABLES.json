@@ -795,7 +795,7 @@
     }
   ],
   "sources": {
-    "b3": "results/B3_BILINEAR_SUPPORT_ACTION.json",
+    "b3": "paper/PAPER_SOURCE_BACKED_TABLES.json",
     "delta": "results/DELTA_STRATIFICATION.json",
     "item10": "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json",
     "item11": "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json",

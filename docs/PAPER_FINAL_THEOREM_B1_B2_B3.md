@@ -1,37 +1,14 @@
 # Paper Final Theorem B1/B2/B3
 
-Status: LaTeX-ready paper-local extraction from `docs/PAPER_DRAFT_B1_B2_B3.md`, section 10.
+Status: Public appendix theorem/proof seed. It records the paper-local finite theorem and is bundled for reviewer audit; it is not the source of truth for public replay scope.
 
-Source spine:
+Public source note:
 
-- `docs/PAPER_DRAFT_B1_B2_B3.md`
-- `docs/STEP6_B3_BILINEAR_SUPPORT_ACTION.md`
-- `results/B3_BILINEAR_SUPPORT_ACTION.json`
-- `results/STEP9_ERROR_FIBER_PARITY_BRIDGE.json`
-- `results/STEP10_SYMBOLIC_SUPPORT_ACTION_NORMAL_FORMS.json`
-- `results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json`
-- `results/STEP9PLUS_ERROR_FIBER_PARITY.json`
-- `results/STEP6PLUS_DEFECT_MASK_CLASSES.json`
-- `results/STEP10PLUS_CLAUSE_FAMILIES.json`
-- `results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json`
-- `results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json`
-- `docs/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.md`
-- `results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json`
-- `results/ITEM8B_FREENESS_COUNT_REDUCTION.json`
-- `results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json`
-- `results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json`
-- `docs/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.md`
-- `docs/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.md`
-- `results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json`
-- `docs/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.md`
-- `results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json`
-- `docs/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.md`
-- `results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json`
-- `docs/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.md`
-- `docs/B3_15_49_POST_ITEM11_STATUS.md`
-- `results/P6_final_verification_gate.json`
+- The public source map is `docs/SOURCE_MAP.md` / `paper/SOURCE_MAP.md`.
+- Private draft docs and record-level support-action payloads are not shipped.
+- The public B3 matrix is the sanitized summary in `paper/PAPER_SOURCE_BACKED_TABLES.json`.
 
-Claim boundary: paper-local finite theorem only.  No public/PAPP widening, no
+Claim boundary: paper-local finite theorem only.  No public record-level widening, no
 universal Endpoint-24 affine-defect atlas claim, no record-level payload promotion, no full endpoint
 23/27 classification, no complete B2 conceptual theorem, no full B3 non-affine
 classification, and no non-enumerative first-principles proof of the B3
@@ -251,39 +228,34 @@ zero xor.  This proves the stated paper-local finite theorem.
 \end{proof}
 ```
 
-## Certificate Table
+## Public Certificate Table
 
-| Claim block | Certificate | Test |
+This public appendix lists only artifacts shipped in this repository. Private draft docs, record-level payloads, and development-only tests are intentionally not public replay dependencies.
+
+| Claim block | Public artifact | Public verification |
 |---|---|---|
-| Endpoint-24 delta split and two-invariant table | `results/DELTA_STRATIFICATION.json` | `tests/test_delta_stratification.py` |
-| Direction lemma | `results/DIRECTION_LEMMA_CERTIFICATE.json` | `tests/test_direction_lemma_certificate.py` |
-| Degree bound | `results/DEGREE_BOUND_CERTIFICATE.json` | `tests/test_degree_bound_certificate.py` |
-| Lemma B line-xor derivation | `results/LEMMA_B_LINE_XOR_DERIVATION.json` | `tests/test_lemma_b_line_xor_derivation.py` |
-| Defect/dimD dichotomy | `results/DEFECT_DIM_DICHOTOMY.json` | `tests/test_defect_dim_dichotomy.py` |
-| Atlas-independent Lemma C / dichotomy upgrade | `results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json` | `tests/test_step5plus_delta_dim_first_principles.py` |
-| B3 15/49 support-action matrix | `results/B3_BILINEAR_SUPPORT_ACTION.json` | `tests/test_b3_bilinear_support_action.py` |
-| Error-fiber parity bridge | `results/STEP9_ERROR_FIBER_PARITY_BRIDGE.json` | `tests/test_step9_error_fiber_parity_bridge.py` |
-| First-principles error-fiber parity upgrade | `results/STEP9PLUS_ERROR_FIBER_PARITY.json` | `tests/test_step9plus_error_fiber_parity.py` |
-| Symbolic support-action normal forms | `results/STEP10_SYMBOLIC_SUPPORT_ACTION_NORMAL_FORMS.json` | `tests/test_step10_symbolic_support_action_normal_forms.py` |
-| B3 defect-mask intrinsic/residue split | `results/STEP6PLUS_DEFECT_MASK_CLASSES.json` | `tests/test_step6plus_defect_mask_classes.py` |
-| B3 clause-template families | `results/STEP10PLUS_CLAUSE_FAMILIES.json` | `tests/test_step10plus_clause_families.py` |
-| B3 endpoint transport selector bridge | `results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json` | `tests/test_item7_endpoint_transport_selector_bridge.py` |
-| B3 paper-local endpoint transport package | `results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json` | `tests/test_item7_paper_local_endpoint_transport_package.py` |
-| Global T/K freeness theorem | `results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json` | `tests/test_item8_pre_tex_upgrades.py` |
-| B3 freeness count reduction | `results/ITEM8B_FREENESS_COUNT_REDUCTION.json` | `tests/test_item8_pre_tex_upgrades.py` |
-| B3 selector decoupling probe | `results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json` | `tests/test_item8_pre_tex_upgrades.py` |
-| B2 endpoint boundary package | `results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json` | `tests/test_item8_pre_tex_upgrades.py` |
-| Count-60 collapse/kernel geometry | `results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json` | `tests/test_item9_count60_collapse_kernel_geometry.py` |
-| Intrinsic B3 column classification | `results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json` | `tests/test_item10_intrinsic_column_classification.py` |
-| Defect-6 realizability obstruction | `results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json` | `tests/test_item11_delta6_realizability_obstruction.py` |
-| Post-Item11 B3 status note | `docs/B3_15_49_POST_ITEM11_STATUS.md` | `tests/test_b3_15_49_post_item11_documentation.py` |
-| Final theorem wording | `docs/PAPER_DRAFT_B1_B2_B3.md` | `tests/test_paper_draft_final_theorem.py` |
-| Claim boundary and verification gate | `results/P6_final_verification_gate.json` | `tests/test_p6_final_verification_gate.py` |
+| Endpoint-24 delta split and two-invariant table | `results/DELTA_STRATIFICATION.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| Direction lemma | `results/DIRECTION_LEMMA_CERTIFICATE.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| Degree bound | `results/DEGREE_BOUND_CERTIFICATE.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| Lemma B line-xor derivation | `results/LEMMA_B_LINE_XOR_DERIVATION.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| Atlas-independent defect/dimD dichotomy | `results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| Error-fiber parity bridge | `results/STEP9PLUS_ERROR_FIBER_PARITY.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| B3 public support-action matrix summary | `paper/PAPER_SOURCE_BACKED_TABLES.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| B3 defect-mask intrinsic/residue split | `results/STEP6PLUS_DEFECT_MASK_CLASSES.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| B3 clause-template families | `results/STEP10PLUS_CLAUSE_FAMILIES.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| B3 paper-local endpoint transport package | `results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| Global T/K freeness theorem | `results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| B3 freeness count reduction | `results/ITEM8B_FREENESS_COUNT_REDUCTION.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| B2 endpoint boundary package | `results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| Count-60 collapse/kernel geometry | `results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| Intrinsic B3 column classification | `results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| Defect-6 realizability obstruction | `results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| Claim boundary and verification gate | `results/P6_final_verification_gate.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
 
 ## Guardrails
 
 - The theorem is finite and paper-local to the certified extension atlas.
-- The statement is not a public/PAPP claim and does not authorize record-level
+- The statement is not a public release claim and does not authorize record-level
   payload promotion.
 - B1 is scoped to absence from the affine selected-plane layer; it is not a full
   endpoint-23/27 classification.
@@ -300,4 +272,4 @@ zero xor.  This proves the stated paper-local finite theorem.
   irreducibly integer-magic: `13/35` realized two-flats, all `35` F2-completable,
   and no nontrivial `GL(4,2)` stabilizer.
 
-Next task: Update the TeX draft Section 6/7 and certificate table from this extraction, adding Item10 and Item11 without promoting them to a non-enumerative 15/49 proof.
+Release note: this appendix is reviewer support for the public paper. The main manuscript already integrates the Item10/Item11 summaries without promoting them to a non-enumerative 15/49 proof.

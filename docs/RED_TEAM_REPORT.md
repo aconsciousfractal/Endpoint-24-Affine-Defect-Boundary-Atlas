@@ -1,8 +1,8 @@
-# PAPP Red-Team Report
+# Public Release Red-Team Report
 
 Date: 2026-06-22
 Scope: Endpoint-24 Affine-Defect Boundary Atlas public companion repository and paper.
-Standard: PAPP-style checks for claim boundary, source scope, reproducibility,
+Standard: release-audit checks for claim boundary, source scope, reproducibility,
 metadata, old-branding hygiene, artifact leakage, TeX/PDF rebuildability, and
 release-state consistency.
 Reviewers: delegated read-only repo red-team and delegated read-only paper red-team, followed by local closure pass.
@@ -25,6 +25,9 @@ run the public checks from the pushed checkout before tagging a release.
 | RT-5 | medium | Introduction used stale release-draft wording. | Closed: introduction now states the paper directly as a focused companion. |
 | RT-6 | low | `results/public_staging_check.json` can be generated as ignored local residue. | Accepted: public checks are read-only by default; `run_all_reproducibility_checks.py` writes this ignored report only on demand. |
 | RT-7 | low | Underfull hbox warnings remain in the generated table. | Accepted: no overfull boxes, no unresolved citations, no unresolved references; table content is correct. |
+| RT-8 | high | Internal methodology acronym leaked into public docs and the compiled PDF. | Closed: public-facing wording now uses public/release/package terminology; PDF text scan is clean. |
+| RT-9 | high | Shipped provenance metadata contained private development-workspace paths and absent private source filenames. | Closed: public source maps point to shipped artifacts or explicitly mark private provenance as not shipped. |
+| RT-10 | medium | Package checker did not scan JSON and did not block internal acronym/path leaks. | Closed: checker and tests now scan JSON and forbid old branding, internal acronym keys, and private workspace paths. |
 
 ## Final Local Checks
 

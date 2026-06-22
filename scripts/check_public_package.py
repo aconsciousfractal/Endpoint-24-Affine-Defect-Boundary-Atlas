@@ -1,9 +1,9 @@
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from pathlib import Path
-import argparse
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -59,9 +59,12 @@ FORBIDDEN_TEXT_PATTERNS = [
     "pending" + "-public-release",
     "NO" + "ASSERTION",
     "example" + ".invalid",
+    "P" + "APP",
+    "papp" + "_",
+    "extensions" + "/main",
 ]
 
-TEXT_EXTENSIONS = {".md", ".tex", ".py", ".cff", ".bib", ".yml", ".yaml", ".txt"}
+TEXT_EXTENSIONS = {".json", ".md", ".tex", ".py", ".cff", ".bib", ".yml", ".yaml", ".txt"}
 
 
 def rel(path: Path) -> str:

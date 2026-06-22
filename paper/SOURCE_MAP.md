@@ -10,7 +10,7 @@ Scope values:
   paper-facing certificate.
 - `appendix-only`: usable as supplementary certificate material, but keep it
   out of the main public narrative unless a reviewer asks for the finite rows.
-- `development-only`: keep local to `extensions/main`; cite only a derived
+- `development-only`: retained outside this public package; cite only a derived
   public summary.
 
 | Paper block | Source artifact | Role | Public wording | Scope |
@@ -30,7 +30,7 @@ Scope values:
 | B3 endpoint transport | `results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json` | carrier orbits and payload | paper-local finite theorem | appendix-only |
 | Global `T/K` freeness | `results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json` | free quotient | finite theorem | public-export |
 | B3 count reduction | `results/ITEM8B_FREENESS_COUNT_REDUCTION.json` | `15=60/4` | certified proposition | public-export |
-| B3 selector probe | `results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json` | finite selector probe with record-level fields | finite selector | development-only |
+| B3 selector probe | private selector-decoupling probe (not shipped) | finite selector probe with record-level fields | finite selector | development-only |
 | B2 endpoint package | `results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json` | B2 `32/8` package | finite theorem | public-export |
 | Count-60 collapse | `results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json` | kernel and row-degree reduction | finite certified debt reduction | public-export |
 | Intrinsic B3 column classification | `results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json` | appendix support for the public B3 summary in `paper/PAPER_SOURCE_BACKED_TABLES.json` | certified column refinement | appendix-only |
@@ -48,7 +48,7 @@ paper-safe derived summaries unless the export policy is deliberately widened.
 | `data/order4_normal_essential_880.json` | raw essential-square universe; not cited directly by the manuscript |
 | `results/L[0-9]*.json` and `results/L[0-9]*.md` | exploratory/intermediate levels superseded by the named paper-facing certificates |
 | record-level support/action payload rows inside large JSON artifacts | useful for audit, not needed for main public claims |
-| `results/B3_BILINEAR_SUPPORT_ACTION.json` | large support-action source with record-level rows; public paper uses `paper/PAPER_SOURCE_BACKED_TABLES.json` summary |
+| private B3 record-level support-action source (not shipped) | large support-action source with record-level rows; public paper uses `paper/PAPER_SOURCE_BACKED_TABLES.json` summary |
 | local LaTeX auxiliaries `*.aux`, `*.bbl`, `*.blg`, `*.log`, `*.out` | build outputs, not source |
 
 ## Public Export Rule
@@ -57,7 +57,6 @@ The public package should contain only artifacts needed to replay the
 paper-facing claims: TeX source, bibliography, source map, claim boundary,
 reference audit, source-backed table summaries, tests, and the small certificate
 JSON rows marked `public-export`.  `appendix-only` artifacts may be bundled as a
-separate certificate appendix.  `development-only` artifacts stay in
-`extensions/main`.
+separate certificate appendix.  `development-only` artifacts stay outside this public package.
 
-Next task: run human license/citation review for public export.
+Release note: license and citation metadata are finalized for this local public package; update the release date and DOI only when tagging a formal archive.

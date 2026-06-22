@@ -2,7 +2,7 @@
   "guardrails": [
     "Item8-D is a finite endpoint package for B2, not a complete conceptual B2 theorem.",
     "Do not claim selected-mask affineness alone characterizes exact V4.",
-    "Do not claim public/PAPP readiness or record-level payload promotion."
+    "Do not claim public-release readiness or record-level payload promotion."
   ],
   "metadata": {
     "extension": "main",
@@ -216,21 +216,21 @@
     }
   ],
   "source_artifacts": [
-    "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
-    "extensions/main/results/L3_terminal24_boundary_atlas.json",
-    "extensions/main/results/B2_selected_affine_extra32_atlas.json",
-    "extensions/main/results/P3_B2_finite_boundary_theorem_draft.json",
-    "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
+    "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
+    "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
+    "development provenance not shipped: results/B2_selected_affine_extra32_atlas.json",
+    "development provenance not shipped: results/P3_B2_finite_boundary_theorem_draft.json",
+    "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
   ],
   "source_boundary": {
     "construction_inputs": [
-      "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
-      "extensions/main/results/L3_terminal24_boundary_atlas.json",
-      "extensions/main/results/B2_selected_affine_extra32_atlas.json",
-      "extensions/main/results/P3_B2_finite_boundary_theorem_draft.json",
-      "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
+      "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
+      "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
+      "development provenance not shipped: results/B2_selected_affine_extra32_atlas.json",
+      "development provenance not shipped: results/P3_B2_finite_boundary_theorem_draft.json",
+      "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
     ],
-    "public_papp_widening_used": false,
+    "public_record_widening_used": false,
     "symbolic_b2_count_proof_used": false,
     "uses_global_freeness_item8a": true,
     "uses_l8_endpoint_selector": true,

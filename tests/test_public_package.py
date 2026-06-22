@@ -10,6 +10,9 @@ OLD_PROJECT = "Magic" + " 24"
 OLD_DRAFT = "Working" + " draft"
 OLD_COMPACT = "magic" + "24"
 OLD_DEV_PREFIX = "bounded_" + "magic"
+OLD_INTERNAL_CODE = "P" + "APP"
+OLD_INTERNAL_KEY = "papp" + "_"
+OLD_DEV_PATH = "extensions" + "/main"
 
 
 def test_public_package_check_passes() -> None:
@@ -26,13 +29,13 @@ def test_public_package_check_passes() -> None:
 
 
 def test_old_branding_absent_from_public_text() -> None:
-    checked_extensions = {".md", ".tex", ".py", ".cff", ".bib", ".yml", ".yaml", ".txt"}
+    checked_extensions = {".json", ".md", ".tex", ".py", ".cff", ".bib", ".yml", ".yaml", ".txt"}
     offenders = []
     for path in ROOT.rglob("*"):
         if not path.is_file() or ".git" in path.parts or path.suffix.lower() not in checked_extensions:
             continue
         text = path.read_text(encoding="utf-8", errors="ignore")
-        if OLD_PROJECT in text or OLD_DRAFT in text or OLD_COMPACT in text or OLD_DEV_PREFIX in text:
+        if any(pattern in text for pattern in [OLD_PROJECT, OLD_DRAFT, OLD_COMPACT, OLD_DEV_PREFIX, OLD_INTERNAL_CODE, OLD_INTERNAL_KEY, OLD_DEV_PATH]):
             offenders.append(path.relative_to(ROOT).as_posix())
     assert offenders == []
 

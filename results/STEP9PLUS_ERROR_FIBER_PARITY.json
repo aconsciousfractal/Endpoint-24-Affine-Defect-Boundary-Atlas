@@ -2,7 +2,7 @@
   "guardrails": [
     "The error-fiber structure is a Lemma C corollary, certified atlas-independently; the parity formula is its regrouping.",
     "Step 9+ makes the selected-xor parity axis first-principles; it does NOT derive the B3 multiplicity matrix (which masks meet which fibers).",
-    "No public/PAPP widening or universal-24 claim is made; the B3 15/49 matrix remains a finite certificate (item 7)."
+    "No public record-level widening or universal-24 claim is made; the B3 15/49 matrix remains a finite certificate (item 7)."
   ],
   "metadata": {
     "description": "Error-fiber parity made first-principles: the fiber structure is a Lemma C corollary (atlas-independent); the selected-xor parity formulas follow from it plus the Direction Lemma.",
@@ -12,7 +12,7 @@
   },
   "source_artifacts": [
     "data/order4_normal_essential_880.json",
-    "extensions/main/results/L3_terminal24_boundary_atlas.json"
+    "development provenance not shipped: results/L3_terminal24_boundary_atlas.json"
   ],
   "summary": {
     "all_certified": true,

@@ -28,7 +28,7 @@ The paper may claim:
 
 The paper must not claim:
 
-- public/PAPP widening of record-level payloads;
+- public record-level widening of record-level payloads;
 - a universal endpoint-24 theorem beyond the saved extension atlas;
 - full endpoint `23/27` classification;
 - complete conceptual B2 theorem;

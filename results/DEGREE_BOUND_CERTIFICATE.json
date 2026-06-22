@@ -3,7 +3,7 @@
     "Theorem A (rows&cols xor 0 => deg L <= 2) is proved; its mechanism is verified as a finite ANF identity.",
     "Lemma B (magic => rows&cols xor 0) is finite-certified on the 880; only its least-significant bit is derived (from even line sums).",
     "The diagonals are essential (B-neg witness); semi-magic is not enough.",
-    "No public/PAPP widening or universal claim beyond order-4 normal magic squares is made."
+    "No public record-level widening or universal claim beyond order-4 normal magic squares is made."
   ],
   "metadata": {
     "description": "deg(L) <= 2 is derived from rows-xor-0 and cols-xor-0 (Theorem A), whose hypothesis is finite-certified on all 880 magic squares (Lemma B); diagonals are essential (B-neg witness).",

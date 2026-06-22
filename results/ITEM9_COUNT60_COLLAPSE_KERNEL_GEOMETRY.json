@@ -60,7 +60,7 @@
     "The formal object remains a square-mask pair; source-square uniqueness is a finite endpoint-24 fact, not a change of definition.",
     "The diagonal-plane invariant is finite-certified on endpoint 24 but not yet first-principles derived.",
     "T/K freeness divides pure strata by four; it must not be presented as deriving the base endpoint-24 kernel counts.",
-    "No public/PAPP widening or universal Endpoint-24 affine-defect atlas claim is authorized."
+    "No public record-level widening or universal Endpoint-24 affine-defect atlas claim is authorized."
   ],
   "kernel_rows": [
     {
@@ -396,21 +396,21 @@
     }
   ],
   "source_artifacts": [
-    "extensions/main/results/L3_terminal24_boundary_atlas.json",
-    "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
-    "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
-    "extensions/main/results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json",
-    "extensions/main/results/B3_BILINEAR_SUPPORT_ACTION.json"
+    "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
+    "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
+    "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+    "development provenance not shipped: private selector-decoupling probe",
+    "development provenance not shipped: private B3 record-level support-action source"
   ],
   "source_boundary": {
     "construction_inputs": [
-      "extensions/main/results/L3_terminal24_boundary_atlas.json",
-      "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
-      "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
-      "extensions/main/results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json",
-      "extensions/main/results/B3_BILINEAR_SUPPORT_ACTION.json"
+      "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
+      "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
+      "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+      "development provenance not shipped: private selector-decoupling probe",
+      "development provenance not shipped: private B3 record-level support-action source"
     ],
-    "public_papp_widening_used": false,
+    "public_record_widening_used": false,
     "symbolic_count60_derivation_used": false,
     "uses_b3_matrix_only_for_row_degree_comparison": true,
     "uses_item8_freeness_and_selector_packages": true,

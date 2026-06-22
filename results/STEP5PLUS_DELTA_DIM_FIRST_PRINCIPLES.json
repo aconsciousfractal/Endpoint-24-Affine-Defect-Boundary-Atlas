@@ -3,7 +3,7 @@
     "Lemma C (degree-<=2 bijection => one dependent side, dim D<=2) is PROVEN by a GL(4,2)-symmetry-complete finite check, atlas-independent.",
     "Step5+ upgrades the dichotomy from 'verified over 7040 magic squares' to a proven property of quadratic bijections of F2^4; magic enters only via Lemma B (Step4/item1) and bijectivity.",
     "The corner identity B11(+)B10(+)B01(+)B00=0 is a magic refinement, NOT part of Lemma C and NOT needed for the dichotomy.",
-    "No public/PAPP widening or universal-24 claim is made; the B3 multiplicity matrix remains a finite certificate."
+    "No public record-level widening or universal-24 claim is made; the B3 multiplicity matrix remains a finite certificate."
   ],
   "metadata": {
     "description": "Atlas-independent (delta, dim D) dichotomy: 'one dependent side' is a property of degree-<=2 bijections of F2^4 (Lemma C), not of the magic sums.",

@@ -45,5 +45,5 @@ LICENSE                           MIT license copy
 
 The manuscript may state finite, paper-local certified theorems. It must not
 claim a non-enumerative proof of the B3 count `60`, a full non-affine
-classification, a full endpoint `23/27` classification, or public/PAPP widening
+classification, a full endpoint `23/27` classification, or public record-level widening
 of record-level payloads.

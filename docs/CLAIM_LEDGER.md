@@ -1,6 +1,6 @@
 # Claim Ledger
 
-This ledger assigns PAPP claim levels to the paper-facing claims.  Public wording
+This ledger assigns claim levels to the paper-facing claims.  Public wording
 must not exceed this table.
 
 | ID | Claim | Level | Source lock | Public status | Blocked escalation |
@@ -15,7 +15,7 @@ must not exceed this table.
 | C8 | The count-60 collapse reduces the debt to finite kernel and row-degree data. | CL3 certified finite result plus CLO obligation | `results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json` | public as debt reduction | symbolic proof of the count 60 |
 | C9 | The eight B3 profile columns are intrinsic to `(signature, M)`. | CL3 certified finite result | `results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json` | appendix-backed paper-local claim | claiming the full 15/49 realization is first-principles |
 | C10 | The defect-6 realization residue is a `13/35` integer-magic obstruction, not an F2/GL(4,2) law. | CL3 certified obstruction result | `results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json` | appendix-backed boundary claim | claiming this derives the 15/49 matrix non-enumeratively |
-| C11 | The public package is a release candidate after finalized license/citation metadata and passing package checks; first push/tag still requires a clean red-team pass. | CL1 release-status guardrail | `paper/PUBLIC_PACKAGE_MANIFEST.json`, `docs/RED_TEAM_REPORT.md` | public as release status | claiming a pushed/tagged release before clean-checkout red-team |
+| C11 | The public package is locally release-ready after finalized metadata, red-team closure, and passing package checks; first push/tag still requires remote confirmation and pushed-checkout checks. | CL1 release-status guardrail | `paper/PUBLIC_PACKAGE_MANIFEST.json`, `docs/RED_TEAM_REPORT.md` | public as local release status | claiming a pushed/tagged release before pushed-checkout checks |
 
 ## Claim-Level Rule
 

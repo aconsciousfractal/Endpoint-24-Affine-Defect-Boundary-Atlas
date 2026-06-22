@@ -2,7 +2,7 @@
   "guardrails": [
     "The three normal-form families and clause templates are first-principles refinements of the Step 9+ error-fiber parity.",
     "The 13 specific clause instances are the realized cells of the 15/49 matrix (item 7) and remain a finite certificate.",
-    "No public/PAPP widening or universal-24 claim is made."
+    "No public record-level widening or universal-24 claim is made."
   ],
   "metadata": {
     "description": "The 13 B3 clause templates are first-principles refinements of the Step 9+ error-fiber parity; the three normal-form families are determined by intrinsic (defect, pair/triple incidence) data.",
@@ -11,7 +11,7 @@
     "step": "Step10plus_clause_families"
   },
   "source_artifacts": [
-    "extensions/main/results/STEP10_SYMBOLIC_SUPPORT_ACTION_NORMAL_FORMS.json"
+    "development provenance not shipped: private support-action normal-form certificate"
   ],
   "summary": {
     "all_certified": true,

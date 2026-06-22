@@ -203,7 +203,7 @@
   "guardrails": [
     "This packages the L7 finite certificate as a named theorem; it is not a new symbolic derivation.",
     "Do not claim T/K is B3-specific; L7 proves it is global across all endpoints.",
-    "Do not promote to a public/PAPP theorem without a separate widening gate."
+    "Do not promote to a public theorem without a separate widening gate."
   ],
   "metadata": {
     "extension": "main",
@@ -218,15 +218,15 @@
     }
   ],
   "source_artifacts": [
-    "extensions/main/results/L7_global_t_action.json",
-    "extensions/main/tests/test_l7_global_t_action.py"
+    "development provenance not shipped: results/L7_global_t_action.json",
+    "public package tests/test_l7_global_t_action.py"
   ],
   "source_boundary": {
     "construction_inputs": [
-      "extensions/main/results/L7_global_t_action.json"
+      "development provenance not shipped: results/L7_global_t_action.json"
     ],
     "l7_used_as_finite_certificate": true,
-    "public_papp_widening_used": false,
+    "public_record_widening_used": false,
     "symbolic_group_action_derivation_used": false
   },
   "summary": {

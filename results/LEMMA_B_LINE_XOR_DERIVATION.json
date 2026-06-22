@@ -11,7 +11,7 @@
     "This is a finite derivation from the row/column/diagonal constraint system, not a replay of the saved 880 atlas.",
     "The result proves Lemma B for normal order-4 magic squares in label units 0..15.",
     "It does not prove the defect/dimD dichotomy or the B3 15/49 multiplicity matrix.",
-    "No public/PAPP widening is introduced."
+    "No public record-level widening is introduced."
   ],
   "line_profile": {
     "defective_examples": [

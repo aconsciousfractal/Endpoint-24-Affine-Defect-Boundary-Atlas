@@ -9,7 +9,7 @@
     "Item 11 localizes and explains the residue; it does NOT close the 15/49 matrix.",
     "All counts are over the full 7040 integer magic squares via the certified pipeline.",
     "The result is a negative/obstruction theorem: no F2 or linear closure exists.",
-    "No public/PAPP widening or universal Endpoint-24 affine-defect atlas claim is made.",
+    "No public record-level widening or universal Endpoint-24 affine-defect atlas claim is made.",
     "The B3 support-action matrix remains a finite certificate (L24 framing)."
   ],
   "linear_symmetry": {
@@ -195,9 +195,9 @@
     }
   ],
   "source_artifacts": [
-    "extensions/main/scripts/generate_defect_dim_dichotomy.py",
-    "extensions/main/scripts/generate_step5plus_delta_dim_first_principles.py",
-    "extensions/main/results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json"
+    "development provenance not shipped: scripts/generate_defect_dim_dichotomy.py",
+    "development provenance not shipped: scripts/generate_step5plus_delta_dim_first_principles.py",
+    "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json"
   ],
   "summary": {
     "all_35_completable_have_defect6": true,

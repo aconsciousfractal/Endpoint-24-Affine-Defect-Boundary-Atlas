@@ -32,17 +32,17 @@
     "verified": true
   },
   "source_artifacts": [
-    "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
-    "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
-    "extensions/main/results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json"
+    "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+    "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
+    "development provenance not shipped: results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json"
   ],
   "source_boundary": {
     "construction_inputs": [
-      "extensions/main/results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
-      "extensions/main/results/L8_endpoint24_tk_quotient_classifier.json",
-      "extensions/main/results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json"
+      "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+      "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
+      "development provenance not shipped: results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json"
     ],
-    "public_papp_widening_used": false,
+    "public_record_widening_used": false,
     "symbolic_record_count_proof_used": false,
     "uses_freeness_theorem_item8a": true,
     "uses_item7i_transport_bridge": true,

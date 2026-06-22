@@ -2,7 +2,7 @@
   "guardrails": [
     "Proof steps (a)-(c) are symbolic char-2 algebra; H1 is derived by Step 3+/Step 4 and the defect/dimD refinement is derived by Step 5; H2 remains the endpoint-24 affine-mask input.",
     "The direction lemma is the 'direction half' of B3 only; the multiplicity half (15/49 mask matrix) remains a finite certificate.",
-    "This does not widen the P6/L24 boundary: no public/PAPP, universal, full-classification, or complete first-principles claim is made."
+    "This does not widen the P6/L24 boundary: no public record-level scope, universal, full-classification, or complete first-principles claim is made."
   ],
   "metadata": {
     "description": "Symbolic direction lemma: selected-value xor lies in the quadratic error space D; for B3 it is a nonzero error direction.",
@@ -5502,7 +5502,7 @@
   ],
   "source_artifacts": [
     "data/order4_normal_essential_880.json",
-    "extensions/main/results/L3_terminal24_boundary_atlas.json"
+    "development provenance not shipped: results/L3_terminal24_boundary_atlas.json"
   ],
   "summary": {
     "corollary_nonzero_direction_iff_b3": true,

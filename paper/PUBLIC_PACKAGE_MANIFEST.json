@@ -44,7 +44,7 @@
       "reason": "useful for audit, not needed for main public claims"
     },
     {
-      "artifact": "results/B3_BILINEAR_SUPPORT_ACTION.json",
+      "artifact": "private B3 record-level support-action source (not shipped)",
       "reason": "large support-action source with record-level rows; public paper uses paper/PAPER_SOURCE_BACKED_TABLES.json summary"
     },
     {
@@ -60,7 +60,7 @@
   ],
   "metadata": {
     "extension": "main",
-    "methodology": "PAPP paper package standard",
+    "methodology": "public paper package standard",
     "package": "affine_defect_boundary_atlas_public_package_plan",
     "project": "Endpoint-24 Affine-Defect Boundary Atlas"
   },
@@ -93,12 +93,12 @@
     {
       "path": "docs/CLAIM_BOUNDARY.md",
       "exists": true,
-      "size_bytes": 2133
+      "size_bytes": 2207
     },
     {
       "path": "docs/CLAIM_LEDGER.md",
       "exists": true,
-      "size_bytes": 3651
+      "size_bytes": 3703
     },
     {
       "path": "docs/NORMALIZATION_LOCK.md",
@@ -108,7 +108,7 @@
     {
       "path": "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
       "exists": true,
-      "size_bytes": 18717
+      "size_bytes": 17690
     },
     {
       "path": "docs/PAPER_TO_ENGINE_TRACEABILITY.md",
@@ -133,7 +133,7 @@
     {
       "path": "docs/RED_TEAM_REPORT.md",
       "exists": true,
-      "size_bytes": 2495
+      "size_bytes": 3202
     },
     {
       "path": "docs/REFERENCE_AUDIT.md",
@@ -143,12 +143,12 @@
     {
       "path": "docs/SOURCE_LOCK.md",
       "exists": true,
-      "size_bytes": 2228
+      "size_bytes": 2299
     },
     {
       "path": "docs/SOURCE_MAP.md",
       "exists": true,
-      "size_bytes": 5142
+      "size_bytes": 5325
     },
     {
       "path": "LICENSE",
@@ -158,7 +158,7 @@
     {
       "path": "paper/affine_defect_boundary_atlas.pdf",
       "exists": true,
-      "size_bytes": 408047
+      "size_bytes": 408062
     },
     {
       "path": "paper/affine_defect_boundary_atlas.tex",
@@ -178,7 +178,7 @@
     {
       "path": "paper/CLAIM_BOUNDARY.md",
       "exists": true,
-      "size_bytes": 2133
+      "size_bytes": 2207
     },
     {
       "path": "paper/figures/.gitkeep",
@@ -198,17 +198,17 @@
     {
       "path": "paper/PAPER_SOURCE_BACKED_TABLES.json",
       "exists": true,
-      "size_bytes": 17979
+      "size_bytes": 17977
     },
     {
       "path": "paper/PUBLIC_PACKAGE_MANIFEST.json",
       "exists": true,
-      "size_bytes": 23178
+      "size_bytes": 23199
     },
     {
       "path": "paper/README.md",
       "exists": true,
-      "size_bytes": 1932
+      "size_bytes": 1988
     },
     {
       "path": "paper/README_REVIEWER.md",
@@ -258,12 +258,12 @@
     {
       "path": "paper/sections/05_public_package.tex",
       "exists": true,
-      "size_bytes": 1131
+      "size_bytes": 1162
     },
     {
       "path": "paper/SOURCE_MAP.md",
       "exists": true,
-      "size_bytes": 5142
+      "size_bytes": 5325
     },
     {
       "path": "PUBLICATION_PLAN.md",
@@ -298,87 +298,87 @@
     {
       "path": "results/DEGREE_BOUND_CERTIFICATE.json",
       "exists": true,
-      "size_bytes": 2737
+      "size_bytes": 2745
     },
     {
       "path": "results/DELTA_STRATIFICATION.json",
       "exists": true,
-      "size_bytes": 116011
+      "size_bytes": 116049
     },
     {
       "path": "results/DIRECTION_LEMMA_CERTIFICATE.json",
       "exists": true,
-      "size_bytes": 134781
+      "size_bytes": 134815
     },
     {
       "path": "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json",
       "exists": true,
-      "size_bytes": 41683
+      "size_bytes": 41757
     },
     {
       "path": "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json",
       "exists": true,
-      "size_bytes": 7057
+      "size_bytes": 7089
     },
     {
       "path": "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json",
       "exists": true,
-      "size_bytes": 13098
+      "size_bytes": 13168
     },
     {
       "path": "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
       "exists": true,
-      "size_bytes": 8940
+      "size_bytes": 8976
     },
     {
       "path": "results/ITEM8B_FREENESS_COUNT_REDUCTION.json",
       "exists": true,
-      "size_bytes": 3321
+      "size_bytes": 3371
     },
     {
       "path": "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json",
       "exists": true,
-      "size_bytes": 9480
+      "size_bytes": 9613
     },
     {
       "path": "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json",
       "exists": true,
-      "size_bytes": 14665
+      "size_bytes": 14791
     },
     {
       "path": "results/LEMMA_B_LINE_XOR_DERIVATION.json",
       "exists": true,
-      "size_bytes": 4596
+      "size_bytes": 4604
     },
     {
       "path": "results/P6_final_verification_gate.json",
       "exists": true,
-      "size_bytes": 10104
+      "size_bytes": 10272
     },
     {
       "path": "results/STEP10PLUS_CLAUSE_FAMILIES.json",
       "exists": true,
-      "size_bytes": 2279
+      "size_bytes": 2297
     },
     {
       "path": "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json",
       "exists": true,
-      "size_bytes": 3327
+      "size_bytes": 3335
     },
     {
       "path": "results/STEP6PLUS_DEFECT_MASK_CLASSES.json",
       "exists": true,
-      "size_bytes": 2814
+      "size_bytes": 2848
     },
     {
       "path": "results/STEP9PLUS_ERROR_FIBER_PARITY.json",
       "exists": true,
-      "size_bytes": 2337
+      "size_bytes": 2365
     },
     {
       "path": "scripts/check_public_package.py",
       "exists": true,
-      "size_bytes": 5914
+      "size_bytes": 6157
     },
     {
       "path": "scripts/run_all_reproducibility_checks.py",
@@ -388,7 +388,7 @@
     {
       "path": "tests/test_public_package.py",
       "exists": true,
-      "size_bytes": 1617
+      "size_bytes": 1825
     }
   ],
   "public_export_sources": [
@@ -446,7 +446,7 @@
         "public_wording": "finite selector",
         "role": "finite selector probe with record-level fields",
         "scope": "development-only",
-        "source_artifact": "results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json"
+        "source_artifact": "private selector-decoupling probe (not shipped)"
       }
     ],
     "public-export": [
@@ -676,7 +676,7 @@
       "public_wording": "finite selector",
       "role": "finite selector probe with record-level fields",
       "scope": "development-only",
-      "source_artifact": "results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json"
+      "source_artifact": "private selector-decoupling probe (not shipped)"
     },
     {
       "paper_block": "B2 endpoint package",
@@ -725,7 +725,7 @@
     "missing_recommended_public_package_files": [],
     "next_gate": "Confirm the GitHub remote exists, push main, then run checks from the pushed checkout before tagging.",
     "paper_package_files_ready": true,
-    "papp_standard_docs_ready": true,
+    "standard_docs_ready": true,
     "public_export_count": 16,
     "public_export_ready": true,
     "public_package_manifest_ready": true,

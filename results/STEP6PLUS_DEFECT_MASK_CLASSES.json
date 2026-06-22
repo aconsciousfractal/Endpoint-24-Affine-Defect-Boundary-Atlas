@@ -2,7 +2,7 @@
   "guardrails": [
     "6 of the 8 defect-mask classes are fixed by bilinear-error invariants; the 2 remaining splits need the mask-transport (canonical mask-count) profile.",
     "This is a structural decomposition of the column classification, not an atlas-independent theorem; the 15/49 realization is item 7.",
-    "No public/PAPP widening or universal-24 claim is made."
+    "No public record-level widening or universal-24 claim is made."
   ],
   "metadata": {
     "description": "Structural decomposition of the 8 B3 defect-mask classes into a bilinear-determined part (6 classes) and a mask-transport residue (2 further splits).",
@@ -11,7 +11,7 @@
     "step": "Step6plus_defect_mask_classes"
   },
   "source_artifacts": [
-    "extensions/main/results/B3_BILINEAR_SUPPORT_ACTION.json"
+    "development provenance not shipped: private B3 record-level support-action source"
   ],
   "summary": {
     "all_certified": true,
