@@ -1900,7 +1900,7 @@
   ],
   "source_artifacts": [
     "Endpoint-24 affine-defect atlas/data/order4_normal_essential_880.json",
-    "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
+    "development provenance not shipped: private staged certificate source",
     "development provenance not shipped: private B3 record-level support-action source",
     "development provenance not shipped: scripts/generate_b3_bilinear_support_action.py"
   ],

@@ -5502,7 +5502,7 @@
   ],
   "source_artifacts": [
     "data/order4_normal_essential_880.json",
-    "development provenance not shipped: results/L3_terminal24_boundary_atlas.json"
+    "development provenance not shipped: private staged certificate source"
   ],
   "summary": {
     "corollary_nonzero_direction_iff_b3": true,

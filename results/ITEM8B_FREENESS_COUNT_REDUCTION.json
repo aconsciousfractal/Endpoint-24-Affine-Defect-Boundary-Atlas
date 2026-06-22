@@ -33,13 +33,13 @@
   },
   "source_artifacts": [
     "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
-    "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
+    "development provenance not shipped: private staged certificate source",
     "development provenance not shipped: results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json"
   ],
   "source_boundary": {
     "construction_inputs": [
       "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
-      "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
+      "development provenance not shipped: private staged certificate source",
       "development provenance not shipped: results/ITEM7_ENDPOINT_TRANSPORT_SELECTOR_BRIDGE.json"
     ],
     "public_record_widening_used": false,

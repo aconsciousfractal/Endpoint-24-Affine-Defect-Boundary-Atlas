@@ -18,9 +18,9 @@ public companion package.
 ## Current Status
 
 - Manuscript: `paper/affine_defect_boundary_atlas.pdf`.
-- Replay target: finite certified endpoint-24 affine-defect atlas.
+- Replay target: finite endpoint-24 affine-defect atlas, with a summary-only full endpoint aggregate control artifact as context.
 - Public export: published public companion repository with tag `v1.0.1`; clean-clone checks have passed.
-- License/citation: finalized as MIT / `CITATION.cff` for this local public package.
+- License/citation: finalized as MIT / `CITATION.cff` for this public package.
 
 ## Main Guardrail
 

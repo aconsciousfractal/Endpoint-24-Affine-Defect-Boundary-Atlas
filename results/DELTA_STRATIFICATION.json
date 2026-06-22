@@ -4971,8 +4971,8 @@
   ],
   "source_artifacts": [
     "data/order4_normal_essential_880.json",
-    "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
-    "development provenance not shipped: results/L7_global_t_action.json"
+    "development provenance not shipped: private staged certificate source",
+    "development provenance not shipped: private staged certificate source"
   ],
   "summary": {
     "all_certified": true,

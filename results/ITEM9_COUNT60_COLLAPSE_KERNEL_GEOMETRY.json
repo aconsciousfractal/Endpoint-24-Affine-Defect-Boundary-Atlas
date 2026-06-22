@@ -396,16 +396,16 @@
     }
   ],
   "source_artifacts": [
-    "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
-    "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
+    "development provenance not shipped: private staged certificate source",
+    "development provenance not shipped: private staged certificate source",
     "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
     "development provenance not shipped: private selector-decoupling probe",
     "development provenance not shipped: private B3 record-level support-action source"
   ],
   "source_boundary": {
     "construction_inputs": [
-      "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
-      "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
+      "development provenance not shipped: private staged certificate source",
+      "development provenance not shipped: private staged certificate source",
       "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
       "development provenance not shipped: private selector-decoupling probe",
       "development provenance not shipped: private B3 record-level support-action source"

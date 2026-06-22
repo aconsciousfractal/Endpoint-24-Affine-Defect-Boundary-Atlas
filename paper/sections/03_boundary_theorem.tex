@@ -228,3 +228,35 @@ it into a symbolic count proof.  Finally, the B1 proposition gives the scoped
 endpoint \(23/27\) absence from the affine selected-plane layer.  These blocks
 are exactly the assertions of the theorem.
 \end{proof}
+
+\begin{certprop}[Full endpoint aggregate controls]
+\label{cert:full-endpoint-control}
+The public aggregate control artifact verifies the full
+\(880\cdot 8=7040\) square--mask universe used as context for this paper.  For
+every square--mask pair with label map \(L\) and selected mask \(M\),
+\[
+  \operatorname{end}(L,M)=34-\min_{c\in M}L(c)
+  =35-\min\{\text{selected values}\}.
+\]
+The endpoint distribution is
+\[
+\begin{array}{c|rrrrrrrrrrrrr}
+ e&22&23&24&25&26&27&28&29&30&31&32&33&34\\\hline
+ \#&176&44&236&268&676&108&328&376&772&420&884&992&1760.
+\end{array}
+\]
+The same artifact gives the aggregate \(T/K\) endpoint-orbit counts
+\[
+44,11,59,67,169,27,82,94,193,105,221,248,440
+\]
+for endpoints \(22,23,\ldots,34\).  Endpoints \(23\) and \(27\) have no
+possible selected-affine signature, while endpoint \(22\) is a positive
+selected-affine control: all its \(176\) aggregate records are selected-affine.
+Endpoint \(24\) is therefore the first anchor treated here where the
+selected-affine and selected-non-affine layers both occur, with the certified
+split \(176+60=236\) and affine-defect distribution \(144,64,28\).
+
+This is a finite aggregate control statement.  It is not a classification of
+every endpoint and it does not widen
+Theorem~\ref{thm:b123-affine-defect-boundary} beyond endpoint \(24\).
+\end{certprop}

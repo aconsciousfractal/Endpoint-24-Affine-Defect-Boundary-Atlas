@@ -52,6 +52,7 @@ pdflatex -interaction=nonstopmode -halt-on-error affine_defect_boundary_atlas.te
 | First-principles defect spine | `results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json` |
 | Error-fiber parity | `results/STEP9PLUS_ERROR_FIBER_PARITY.json` |
 | B2/B3 finite boundary packages | `results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json`, `results/ITEM8B_FREENESS_COUNT_REDUCTION.json` |
+| Full endpoint aggregate controls | `results/FULL_ENDPOINT_CONTROL_ATLAS.json` |
 | Claim gate | `results/P6_final_verification_gate.json` |
 
 ## Scope Boundary

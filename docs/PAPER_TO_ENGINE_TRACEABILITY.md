@@ -17,6 +17,7 @@ checks. It deliberately does not list private development generators or tests.
 | B3 defect-mask classes | `results/STEP6PLUS_DEFECT_MASK_CLASSES.json` | declared public artifact check |
 | B3 clause templates | `results/STEP10PLUS_CLAUSE_FAMILIES.json` | declared public artifact check |
 | Global T/K freeness | `results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json` | declared public artifact check |
+| Full endpoint aggregate controls | `results/FULL_ENDPOINT_CONTROL_ATLAS.json` | declared public artifact check |
 | B3 count reduction 15 = 60 / 4 | `results/ITEM8B_FREENESS_COUNT_REDUCTION.json` | declared public artifact check |
 | B2 endpoint package | `results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json` | declared public artifact check |
 | Count-60 collapse | `results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json` | declared public artifact check |

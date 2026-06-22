@@ -42,9 +42,11 @@ FORBIDDEN_EXACT_FILES = [
     "data/order4_normal_essential_880.json",
 ]
 
+PRIVATE_STAGE_PREFIX = "results/" + "L"
+
 FORBIDDEN_REGEXES = [
-    re.compile(r"^results/L[0-9].*\.json$"),
-    re.compile(r"^results/L[0-9].*\.md$"),
+    re.compile(r"^" + re.escape(PRIVATE_STAGE_PREFIX) + r"[0-9].*\.json$"),
+    re.compile(r"^" + re.escape(PRIVATE_STAGE_PREFIX) + r"[0-9].*\.md$"),
     re.compile(r"^paper/.*\.(aux|bbl|blg|log|out)$"),
 ]
 
@@ -69,6 +71,10 @@ FORBIDDEN_TEXT_PATTERNS = [
     "public-release-ready" + " local",
 ]
 
+FORBIDDEN_TEXT_REGEXES = [
+    re.compile(re.escape(PRIVATE_STAGE_PREFIX) + r"(?:[0-9]|\[0-9\])"),
+]
+
 TEXT_EXTENSIONS = {".json", ".md", ".tex", ".py", ".cff", ".bib", ".yml", ".yaml", ".txt"}
 
 
@@ -79,6 +85,31 @@ def rel(path: Path) -> str:
 def read_manifest() -> dict:
     return json.loads((ROOT / "paper" / "PUBLIC_PACKAGE_MANIFEST.json").read_text(encoding="utf-8-sig"))
 
+
+
+def check_full_endpoint_control(failures: list[str]) -> None:
+    path = ROOT / "results" / "FULL_ENDPOINT_CONTROL_ATLAS.json"
+    if not path.is_file():
+        return
+    data = json.loads(path.read_text(encoding="utf-8-sig"))
+    metadata = data.get("metadata", {})
+    if metadata.get("record_payload_included") is not False:
+        failures.append("full endpoint control artifact must remain summary-only")
+    universe = data.get("universe", {})
+    if universe.get("full_pair_count") != 7040:
+        failures.append("full endpoint control artifact has wrong full_pair_count")
+    endpoint_distribution = {int(k): int(v) for k, v in data.get("endpoint_distribution", {}).items()}
+    if sum(endpoint_distribution.values()) != 7040:
+        failures.append("full endpoint endpoint_distribution does not sum to 7040")
+    tk_distribution = {int(k): int(v) for k, v in data.get("tk_endpoint_orbit_distribution", {}).items()}
+    if sum(tk_distribution.values()) * 4 != 7040:
+        failures.append("full endpoint T/K orbit distribution does not lift to 7040")
+    endpoint24 = data.get("control_endpoints", {}).get("endpoint24_anchor", {})
+    if endpoint24.get("record_count") != 236 or endpoint24.get("tk_orbit_count") != 59:
+        failures.append("full endpoint artifact endpoint-24 anchor does not match 236/59")
+    forbidden_payload_keys = {"records", "rows", "payload", "raw_records"}
+    if forbidden_payload_keys.intersection(data.keys()):
+        failures.append("full endpoint artifact exposes full-payload keys")
 
 def check_tex_inputs(failures: list[str]) -> None:
     tex = ROOT / "paper" / "affine_defect_boundary_atlas.tex"
@@ -117,7 +148,12 @@ def main() -> int:
             failures.append("paper PDF is unexpectedly small")
 
     manifest = read_manifest()
-    expected_sources = sorted(set(manifest.get("public_export_sources", []) + manifest.get("appendix_only_sources", [])))
+    public_sources = manifest.get("public_export_sources", [])
+    duplicate_public_sources = sorted({source for source in public_sources if public_sources.count(source) > 1})
+    for source in duplicate_public_sources:
+        failures.append(f"duplicate public export source in manifest: {source}")
+
+    expected_sources = sorted(set(public_sources + manifest.get("appendix_only_sources", [])))
     for source in expected_sources:
         if not (ROOT / source).is_file():
             failures.append(f"missing declared public/appendix artifact: {source}")
@@ -128,6 +164,7 @@ def main() -> int:
             failures.append(f"manifest declares missing package file: {path}")
 
     check_tex_inputs(failures)
+    check_full_endpoint_control(failures)
 
     all_files = [p for p in ROOT.rglob("*") if p.is_file() and ".git" not in p.parts]
     rel_files = [rel(p) for p in all_files]
@@ -142,6 +179,9 @@ def main() -> int:
         for pattern in FORBIDDEN_TEXT_PATTERNS:
             if pattern in text:
                 failures.append(f"forbidden text pattern {pattern!r} in {rel(path)}")
+        for regex in FORBIDDEN_TEXT_REGEXES:
+            if regex.search(text):
+                failures.append(f"forbidden text regex {regex.pattern!r} in {rel(path)}")
 
     license_text = (ROOT / "LICENSE").read_text(encoding="utf-8", errors="ignore") if (ROOT / "LICENSE").exists() else ""
     citation_text = (ROOT / "CITATION.cff").read_text(encoding="utf-8", errors="ignore") if (ROOT / "CITATION.cff").exists() else ""

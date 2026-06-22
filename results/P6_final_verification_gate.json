@@ -69,7 +69,7 @@
   },
   "source_artifacts": [
     "development provenance not shipped: results/P5_unified_paper_spine.json",
-    "development provenance not shipped: results/L24_claim_boundary_review.json",
+    "development provenance not shipped: private staged certificate source",
     "development provenance not shipped: levels/L0_source_boundary/SOURCE_CROSSWALK.md",
     "development provenance not shipped: levels/P6_final_verification_gate/FINAL_GATE.md",
     "development provenance not shipped: private theorem draft",

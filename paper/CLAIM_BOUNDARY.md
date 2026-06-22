@@ -13,6 +13,10 @@ The paper may claim:
 - B2 has `32` records and `8` orbits;
 - B3 has `60` records and `15` orbits;
 - global finite `T/K ~= V4` freeness certificate;
+- summary-only full endpoint control atlas as finite aggregate context: `7040`
+  square-mask pairs, endpoint distribution, `T/K` endpoint-orbit counts,
+  endpoint `22` as positive selected-affine control, and endpoints `23/27` as
+  selected-affine negative controls;
 - Step5+ first-principles `delta, dim D` dichotomy for degree-at-most-two
   bijections of `F_2^4`;
 - Step9+ first-principles error-fiber parity;
@@ -31,6 +35,8 @@ The paper must not claim:
 - public record-level widening of record-level payloads;
 - a universal endpoint-24 theorem beyond the saved extension atlas;
 - full endpoint `23/27` classification;
+- conceptual classification of every endpoint from the aggregate endpoint controls;
+- public full-payload widening of all `7040` square-mask pairs;
 - complete conceptual B2 theorem;
 - full B3 non-affine classification;
 - non-enumerative first-principles proof of the B3 `15/49` matrix;

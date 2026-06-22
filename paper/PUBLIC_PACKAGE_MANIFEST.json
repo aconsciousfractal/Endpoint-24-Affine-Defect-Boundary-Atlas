@@ -7,8 +7,8 @@
   ],
   "blocked_export_patterns": [
     "data/order4_normal_essential_880.json",
-    "results/L[0-9]*.json",
-    "results/L[0-9]*.md",
+    "private staged certificate JSON artifacts",
+    "private staged certificate Markdown notes",
     "paper/*.aux",
     "paper/*.bbl",
     "paper/*.blg",
@@ -36,7 +36,7 @@
       "reason": "raw essential-square universe; not cited directly by the manuscript"
     },
     {
-      "artifact": "results/L[0-9]*.json and results/L[0-9]*.md",
+      "artifact": "private staged certificate artifacts (not shipped)",
       "reason": "exploratory/intermediate levels superseded by the named paper-facing certificates"
     },
     {
@@ -311,6 +311,11 @@
       "size_bytes": 134815
     },
     {
+      "path": "results/FULL_ENDPOINT_CONTROL_ATLAS.json",
+      "exists": true,
+      "size_bytes": 4104
+    },
+    {
       "path": "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json",
       "exists": true,
       "size_bytes": 41757
@@ -400,14 +405,14 @@
     "results/LEMMA_B_LINE_XOR_DERIVATION.json",
     "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json",
     "results/STEP9PLUS_ERROR_FIBER_PARITY.json",
-    "paper/PAPER_SOURCE_BACKED_TABLES.json",
     "results/STEP6PLUS_DEFECT_MASK_CLASSES.json",
     "results/STEP10PLUS_CLAUSE_FAMILIES.json",
     "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
     "results/ITEM8B_FREENESS_COUNT_REDUCTION.json",
     "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json",
     "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json",
-    "results/P6_final_verification_gate.json"
+    "results/P6_final_verification_gate.json",
+    "results/FULL_ENDPOINT_CONTROL_ATLAS.json"
   ],
   "scope_classes": {
     "appendix-only": [
@@ -665,6 +670,13 @@
       "source_artifact": "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
     },
     {
+      "paper_block": "Full endpoint aggregate controls",
+      "source_artifact": "results/FULL_ENDPOINT_CONTROL_ATLAS.json",
+      "role": "summary-only endpoint distribution and selected-affine controls",
+      "public_wording": "finite aggregate context",
+      "scope": "public-export"
+    },
+    {
       "paper_block": "B3 count reduction",
       "public_wording": "certified proposition",
       "role": "15=60/4",
@@ -738,7 +750,6 @@
     "scope_policy_violation_count": 0,
     "skeleton_red_team_passed": true,
     "source_map_scope_classes_ready": true,
-    "source_scope_row_count": 21,
-    "workspace_package_files_ready": true
+    "source_scope_row_count": 21
   }
 }

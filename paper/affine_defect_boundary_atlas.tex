@@ -12,13 +12,15 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{enumitem}
+\usepackage{etoolbox}
 \usepackage{microtype}
 \usepackage[margin=1in]{geometry}
 \usepackage{xcolor}
 \usepackage{xurl}
 \usepackage{xspace}
-\usepackage{hyperref}
+\usepackage{float}
 \usepackage{placeins}
+\usepackage{hyperref}
 
 \hypersetup{
   colorlinks=true,
@@ -31,6 +33,18 @@
   pdfkeywords={magic squares, Durer square, F2-to-the-4, affine geometry, finite certificates}
 }
 \emergencystretch=2em
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{3pt}
+\setlength{\belowcaptionskip}{0pt}
+\AtBeginEnvironment{thebibliography}{%
+  \footnotesize
+  \setlength{\itemsep}{0pt}%
+  \setlength{\parsep}{0pt}%
+  \setlength{\parskip}{0pt}%
+  \setlength{\topsep}{0pt}%
+}
 
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}

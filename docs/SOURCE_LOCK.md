@@ -40,7 +40,7 @@ or the public-export rows above.
 These must stay out of the public package unless the export policy is deliberately widened:
 
 - `data/order4_normal_essential_880.json`
-- `results/L[0-9]*.json` and `results/L[0-9]*.md`
+- private staged certificate artifacts (not shipped)
 - record-level support/action payload rows inside large JSON artifacts
 - private B3 record-level support-action source (not shipped)
 - local LaTeX auxiliaries `*.aux`, `*.bbl`, `*.blg`, `*.log`, `*.out`

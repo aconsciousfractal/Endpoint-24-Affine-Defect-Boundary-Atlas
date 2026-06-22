@@ -218,12 +218,12 @@
     }
   ],
   "source_artifacts": [
-    "development provenance not shipped: results/L7_global_t_action.json",
+    "development provenance not shipped: private staged certificate source",
     "public package tests/test_l7_global_t_action.py"
   ],
   "source_boundary": {
     "construction_inputs": [
-      "development provenance not shipped: results/L7_global_t_action.json"
+      "development provenance not shipped: private staged certificate source"
     ],
     "l7_used_as_finite_certificate": true,
     "public_record_widening_used": false,

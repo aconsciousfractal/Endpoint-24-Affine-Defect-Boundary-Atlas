@@ -18,14 +18,13 @@ public companion package.
 ## Current Status
 
 - Manuscript: `paper/affine_defect_boundary_atlas.pdf`.
-- Replay target: finite, paper-local endpoint-24 affine-defect atlas.
-- Public export: local release-ready; first public repository publication and tag require a clean-checkout
-  red-team pass.
-- License/citation: finalized as MIT / `CITATION.cff` for this local public package.
+- Replay target: finite endpoint-24 affine-defect atlas, with a summary-only full endpoint aggregate control artifact as context.
+- Public export: published public companion repository; tag `v1.0.1` has passed local and clean-clone package checks.
+- License/citation: finalized as MIT / `CITATION.cff` for this public package.
 
 ## Main Guardrail
 
-The package supports finite-certified and paper-local statements. It does not
+The package supports finite-certified and endpoint-24 finite statements. It does not
 claim a non-enumerative proof of the B3 count `60`, a full non-affine
 classification, or a universal theorem for all endpoint-24 order-four
 magic-square behavior.

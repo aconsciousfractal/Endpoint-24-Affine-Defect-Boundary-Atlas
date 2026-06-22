@@ -76,6 +76,8 @@ Build instructions are in `paper/BUILD.md`.
 
 ## Release Boundary
 
+The public results also include `results/FULL_ENDPOINT_CONTROL_ATLAS.json`, a summary-only aggregate control artifact for the full endpoint range; it is context for the endpoint-24 theorem, not a theorem-widening payload.
+
 The package manifest is `paper/PUBLIC_PACKAGE_MANIFEST.json`. It separates
 public-export artifacts, appendix-only certificate support, and development-only
 inputs that must not be published. See `docs/SOURCE_MAP.md` and

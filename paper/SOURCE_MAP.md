@@ -29,6 +29,7 @@ Scope values:
 | B3 clause templates | `results/STEP10PLUS_CLAUSE_FAMILIES.json` | NF1/NF2/NF3 templates | theorem/lemma for templates | public-export |
 | B3 endpoint transport | `results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json` | carrier orbits and payload | finite endpoint theorem | appendix-only |
 | Global `T/K` freeness | `results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json` | free quotient | finite theorem | public-export |
+| Full endpoint aggregate controls | `results/FULL_ENDPOINT_CONTROL_ATLAS.json` | summary-only endpoint distribution and control endpoints | finite aggregate context | public-export |
 | B3 count reduction | `results/ITEM8B_FREENESS_COUNT_REDUCTION.json` | `15=60/4` | certified proposition | public-export |
 | B3 selector probe | private selector-decoupling probe (not shipped) | finite selector probe with record-level fields | finite selector | development-only |
 | B2 endpoint package | `results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json` | B2 `32/8` package | finite theorem | public-export |
@@ -46,7 +47,7 @@ paper-safe derived summaries unless the export policy is deliberately widened.
 | Development artifact | Reason |
 |---|---|
 | `data/order4_normal_essential_880.json` | raw essential-square universe; not cited directly by the manuscript |
-| `results/L[0-9]*.json` and `results/L[0-9]*.md` | exploratory/intermediate levels superseded by the named paper-facing certificates |
+| private staged certificate artifacts (not shipped) | exploratory/intermediate levels superseded by the named paper-facing certificates |
 | record-level support/action payload rows inside large JSON artifacts | useful for audit, not needed for main public claims |
 | private B3 record-level support-action source (not shipped) | large support-action source with record-level rows; public paper uses `paper/PAPER_SOURCE_BACKED_TABLES.json` summary |
 | local LaTeX auxiliaries `*.aux`, `*.bbl`, `*.blg`, `*.log`, `*.out` | build outputs, not source |
@@ -59,4 +60,4 @@ reference audit, source-backed table summaries, tests, and the small certificate
 JSON rows marked `public-export`.  `appendix-only` artifacts may be bundled as a
 separate certificate appendix.  `development-only` artifacts stay outside this public package.
 
-Release note: license and citation metadata are finalized for this local public package; update DOI only when tagging a formal archive.
+Release note: license and citation metadata are finalized for this published public package; update DOI only when tagging a formal archive.

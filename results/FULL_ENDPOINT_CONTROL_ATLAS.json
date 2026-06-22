@@ -1,0 +1,146 @@
+{
+  "affine_defect_global_controls": {
+    "defect_by_selected_affine_distribution": {
+      "0:selected_affine": 3456,
+      "4:selected_affine": 736,
+      "4:selected_nonaffine": 1504,
+      "6:selected_nonaffine": 1344
+    },
+    "defect_selected_affine_compatibility": {
+      "delta0_all_selected_affine": true,
+      "delta4_has_selected_affine_records": true,
+      "delta4_has_selected_nonaffine_records": true,
+      "delta6_all_selected_nonaffine": true,
+      "selected_affine_defect_values": [
+        0,
+        4
+      ],
+      "selected_nonaffine_defect_values": [
+        4,
+        6
+      ]
+    },
+    "global_affine_defect_distribution": {
+      "0": 3456,
+      "4": 2240,
+      "6": 1344
+    },
+    "global_affine_layer_pair_count": 3456,
+    "global_affine_layer_plane_count_if_uniform_144": 24,
+    "possible_affine_signature_count_all_endpoints": 140,
+    "possible_signature_count_all_endpoints": 1820,
+    "realized_affine_signature_count": 50,
+    "selected_affine_record_count": 4192,
+    "selected_nonaffine_record_count": 2848
+  },
+  "claim_boundary": {
+    "allowed": [
+      "Use as a finite aggregate control context for the endpoint-24 theorem.",
+      "Use the 22/23/27 controls to motivate why endpoint 24 is a nontrivial anchor endpoint.",
+      "Use the global defect and selected-affine compatibility counts as aggregate guardrails."
+    ],
+    "not_claimed": [
+      "A conceptual classification of every endpoint.",
+      "A public full-payload atlas for all 7040 square-mask pairs.",
+      "A widening of the endpoint-24 theorem beyond its certified endpoint-24 scope."
+    ]
+  },
+  "control_endpoints": {
+    "all_records_selected_affine_endpoints": [
+      22
+    ],
+    "all_records_selected_nonaffine_endpoints": [
+      23,
+      27
+    ],
+    "endpoint22_positive_control": {
+      "realized_signature_count": 1,
+      "record_count": 176,
+      "selected_affine_record_count": 176
+    },
+    "endpoint23_27_negative_controls": {
+      "23": {
+        "affine_defect_distribution": {
+          "4": 16,
+          "6": 28
+        },
+        "realized_signature_count": 4,
+        "record_count": 44,
+        "tk_orbit_count": 11
+      },
+      "27": {
+        "affine_defect_distribution": {
+          "4": 52,
+          "6": 56
+        },
+        "realized_signature_count": 21,
+        "record_count": 108,
+        "tk_orbit_count": 27
+      }
+    },
+    "endpoint24_anchor": {
+      "affine_defect_distribution": {
+        "0": 144,
+        "4": 64,
+        "6": 28
+      },
+      "l1_affine_overlay_record_count": 144,
+      "realized_signature_count": 9,
+      "record_count": 236,
+      "selected_affine_record_count": 176,
+      "selected_nonaffine_record_count": 60,
+      "tk_orbit_count": 59
+    },
+    "zero_possible_selected_affine_signature_endpoints": [
+      23,
+      27
+    ]
+  },
+  "endpoint_distribution": {
+    "22": 176,
+    "23": 44,
+    "24": 236,
+    "25": 268,
+    "26": 676,
+    "27": 108,
+    "28": 328,
+    "29": 376,
+    "30": 772,
+    "31": 420,
+    "32": 884,
+    "33": 992,
+    "34": 1760
+  },
+  "metadata": {
+    "artifact": "FULL_ENDPOINT_CONTROL_ATLAS",
+    "public_payload": "aggregate summaries only",
+    "purpose": "context and guardrail for the endpoint-24 affine-defect boundary atlas",
+    "record_payload_included": false,
+    "scope": "summary-only aggregate control artifact",
+    "title": "Full Endpoint Control Atlas: Public Aggregate Summary"
+  },
+  "tk_endpoint_orbit_distribution": {
+    "22": 44,
+    "23": 11,
+    "24": 59,
+    "25": 67,
+    "26": 169,
+    "27": 27,
+    "28": 82,
+    "29": 94,
+    "30": 193,
+    "31": 105,
+    "32": 221,
+    "33": 248,
+    "34": 440
+  },
+  "universe": {
+    "endpoint_count": 13,
+    "endpoint_formula": "endpoint = 35 - min(selected values)",
+    "endpoint_formula_holds_for_all_records": true,
+    "full_pair_count": 7040,
+    "mask_count_per_square": 8,
+    "signature_record_count": 558,
+    "square_count": 880
+  }
+}

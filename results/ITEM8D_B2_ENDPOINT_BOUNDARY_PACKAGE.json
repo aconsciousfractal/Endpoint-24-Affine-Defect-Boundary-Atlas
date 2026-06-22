@@ -216,16 +216,16 @@
     }
   ],
   "source_artifacts": [
-    "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
-    "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
+    "development provenance not shipped: private staged certificate source",
+    "development provenance not shipped: private staged certificate source",
     "development provenance not shipped: results/B2_selected_affine_extra32_atlas.json",
     "development provenance not shipped: results/P3_B2_finite_boundary_theorem_draft.json",
     "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
   ],
   "source_boundary": {
     "construction_inputs": [
-      "development provenance not shipped: results/L8_endpoint24_tk_quotient_classifier.json",
-      "development provenance not shipped: results/L3_terminal24_boundary_atlas.json",
+      "development provenance not shipped: private staged certificate source",
+      "development provenance not shipped: private staged certificate source",
       "development provenance not shipped: results/B2_selected_affine_extra32_atlas.json",
       "development provenance not shipped: results/P3_B2_finite_boundary_theorem_draft.json",
       "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
