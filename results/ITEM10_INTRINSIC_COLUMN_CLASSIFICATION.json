@@ -44,7 +44,7 @@
   "guardrails": [
     "Item 10 closes the COLUMN classification, not the 15/49 realization.",
     "M is recomputed from raw essential squares via the certified Step6 pipeline.",
-    "Which intrinsic (signature, M) classes are realized remains the open magic residue.",
+    "Which intrinsic (signature, B) classes are realized remains the open magic residue.",
     "No public record-level widening or universal Endpoint-24 affine-defect atlas claim is made.",
     "Selected non-affinity and the B3 60 count remain finite, not symbolic."
   ],
@@ -1926,10 +1926,10 @@
     "mask_transport_support_residue_eliminated": true,
     "profile_count": 8,
     "public_claim_ready": false,
-    "reading": "The eight B3 defect-mask column profiles are not atlas labels: each is determined by intrinsic bilinear data of the (signature, square) pair -- the affine defect, the zero pattern of the error matrix M (uniform x*J vs a zero side), and the error space D = span(M).  Both the zero pattern and D are needed (dropping either creates exactly one collision), and together with the signature they determine the profile with zero collisions over all 60 records.  In particular the {DM01,DM02} split that item 5 attributed to a mask-transport support residue is exactly the M zero-pattern dichotomy, and the support Sigma is a consequence of the factorization of M, not an independent input.",
+    "reading": "The eight B3 defect-mask column profiles are not atlas labels: each is determined by intrinsic bilinear data of the (signature, square) pair -- the affine defect, the zero pattern of the error matrix B (uniform x*J vs a zero side), and the error space D = span(B).  Both the zero pattern and D are needed (dropping either creates exactly one collision), and together with the signature they determine the profile with zero collisions over all 60 records.  In particular the {DM01,DM02} split that item 5 attributed to a mask-transport support residue is exactly the B zero-pattern dichotomy, and the support Sigma is a consequence of the factorization of B, not an independent input.",
     "realization_residue_is_magic_embedding_fact": true,
     "recommended_status": "ITEM10_INTRINSIC_COLUMN_CLASSIFICATION_CERTIFIED",
-    "scope_note": "This closes the COLUMN side (profiles intrinsic to (signature, M)).  It does not close the 15/49 realization.  The bundled probe shows defect-6 realization is not a function of the signature's pair/triple-xor combinatorics, so which intrinsic (signature, M) classes occur remains a genuine magic-embedding fact -- the open residue.",
+    "scope_note": "This closes the COLUMN side (profiles intrinsic to (signature, B)).  It does not close the 15/49 realization.  The bundled probe shows defect-6 realization is not a function of the signature's pair/triple-xor combinatorics, so which intrinsic (signature, B) classes occur remains a genuine magic-embedding fact -- the open residue.",
     "symbolic_15_49_realization_complete": false,
     "zero_pattern_collision_count_when_dropped": 1
   },
@@ -1940,6 +1940,6 @@
       "mask_transport_residue_eliminated": true,
       "realization_15_49_closed": false
     },
-    "statement": "For every B3 endpoint-24 record, the defect-mask column profile is a function of the intrinsic pair (selected signature S, bilinear error matrix M of the source square): the affine defect delta = |supp E|, the zero pattern of M (uniform vs one zero side), and the error space D = span(M).  Over all 60 records this key has zero collisions and recovers all eight profiles; dropping either the zero pattern or D introduces exactly one collision, so both intrinsic coordinates are necessary.  No mask-transport support residue is required."
+    "statement": "For every B3 endpoint-24 record, the defect-mask column profile is a function of the intrinsic pair (selected signature S, bilinear error matrix B of the source square): the affine defect delta = |supp E|, the zero pattern of B (uniform vs one zero side), and the error space D = span(B).  Over all 60 records this key has zero collisions and recovers all eight profiles; dropping either the zero pattern or D introduces exactly one collision, so both intrinsic coordinates are necessary.  No mask-transport support residue is required."
   }
 }

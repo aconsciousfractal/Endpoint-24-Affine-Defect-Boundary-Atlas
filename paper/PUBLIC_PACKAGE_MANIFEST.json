@@ -53,10 +53,10 @@
     }
   ],
   "guardrails": [
-    "This is a public companion release-ready local manifest.",
+    "This is a published public companion manifest.",
     "Do not export development-only artifacts unless SOURCE_MAP.md is deliberately changed.",
     "Appendix-only artifacts are certificate support, not main public narrative material.",
-    "Run public package checks and a clean-clone check before push/tag."
+    "Run public package checks after release-state changes."
   ],
   "metadata": {
     "extension": "main",
@@ -413,14 +413,14 @@
     "appendix-only": [
       {
         "paper_block": "Final theorem extraction",
-        "public_wording": "paper-local",
+        "public_wording": "certified-atlas scoped",
         "role": "theorem/proof seed",
         "scope": "appendix-only",
         "source_artifact": "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md"
       },
       {
         "paper_block": "B3 endpoint transport",
-        "public_wording": "paper-local finite theorem",
+        "public_wording": "finite endpoint theorem",
         "role": "carrier orbits and payload",
         "scope": "appendix-only",
         "source_artifact": "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json"
@@ -428,7 +428,7 @@
       {
         "paper_block": "Intrinsic B3 column classification",
         "public_wording": "certified column refinement",
-        "role": "8/8 column profile classification by (signature, M)",
+        "role": "8/8 column profile classification by (signature, B)",
         "scope": "appendix-only",
         "source_artifact": "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json"
       },
@@ -582,7 +582,7 @@
     },
     {
       "paper_block": "Final theorem extraction",
-      "public_wording": "paper-local",
+      "public_wording": "certified-atlas scoped",
       "role": "theorem/proof seed",
       "scope": "appendix-only",
       "source_artifact": "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md"
@@ -652,7 +652,7 @@
     },
     {
       "paper_block": "B3 endpoint transport",
-      "public_wording": "paper-local finite theorem",
+      "public_wording": "finite endpoint theorem",
       "role": "carrier orbits and payload",
       "scope": "appendix-only",
       "source_artifact": "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json"
@@ -695,7 +695,7 @@
     {
       "paper_block": "Intrinsic B3 column classification",
       "public_wording": "certified column refinement",
-      "role": "8/8 column profile classification by (signature, M)",
+      "role": "8/8 column profile classification by (signature, B)",
       "scope": "appendix-only",
       "source_artifact": "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json"
     },
@@ -723,13 +723,13 @@
     "license_citation_review_required": false,
     "missing_package_files": [],
     "missing_recommended_public_package_files": [],
-    "next_gate": "Publish the repository, then run checks from a clean clone before tagging.",
+    "next_gate": "Optional: create a GitHub Release object from tag v1.0.1 and archive/DOI metadata if desired.",
     "paper_package_files_ready": true,
     "standard_docs_ready": true,
     "public_export_count": 16,
     "public_export_ready": true,
     "public_package_manifest_ready": true,
-    "recommended_status": "PUBLIC_PACKAGE_RELEASE_READY_LOCAL",
+    "recommended_status": "PUBLIC_PACKAGE_PUBLISHED_TAGGED",
     "red_team_report_ready": true,
     "red_team_required": false,
     "red_team_required_after_human_release_changes": false,

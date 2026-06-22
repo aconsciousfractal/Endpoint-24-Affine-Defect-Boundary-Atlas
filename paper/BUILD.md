@@ -22,7 +22,7 @@ The TeX style uses standard `article`, theorem/proposition/certified-proposition
 environments, explicit finite-certificate language, and a separate claim
 boundary.
 
-Before first public push/tag from a fresh checkout:
+Post-publication verification from a fresh checkout:
 
 ```powershell
 python -m pytest -q

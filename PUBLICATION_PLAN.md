@@ -1,6 +1,6 @@
-# Public Release Preparation Plan
+# Public Release State
 
-Status: public-release-ready local companion repository. The repository has no Git remote configured intentionally, so GitHub Desktop should offer `Publish repository` rather than `Publish branch`.
+Status: published public companion repository. The `main` branch and release tag `v1.0.1` are pushed to GitHub.
 
 ## Completed
 
@@ -14,10 +14,15 @@ Status: public-release-ready local companion repository. The repository has no G
 - [x] Add hardened public package checks and CI smoke test.
 - [x] Run repo and paper red-team passes and address their blockers.
 - [x] Create local public-prep commits.
+- [x] Publish the repository on GitHub.
+- [x] Run public-package checks from a clean clone.
+- [x] Create and push release tag `v1.0.1`.
 
-## Publish Gate
+## Post-Tag Gate
 
-- [ ] In GitHub Desktop, use `Publish repository` for `Endpoint-24-Affine-Defect-Boundary-Atlas`.
-- [ ] Keep the repository name aligned with `CITATION.cff`: `Endpoint-24-Affine-Defect-Boundary-Atlas`.
-- [ ] After publication, run `python -m pytest -q` and `python scripts/run_all_reproducibility_checks.py` from a clean clone or fresh checkout.
-- [ ] Create a release tag only after the clean-clone checks pass.
+- [x] Keep the repository name aligned with `CITATION.cff`: `Endpoint-24-Affine-Defect-Boundary-Atlas`.
+- [x] Confirm `python -m pytest -q` from a clean clone.
+- [x] Confirm `python scripts/run_all_reproducibility_checks.py` from a clean clone.
+- [x] Confirm `python scripts/check_public_package.py` from a clean clone.
+- [ ] Optional: create a GitHub Release object from tag `v1.0.1`.
+- [ ] Optional: archive/tag with DOI infrastructure if desired.

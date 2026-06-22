@@ -7,7 +7,7 @@ paper.
 
 The paper may claim:
 
-- finite, paper-local theorem inside the certified endpoint-24 order-four magic-square atlas;
+- finite theorem within the certified endpoint-24 order-four magic-square atlas;
 - endpoint `24` has `236` records and `59` free `T/K` orbits;
 - exact affine core has `144` records and `36` orbits;
 - B2 has `32` records and `8` orbits;
@@ -19,7 +19,7 @@ The paper may claim:
 - B3 `15/49` support-action matrix as finite-certified from the bilinear
   support-action package;
 - Intrinsic B3 column classification: the eight B3 profile columns are
-  determined by `(signature, M)` using defect, zero pattern, and `D=span(M)`;
+  determined by `(signature, B)` using defect, zero pattern, and `D=span(B)`;
 - Defect-6 realizability obstruction: the remaining `15/49` realization
   residue is an integer-magic finite certificate, not an F2-linear closure;
 - count-60 collapse as finite debt reduction, not symbolic proof.
@@ -47,7 +47,7 @@ Use:
 
 ```text
 finite-certified
-paper-local
+scoped to the certified endpoint-24 atlas
 inside the certified extension atlas
 current symbolic debt
 ```

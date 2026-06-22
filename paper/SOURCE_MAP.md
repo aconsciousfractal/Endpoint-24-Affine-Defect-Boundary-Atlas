@@ -17,7 +17,7 @@ Scope values:
 |---|---|---|---|---|
 | Bibliography audit | `paper/REFERENCE_AUDIT.md` | verified metadata and citation caveats | context only | public-export |
 | Source-backed tables | `paper/PAPER_SOURCE_BACKED_TABLES.json` | public table/figure payload summary | finite-certified summary | public-export |
-| Final theorem extraction | `docs/PAPER_FINAL_THEOREM_B1_B2_B3.md` | theorem/proof seed | paper-local | appendix-only |
+| Final theorem extraction | `docs/PAPER_FINAL_THEOREM_B1_B2_B3.md` | theorem/proof seed | certified-atlas scoped | appendix-only |
 | Endpoint-24 delta table | `results/DELTA_STRATIFICATION.json` | finite endpoint split | certified proposition | public-export |
 | Direction lemma | `results/DIRECTION_LEMMA_CERTIFICATE.json` | selected-xor direction | certified proposition | public-export |
 | Degree bound | `results/DEGREE_BOUND_CERTIFICATE.json` | `deg L <= 2` | certified proposition | public-export |
@@ -27,7 +27,7 @@ Scope values:
 | B3 matrix | `paper/PAPER_SOURCE_BACKED_TABLES.json` | `15/49` finite matrix summary | certified proposition | public-export |
 | B3 intrinsic/residue split | `results/STEP6PLUS_DEFECT_MASK_CLASSES.json` | six intrinsic classes plus two splits | certified proposition | public-export |
 | B3 clause templates | `results/STEP10PLUS_CLAUSE_FAMILIES.json` | NF1/NF2/NF3 templates | theorem/lemma for templates | public-export |
-| B3 endpoint transport | `results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json` | carrier orbits and payload | paper-local finite theorem | appendix-only |
+| B3 endpoint transport | `results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json` | carrier orbits and payload | finite endpoint theorem | appendix-only |
 | Global `T/K` freeness | `results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json` | free quotient | finite theorem | public-export |
 | B3 count reduction | `results/ITEM8B_FREENESS_COUNT_REDUCTION.json` | `15=60/4` | certified proposition | public-export |
 | B3 selector probe | private selector-decoupling probe (not shipped) | finite selector probe with record-level fields | finite selector | development-only |

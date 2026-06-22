@@ -13,6 +13,11 @@ OLD_DEV_PREFIX = "bounded_" + "magic"
 OLD_INTERNAL_CODE = "P" + "APP"
 OLD_INTERNAL_KEY = "papp" + "_"
 OLD_DEV_PATH = "extensions" + "/main"
+STALE_PUBLISH_REPO = "Publish" + " repository"
+STALE_FIRST_PUBLIC_PUSH = "first" + " public push"
+STALE_BEFORE_TAGGING = "before" + " tagging"
+STALE_BEFORE_PUSH_TAG = "before" + " push/tag"
+STALE_PUBLIC_READY_LOCAL = "public-release-ready" + " local"
 
 
 def test_public_package_check_passes() -> None:
@@ -35,7 +40,21 @@ def test_old_branding_absent_from_public_text() -> None:
         if not path.is_file() or ".git" in path.parts or path.suffix.lower() not in checked_extensions:
             continue
         text = path.read_text(encoding="utf-8", errors="ignore")
-        if any(pattern in text for pattern in [OLD_PROJECT, OLD_DRAFT, OLD_COMPACT, OLD_DEV_PREFIX, OLD_INTERNAL_CODE, OLD_INTERNAL_KEY, OLD_DEV_PATH]):
+        patterns = [
+            OLD_PROJECT,
+            OLD_DRAFT,
+            OLD_COMPACT,
+            OLD_DEV_PREFIX,
+            OLD_INTERNAL_CODE,
+            OLD_INTERNAL_KEY,
+            OLD_DEV_PATH,
+            STALE_PUBLISH_REPO,
+            STALE_FIRST_PUBLIC_PUSH,
+            STALE_BEFORE_TAGGING,
+            STALE_BEFORE_PUSH_TAG,
+            STALE_PUBLIC_READY_LOCAL,
+        ]
+        if any(pattern in text for pattern in patterns):
             offenders.append(path.relative_to(ROOT).as_posix())
     assert offenders == []
 

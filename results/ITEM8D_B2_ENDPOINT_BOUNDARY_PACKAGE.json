@@ -278,8 +278,8 @@
     "theorem_count": 1
   },
   "theorem": {
-    "latex_statement": "\\begin{theorem}[B2 endpoint boundary, paper-local finite form]\\label{thm:b2-endpoint-boundary}\nInside the certified endpoint-24 quotient by the verified free $T/K$ action, the B2 boundary is selected by affine selected values together with non-affine cell-value labelling.  Equivalently, the exact finite selector is \\texttt{selected\\_value\\_affine\\_and\\_cell\\_value\\_nonaffine}.  It selects 8 quotient orbits and 32 records, and these orbits match the eight P3 canonicalized selected-affine boundary components, each of size four.\n\\end{theorem}",
-    "name": "B2 endpoint boundary theorem, paper-local finite form",
+    "latex_statement": "\\begin{theorem}[B2 endpoint boundary, finite certified-atlas form]\\label{thm:b2-endpoint-boundary}\nInside the certified endpoint-24 quotient by the verified free $T/K$ action, the B2 boundary is selected by affine selected values together with non-affine cell-value labelling.  Equivalently, the exact finite selector is \\texttt{selected\\_value\\_affine\\_and\\_cell\\_value\\_nonaffine}.  It selects 8 quotient orbits and 32 records, and these orbits match the eight P3 canonicalized selected-affine boundary components, each of size four.\n\\end{theorem}",
+    "name": "B2 endpoint boundary theorem, finite certified-atlas form",
     "statement": "Inside endpoint 24, the exact B2 selector is selected_value_affine_and_cell_value_nonaffine. It selects 8 free T/K orbits and 32 records, and these orbits match the eight P3 canonicalized B2 boundary components of size four.",
     "status": "tex_ready_paper_local_finite_theorem",
     "theorem_id": "ITEM8D-T01",

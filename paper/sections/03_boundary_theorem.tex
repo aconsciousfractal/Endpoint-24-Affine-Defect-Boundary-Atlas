@@ -1,7 +1,7 @@
 \section{Algebraic Spine and Boundary Theorem}
 \label{sec:theorem}
 
-The theorem below states the paper-local boundary result in public notation.
+The theorem below states the finite boundary result in public notation.
 Each finite assertion is tied to a source artifact in
 \(\texttt{paper/SOURCE\_MAP.md}\); the proof uses those artifacts as certified
 finite inputs rather than as hidden mathematical assumptions.
@@ -62,9 +62,9 @@ This is the first-principles structural part of the affine-defect spine.
 \end{theorem}
 
 \begin{proof}
-Let \(M=(B_{ij})\) be the \(2\times2\) matrix of mixed bilinear coefficients.
+Let \(B=(B_{ij})\) be the \(2\times2\) matrix of mixed bilinear coefficients.
 The property that a bilinear matrix is completable to a degree-at-most-two
-bijection \(x\mapsto A_0x+E(x)\), and the property that one side of \(M\) is
+bijection \(x\mapsto A_0x+E(x)\), and the property that one side of \(B\) is
 dependent, are invariant under the codomain action of \(GL(4,2)\).  The
 Step5+ check therefore reduces the obstruction to a symmetry-complete finite
 set: all \(4096\) matrices with entries in a fixed three-dimensional subspace,
@@ -149,8 +149,8 @@ hence \(64\) candidate cells.  The finite bilinear transport package verifies
 exactly \(15\) realized cells and \(49\) absent cells, with no false positives
 or false negatives.  The intrinsic column-classification certificate refines
 the column side: all eight profile columns are intrinsic to the selected
-signature and the bilinear error matrix \(M\), through \(\delta\), the zero
-pattern of \(M\), and \(\Derr=\operatorname{span}(M)\).  The defect-6
+signature and the bilinear error matrix \(B\), through \(\delta\), the zero
+pattern of \(B\), and \(\Derr=\operatorname{span}(B)\).  The defect-6
 realizability-obstruction certificate identifies the remaining realization side
 as an integer-magic residue: at defect \(6\), the order-four magic-square
 constraints realize \(13\) of the \(35\) two-dimensional error spaces, although
@@ -188,7 +188,7 @@ selected-label xor, and therefore cannot occur in the affine selected-plane
 layer.  This is not a full endpoint \(23/27\) classification.
 \end{certprop}
 
-\begin{theorem}[Affine-defect boundary atlas, paper-local form]
+\begin{theorem}[Affine-defect boundary atlas, certified endpoint-24 form]
 \label{thm:b123-affine-defect-boundary}
 Inside the certified endpoint-24 order-four magic-square atlas, consider square-mask pairs in
 the bounded one-incidence model.  Quotient statements are taken modulo the

@@ -11,21 +11,20 @@ public companion package.
    formulas or tables.
 4. Run the commands in `REPRODUCE.md`.
 5. Check `docs/PROOF_OBLIGATIONS.md` for open symbolic debts.
-6. Read `docs/RED_TEAM_REPORT.md` before publication.
+6. Read `docs/RED_TEAM_REPORT.md` for release-audit history.
 7. Use `docs/PAPER_TO_ENGINE_TRACEABILITY.md` to connect manuscript sections to
    scripts, JSON certificates, and tests.
 
 ## Current Status
 
 - Manuscript: `paper/affine_defect_boundary_atlas.pdf`.
-- Replay target: finite, paper-local endpoint-24 affine-defect atlas.
-- Public export: local release-ready; first public repository publication and tag require a clean-checkout
-  red-team pass.
+- Replay target: finite certified endpoint-24 affine-defect atlas.
+- Public export: published public companion repository with tag `v1.0.1`; clean-clone checks have passed.
 - License/citation: finalized as MIT / `CITATION.cff` for this local public package.
 
 ## Main Guardrail
 
-The package supports finite-certified and paper-local statements. It does not
+The package supports finite-certified, atlas-scoped statements. It does not
 claim a non-enumerative proof of the B3 count `60`, a full non-affine
 classification, or a universal theorem for all endpoint-24 order-four
 magic-square behavior.

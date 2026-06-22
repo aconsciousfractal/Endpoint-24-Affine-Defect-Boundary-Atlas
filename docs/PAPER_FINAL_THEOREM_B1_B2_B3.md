@@ -1,6 +1,6 @@
 # Paper Final Theorem B1/B2/B3
 
-Status: Public appendix theorem/proof seed. It records the paper-local finite theorem and is bundled for reviewer audit; it is not the source of truth for public replay scope.
+Status: Public appendix theorem/proof seed. It records the finite theorem within the certified endpoint-24 atlas and is bundled for reviewer audit; it is not the source of truth for public replay scope.
 
 Public source note:
 
@@ -8,14 +8,14 @@ Public source note:
 - Private draft docs and record-level support-action payloads are not shipped.
 - The public B3 matrix is the sanitized summary in `paper/PAPER_SOURCE_BACKED_TABLES.json`.
 
-Claim boundary: paper-local finite theorem only.  No public record-level widening, no
+Claim boundary: certified endpoint-24 finite theorem only.  No public record-level widening, no
 universal Endpoint-24 affine-defect atlas claim, no record-level payload promotion, no full endpoint
 23/27 classification, no complete B2 conceptual theorem, no full B3 non-affine
 classification, and no non-enumerative first-principles proof of the B3
 support-action multiplicity matrix.  Step5+ and Step9+ are first-principles
 structural upgrades; Step10+ proves the B3 clause templates; and Item10 closes
 the B3 column-profile classification intrinsically as a function of
-`(signature, M)`.  Item7-I and Item7-J add the endpoint transport package:
+`(signature, B)`.  Item7-I and Item7-J add the endpoint transport package:
 selected-value non-affine is the exact finite B3 endpoint selector in the L8
 endpoint-24 T/K quotient, and its 15 orbits are exactly the Item7-H
 lower-geometry transport atoms.  Item8-A names the global T/K freeness theorem;
@@ -39,7 +39,7 @@ integer-magic rather than F2-linear.
 ## Statement
 
 ```latex
-\begin{theorem}[Affine-defect boundary atlas, paper-local form]\label{thm:b123-affine-defect-boundary}
+\begin{theorem}[Affine-defect boundary atlas, certified endpoint-24 form]\label{thm:b123-affine-defect-boundary}
 Inside the certified Endpoint-24 affine-defect atlas extension atlas, consider square-mask pairs in the
 bounded one-incidence model.  Quotient statements are taken modulo the verified
 D4 essential representatives and the verified free \(\TK\)-action of L7.
@@ -69,7 +69,7 @@ Then the following finite assertions hold.
         two bijections of \(\F_2^4\), and Step9+ makes the error-fiber parity
         bridge first-principles.  Step6+ is the original defect-mask split
         certificate, and Item10 sharpens it to an 8/8 intrinsic column
-        classification by `(signature, M)`; Step10+ proves the NF1/NF2/NF3
+        classification by `(signature, B)`; Step10+ proves the NF1/NF2/NF3
         clause templates.
         Item7-I/J package the endpoint transport theorem: inside the endpoint-24
         \(T/K\) quotient, selected-value non-affineness selects exactly the
@@ -82,8 +82,8 @@ Then the following finite assertions hold.
         \(1,1,1,2,2,1,4,3\), and the diagonal-plane avatar
         \(\delta=0,4,6\leftrightarrow24,8,0\).  Item10 then upgrades the
         column side: all eight B3 profile columns are intrinsic to
-        \((S,M)\), using \(\delta\), the zero pattern of \(M\), and
-        \(D=\operatorname{span}(M)\).  Item11 locates the remaining realization
+        \((S,B)\), using \(\delta\), the zero pattern of \(B\), and
+        \(D=\operatorname{span}(B)\).  Item11 locates the remaining realization
         residue at defect six: integer magic realizes exactly \(13\) of the
         \(35\) two-dimensional error spaces; all \(35\) are F2-completable and
         the realized \(13\)-set has trivial \(GL(4,2)\) stabilizer.
@@ -183,10 +183,10 @@ matrix, quotients by L7 \(\TK\)-transport, groups by defect-mask support gates,
 and verifies that the \(13\) compressed support-action clauses reproduce the
 \(15/49\) support-action matrix exactly.  Step6+ first isolated the eight defect-mask columns into intrinsic classes plus
 apparent mask-transport splits.  Item10 sharpens that statement: all eight
-columns are intrinsic to the selected signature and bilinear matrix \(M\).  The
-old \(DM01/DM02\) split is the zero-pattern dichotomy of \(M\) (uniform
+columns are intrinsic to the selected signature and bilinear matrix \(B\).  The
+old \(DM01/DM02\) split is the zero-pattern dichotomy of \(B\) (uniform
 \(xJ\) versus one zero side), and the \(DM04/DM06\) split is separated by
-\(D=\operatorname{span}(M)\).  Step10+ then proves the three clause templates:
+\(D=\operatorname{span}(B)\).  Step10+ then proves the three clause templates:
 defect-4 singleton xor error, defect-6 non-xor pair support, and defect-6
 non-xor triple support.  This gives \(60\) B3 records, \(15\) B3 \(\TK\)-orbits,
 \(15\) realized cells, \(49\) absent cells, and zero false positives or false
@@ -203,7 +203,7 @@ partial orbit.  Item7-I then matches these \(15\) endpoint orbits bijectively
 with the Item7-H lower-geometry transport atoms \(\texttt{STEP6-SA01}\) through
 \(\texttt{STEP6-SA15}\), attaching the defect split \(8+7\), the eight
 signature multiplicities, and the relation-code payload.  This is the
-paper-local finite endpoint theorem used for export; it is not a symbolic proof
+finite endpoint theorem used for export; it is not a symbolic proof
 that the non-affine endpoint state must have exactly \(15\) quotient orbits.
 
 Item8-B then reduces the finite B3 quotient count to freeness: \(15=60/4\).
@@ -217,14 +217,14 @@ Item9 then records the count-60 collapse:
 \(\delta=0,4,6\leftrightarrow24,8,0\).  The count \(60\) and the
 kernel counts remain finite-certified rather than symbolically derived.
 Item10 closes the column-classification residue by proving that the eight B3
-columns are intrinsic to \((S,M)\).  Item11 then proves that the remaining
+columns are intrinsic to \((S,B)\).  Item11 then proves that the remaining
 realization residue is not an F2 or linear-algebraic theorem: among the \(35\)
 defect-6 two-flats, integer magic realizes \(13\), all \(35\) are
 bijection-completable under Lemma C, and the \(GL(4,2)\) stabilizer of the
 realized \(13\)-set is trivial.
 Finally, P2 gives the B1 scoped corollary for endpoints \(23\) and \(27\):
 their selected signatures have nonzero xor, while every L1 selected plane has
-zero xor.  This proves the stated paper-local finite theorem.
+zero xor.  This proves the stated certified endpoint-24 finite theorem.
 \end{proof}
 ```
 
@@ -243,7 +243,7 @@ This public appendix lists only artifacts shipped in this repository. Private dr
 | B3 public support-action matrix summary | `paper/PAPER_SOURCE_BACKED_TABLES.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
 | B3 defect-mask intrinsic/residue split | `results/STEP6PLUS_DEFECT_MASK_CLASSES.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
 | B3 clause-template families | `results/STEP10PLUS_CLAUSE_FAMILIES.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
-| B3 paper-local endpoint transport package | `results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
+| B3 finite endpoint transport package | `results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
 | Global T/K freeness theorem | `results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
 | B3 freeness count reduction | `results/ITEM8B_FREENESS_COUNT_REDUCTION.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
 | B2 endpoint boundary package | `results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json` | `scripts/check_public_package.py`; `tests/test_public_package.py` |
@@ -254,14 +254,14 @@ This public appendix lists only artifacts shipped in this repository. Private dr
 
 ## Guardrails
 
-- The theorem is finite and paper-local to the certified extension atlas.
+- The theorem is finite and scoped to the certified endpoint-24 extension atlas.
 - The statement is not a public release claim and does not authorize record-level
   payload promotion.
 - B1 is scoped to absence from the affine selected-plane layer; it is not a full
   endpoint-23/27 classification.
 - B2 is finite-closed; no complete conceptual B2 theorem is claimed.
 - B3 is closed at finite bilinear support-action level.  Item10 closes the
-  column-profile classification intrinsically as a function of `(signature, M)`,
+  column-profile classification intrinsically as a function of `(signature, B)`,
   and Step10+ proves the clause templates; no full non-affine classification and
   no non-enumerative first-principles proof of the 15/49 realization matrix is
   claimed.

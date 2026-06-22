@@ -13,7 +13,7 @@ tables, and tests.
 
 ## Affine Interpolation And Error
 
-- `A` is the affine interpolation through the selected affine mask points.
+- `A` is the affine interpolation of `L` on the fixed anchor frame `{0,e1,e2,e3,e4}`.
 - `L` is the label map of the square.
 - `E = L + A` over `F_2` is the affine-interpolation error.
 - `D` is the span of the bilinear error coefficient directions.

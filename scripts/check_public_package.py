@@ -62,6 +62,11 @@ FORBIDDEN_TEXT_PATTERNS = [
     "P" + "APP",
     "papp" + "_",
     "extensions" + "/main",
+    "Publish" + " repository",
+    "first" + " public push",
+    "before" + " tagging",
+    "before" + " push/tag",
+    "public-release-ready" + " local",
 ]
 
 TEXT_EXTENSIONS = {".json", ".md", ".tex", ".py", ".cff", ".bib", ".yml", ".yaml", ".txt"}

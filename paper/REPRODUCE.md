@@ -1,6 +1,6 @@
 # Reproduce The Paper Build
 
-This file records the paper-local build and package checks for the public
+This file records the paper build and package checks for the public
 companion repository. The top-level `REPRODUCE.md` is the primary public entry
 point.
 

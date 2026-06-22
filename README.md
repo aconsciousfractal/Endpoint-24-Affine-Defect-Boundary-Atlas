@@ -15,7 +15,7 @@ a dump of the development workspace.
 
 ## Status
 
-Public-release-ready local companion repository. Use GitHub Desktop to publish the repository, then run the same checks from a clean clone before creating a release tag.
+Published public companion repository. The release tag `v1.0.1` has been created after local and clean-clone public-package checks.
 
 ## Layout
 
@@ -32,10 +32,20 @@ data/       intentionally empty unless a curated public input is later approved
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate        # Windows
-# source .venv/bin/activate     # Linux / macOS
 pip install -r requirements.txt
 python -m pytest -q
+```
+
+Windows activation, if needed:
+
+```powershell
+.venv\Scripts\activate
+```
+
+Linux / macOS activation, if needed:
+
+```bash
+source .venv/bin/activate
 ```
 
 The checks are public-package guardrails. They verify that the curated release

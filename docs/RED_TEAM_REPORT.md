@@ -9,18 +9,18 @@ Reviewers: delegated read-only repo red-team and delegated read-only paper red-t
 
 ## Verdict
 
-Local public companion repository: release-ready for first public push.
+Published public companion repository: local package, clean clone, and tag checks are release-ready.
 
-Remaining operational gate: publish the repository, then run the public checks from a clean clone before tagging a release.
+Remaining optional operational gate: create a GitHub Release object from tag `v1.0.1`, and add DOI/archive metadata if desired.
 
 ## Red-Team Findings And Closure
 
 | ID | Severity | Finding | Closure |
 |---|---|---|---|
-| RT-1 | blocker | Release-state metadata conflicted across README, plan, red-team report, proof obligations, and manifests. | Closed: release metadata now consistently describes a local public-release-ready repo with only remote/push verification remaining. |
+| RT-1 | blocker | Release-state metadata conflicted across README, plan, red-team report, proof obligations, and manifests. | Closed: release metadata now consistently describes a published public companion repository with tag `v1.0.1` pushed. |
 | RT-2 | blocker | Traceability docs referenced private development scripts/tests absent from the public repo. | Closed: `docs/PAPER_TO_ENGINE_TRACEABILITY.md` now maps paper claims to public artifacts and public checks only. |
 | RT-3 | high | `SOURCE_LOCK.md` listed only two appendix-only artifacts while source map/manifest listed four. | Closed: source lock now lists `PAPER_FINAL`, `ITEM7`, `ITEM10`, and `ITEM11` as appendix-only support. |
-| RT-4 | high | `PAPER_WORKSPACE_MANIFEST.json` was stale development metadata. | Closed: removed from the public repo. |
+| RT-4 | high | A stale development workspace manifest was present. | Closed: removed from the public repo. |
 | RT-5 | medium | Introduction used stale release-draft wording. | Closed: introduction now states the paper directly as a focused companion. |
 | RT-6 | low | `results/public_package_check.json` can be generated as ignored local residue. | Accepted: public checks are read-only by default; `run_all_reproducibility_checks.py` writes this ignored report only on demand. |
 | RT-7 | low | Underfull hbox warnings remain in the generated table. | Accepted: no overfull boxes, no unresolved citations, no unresolved references; table content is correct. |
@@ -28,9 +28,9 @@ Remaining operational gate: publish the repository, then run the public checks f
 | RT-9 | high | Shipped provenance metadata contained private development-workspace paths and absent private source filenames. | Closed: public source maps point to shipped artifacts or explicitly mark private provenance as not shipped. |
 | RT-10 | medium | Package checker did not scan JSON and did not block internal acronym/path leaks. | Closed: checker and tests now scan JSON and forbid old branding, internal acronym keys, and private workspace paths. |
 
-## Final Local Checks
+## Final Checks
 
-Required before push:
+Run locally and from a clean clone:
 
 ```powershell
 python scripts/check_public_package.py

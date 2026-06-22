@@ -21,12 +21,12 @@ generated/                        generated TeX tables/figures
 figures/                          static/generated figure assets
 PAPER_SOURCE_BACKED_TABLES.json   generated table/figure data summary
 PUBLIC_PACKAGE_MANIFEST.json      public package manifest
-PAPER_WORKSPACE_MANIFEST.json     source workspace manifest snapshot
+
 SOURCE_MAP.md                     paper claims to source artifacts and export scope
 REFERENCE_AUDIT.md                bibliography metadata/caveats
 CLAIM_BOUNDARY.md                 allowed/blocked public wording
 README_REVIEWER.md                reviewer entry point copy
-REPRODUCE.md                      paper-local reproduction notes
+REPRODUCE.md                      reproduction notes
 CITATION.cff                      citation metadata copy
 LICENSE                           MIT license copy
 ```
@@ -43,7 +43,7 @@ LICENSE                           MIT license copy
 
 ## Guardrail
 
-The manuscript may state finite, paper-local certified theorems. It must not
+The manuscript may state finite certified, atlas-scoped theorems. It must not
 claim a non-enumerative proof of the B3 count `60`, a full non-affine
 classification, a full endpoint `23/27` classification, or public record-level widening
 of record-level payloads.

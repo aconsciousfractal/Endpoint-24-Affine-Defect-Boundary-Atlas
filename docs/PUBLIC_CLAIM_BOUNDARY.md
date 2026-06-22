@@ -4,7 +4,7 @@ This file is the public-facing version of `CLAIM_BOUNDARY.md`.
 
 | Can say publicly | Can say internally | Must not say |
 |---|---|---|
-| The package gives a finite, paper-local replay of the endpoint-24 affine-defect boundary atlas. | The route may suggest a broader symbolic structure. | The package proves the universal endpoint-24 classification. |
+| The package gives a finite replay within the certified endpoint-24 affine-defect boundary atlas. | The route may suggest a broader symbolic structure. | The package proves the universal endpoint-24 classification. |
 | Endpoint 24 is certified in this atlas as 236 records and 59 free T/K orbits. | The quotient kernel may deserve a symbolic proof later. | The quotient kernel is symbolically derived from first principles. |
 | B2 is certified as 32 records and 8 orbits under the stated selector. | B2 has a cleaner conceptual shape than B3. | B2 is conceptually complete beyond the finite certificate. |
 | B3 is certified as 60 records, 15 orbits, and a 15/49 support-action matrix in the locked atlas. | The Intrinsic B3 column classification closes the column-profile side, and the Defect-6 realizability obstruction shows the remaining realization cut is integer-arithmetic. | The B3 count 60 or full 15/49 matrix is proved non-enumeratively. |
