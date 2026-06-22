@@ -33,8 +33,8 @@ Scope values:
 | B3 selector probe | `results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json` | finite selector probe with record-level fields | finite selector | development-only |
 | B2 endpoint package | `results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json` | B2 `32/8` package | finite theorem | public-export |
 | Count-60 collapse | `results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json` | kernel and row-degree reduction | finite certified debt reduction | public-export |
-| Intrinsic B3 column classification | `results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json` | 8/8 column profile classification by `(signature, M)` | certified column refinement | appendix-only |
-| Defect-6 realizability obstruction | `results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json` | `13/35` arithmetic realization cut and no linear symmetry | certified obstruction boundary | appendix-only |
+| Intrinsic B3 column classification | `results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json` | appendix support for the public B3 summary in `paper/PAPER_SOURCE_BACKED_TABLES.json` | certified column refinement | appendix-only |
+| Defect-6 realizability obstruction | `results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json` | appendix support for the public obstruction summary in `paper/PAPER_SOURCE_BACKED_TABLES.json` | certified obstruction boundary | appendix-only |
 | Claim boundary | `results/P6_final_verification_gate.json` | blocked/allowed claims | mandatory guardrail | public-export |
 
 ## Development-Only Inputs

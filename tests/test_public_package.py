@@ -20,7 +20,7 @@ def test_public_package_check_passes() -> None:
         capture_output=True,
     )
     assert completed.returncode == 0, completed.stdout + completed.stderr
-    report = json.loads((ROOT / "results" / "public_staging_check.json").read_text(encoding="utf-8"))
+    report = json.loads(completed.stdout)
     assert report["status"] == "pass"
     assert report["release_ready"] is True
 

@@ -15,8 +15,9 @@ This file separates closed finite/theorem items from open symbolic debts.
 | PO-7 | Reproduce B3 15/49 support-action matrix from safe public summary. | closed finite certificate | `paper/PAPER_SOURCE_BACKED_TABLES.json` |
 | PO-8 | Certify that the eight B3 profile columns are intrinsic to `(signature, M)`. | closed finite certificate | `results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json` |
 | PO-9 | Localize the remaining defect-6 realization residue and rule out F2/linear closure. | closed obstruction certificate | `results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json` |
+| PO-10 | Finalize release license/citation metadata and public-package red-team. | closed release gate | `LICENSE`, `CITATION.cff`, `docs/RED_TEAM_REPORT.md` |
 
-## Open Or Blocked
+## Open Or Blocked Mathematical Scope
 
 | ID | Obligation | Public handling |
 |---|---|---|
@@ -24,10 +25,8 @@ This file separates closed finite/theorem items from open symbolic debts.
 | OO-2 | Non-enumerative first-principles derivation of the full B3 15/49 matrix. | open; do not claim; the defect-6 realizability obstruction explains why the remaining cut is integer-arithmetic, not F2-linear |
 | OO-3 | Full B3 non-affine classification beyond the saved endpoint-24 atlas. | blocked; do not claim |
 | OO-4 | Full endpoint 23/27 classification. | blocked; do not claim |
-| OO-5 | Public release license and citation metadata. | pending human release review |
-| OO-6 | Final public-package red-team / claim-boundary gate. | pending |
 
 ## Release Rule
 
-Open obligations may be discussed only as open obligations.  They cannot be
-used as theorem premises or as public completion claims.
+Open mathematical obligations may be discussed only as open obligations. They
+cannot be used as theorem premises or as public completion claims.

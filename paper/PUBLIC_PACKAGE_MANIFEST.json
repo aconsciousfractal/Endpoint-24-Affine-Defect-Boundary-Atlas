@@ -1,755 +1,744 @@
 {
-    "appendix_only_sources":  [
-                                  "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
-                                  "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json",
-                                  "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json",
-                                  "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json"
-                              ],
-    "blocked_export_patterns":  [
-                                    "data/order4_normal_essential_880.json",
-                                    "results/L[0-9]*.json",
-                                    "results/L[0-9]*.md",
-                                    "paper/*.aux",
-                                    "paper/*.bbl",
-                                    "paper/*.blg",
-                                    "paper/*.log",
-                                    "paper/*.out"
-                                ],
-    "blocked_payload_markers":  [
-                                    "record-level",
-                                    "record level",
-                                    "large support-action source",
-                                    "raw essential-square universe"
-                                ],
-    "checks":  {
-                   "appendix_sources_separated":  true,
-                   "has_appendix_only_rows":  true,
-                   "has_development_only_inputs":  true,
-                   "has_development_only_rows":  true,
-                   "has_public_export_rows":  true,
-                   "public_export_ready_is_false_until_final_gate":  false,
-                   "scope_policy_has_no_violations":  true
-               },
-    "development_only_inputs":  [
-                                    {
-                                        "artifact":  "data/order4_normal_essential_880.json",
-                                        "reason":  "raw essential-square universe; not cited directly by the manuscript"
-                                    },
-                                    {
-                                        "artifact":  "results/L[0-9]*.json and results/L[0-9]*.md",
-                                        "reason":  "exploratory/intermediate levels superseded by the named paper-facing certificates"
-                                    },
-                                    {
-                                        "artifact":  "record-level support/action payload rows inside large JSON artifacts",
-                                        "reason":  "useful for audit, not needed for main public claims"
-                                    },
-                                    {
-                                        "artifact":  "results/B3_BILINEAR_SUPPORT_ACTION.json",
-                                        "reason":  "large support-action source with record-level rows; public paper uses paper/PAPER_SOURCE_BACKED_TABLES.json summary"
-                                    },
-                                    {
-                                        "artifact":  "local LaTeX auxiliaries *.aux, *.bbl, *.blg, *.log, *.out",
-                                        "reason":  "build outputs, not source"
-                                    }
-                                ],
-    "guardrails":  [
-                       "This is a public companion release-candidate manifest.",
-                       "Do not export development-only artifacts unless SOURCE_MAP.md is deliberately changed.",
-                       "Appendix-only artifacts are certificate support, not main public narrative material.",
-                       "Run public package checks and a clean-clone check before push/tag."
-                   ],
-    "metadata":  {
-                     "extension":  "main",
-                     "methodology":  "PAPP paper package standard",
-                     "package":  "affine_defect_boundary_atlas_public_package_plan",
-                     "project":  "Endpoint-24 Affine-Defect Boundary Atlas"
-                 },
-    "paper_package_files":  [
-                                {
-                                    "path":  ".gitattributes",
-                                    "exists":  true,
-                                    "size_bytes":  71
-                                },
-                                {
-                                    "path":  ".github/workflows/ci.yml",
-                                    "exists":  true,
-                                    "size_bytes":  317
-                                },
-                                {
-                                    "path":  ".gitignore",
-                                    "exists":  true,
-                                    "size_bytes":  319
-                                },
-                                {
-                                    "path":  "CITATION.cff",
-                                    "exists":  true,
-                                    "size_bytes":  642
-                                },
-                                {
-                                    "path":  "data/.gitkeep",
-                                    "exists":  true,
-                                    "size_bytes":  1
-                                },
-                                {
-                                    "path":  "docs/CLAIM_BOUNDARY.md",
-                                    "exists":  true,
-                                    "size_bytes":  2133
-                                },
-                                {
-                                    "path":  "docs/CLAIM_LEDGER.md",
-                                    "exists":  true,
-                                    "size_bytes":  3651
-                                },
-                                {
-                                    "path":  "docs/NORMALIZATION_LOCK.md",
-                                    "exists":  true,
-                                    "size_bytes":  1808
-                                },
-                                {
-                                    "path":  "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
-                                    "exists":  true,
-                                    "size_bytes":  18717
-                                },
-                                {
-                                    "path":  "docs/PAPER_TO_ENGINE_TRACEABILITY.md",
-                                    "exists":  true,
-                                    "size_bytes":  2853
-                                },
-                                {
-                                    "path":  "docs/PROOF_OBLIGATIONS.md",
-                                    "exists":  true,
-                                    "size_bytes":  2467
-                                },
-                                {
-                                    "path":  "docs/PUBLIC_CLAIM_BOUNDARY.md",
-                                    "exists":  true,
-                                    "size_bytes":  1779
-                                },
-                                {
-                                    "path":  "docs/PUBLIC_RELEASE_CHECKLIST.md",
-                                    "exists":  true,
-                                    "size_bytes":  898
-                                },
-                                {
-                                    "path":  "docs/RED_TEAM_REPORT.md",
-                                    "exists":  true,
-                                    "size_bytes":  2406
-                                },
-                                {
-                                    "path":  "docs/REFERENCE_AUDIT.md",
-                                    "exists":  true,
-                                    "size_bytes":  2608
-                                },
-                                {
-                                    "path":  "docs/SOURCE_LOCK.md",
-                                    "exists":  true,
-                                    "size_bytes":  1847
-                                },
-                                {
-                                    "path":  "docs/SOURCE_MAP.md",
-                                    "exists":  true,
-                                    "size_bytes":  5073
-                                },
-                                {
-                                    "path":  "LICENSE",
-                                    "exists":  true,
-                                    "size_bytes":  1073
-                                },
-                                {
-                                    "path":  "paper/affine_defect_boundary_atlas.pdf",
-                                    "exists":  true,
-                                    "size_bytes":  408075
-                                },
-                                {
-                                    "path":  "paper/affine_defect_boundary_atlas.tex",
-                                    "exists":  true,
-                                    "size_bytes":  3252
-                                },
-                                {
-                                    "path":  "paper/BUILD.md",
-                                    "exists":  true,
-                                    "size_bytes":  905
-                                },
-                                {
-                                    "path":  "paper/CITATION.cff",
-                                    "exists":  true,
-                                    "size_bytes":  642
-                                },
-                                {
-                                    "path":  "paper/CLAIM_BOUNDARY.md",
-                                    "exists":  true,
-                                    "size_bytes":  2133
-                                },
-                                {
-                                    "path":  "paper/figures/.gitkeep",
-                                    "exists":  true,
-                                    "size_bytes":  1
-                                },
-                                {
-                                    "path":  "paper/generated/source_backed_tables.tex",
-                                    "exists":  true,
-                                    "size_bytes":  6229
-                                },
-                                {
-                                    "path":  "paper/LICENSE",
-                                    "exists":  true,
-                                    "size_bytes":  1073
-                                },
-                                {
-                                    "path":  "paper/PAPER_SOURCE_BACKED_TABLES.json",
-                                    "exists":  true,
-                                    "size_bytes":  17979
-                                },
-                                {
-                                    "path":  "paper/PAPER_WORKSPACE_MANIFEST.json",
-                                    "exists":  true,
-                                    "size_bytes":  6410
-                                },
-                                {
-                                    "path":  "paper/PUBLIC_PACKAGE_MANIFEST.json",
-                                    "exists":  true,
-                                    "size_bytes":  45749
-                                },
-                                {
-                                    "path":  "paper/README.md",
-                                    "exists":  true,
-                                    "size_bytes":  1932
-                                },
-                                {
-                                    "path":  "paper/README_REVIEWER.md",
-                                    "exists":  true,
-                                    "size_bytes":  1261
-                                },
-                                {
-                                    "path":  "paper/REFERENCE_AUDIT.md",
-                                    "exists":  true,
-                                    "size_bytes":  2608
-                                },
-                                {
-                                    "path":  "paper/refs.bib",
-                                    "exists":  true,
-                                    "size_bytes":  2524
-                                },
-                                {
-                                    "path":  "paper/REPRODUCE.md",
-                                    "exists":  true,
-                                    "size_bytes":  1466
-                                },
-                                {
-                                    "path":  "paper/requirements.txt",
-                                    "exists":  true,
-                                    "size_bytes":  132
-                                },
-                                {
-                                    "path":  "paper/sections/01_introduction.tex",
-                                    "exists":  true,
-                                    "size_bytes":  2243
-                                },
-                                {
-                                    "path":  "paper/sections/02_model_and_notation.tex",
-                                    "exists":  true,
-                                    "size_bytes":  5035
-                                },
-                                {
-                                    "path":  "paper/sections/03_boundary_theorem.tex",
-                                    "exists":  true,
-                                    "size_bytes":  10572
-                                },
-                                {
-                                    "path":  "paper/sections/04_certificate_spine.tex",
-                                    "exists":  true,
-                                    "size_bytes":  2436
-                                },
-                                {
-                                    "path":  "paper/sections/05_public_package.tex",
-                                    "exists":  true,
-                                    "size_bytes":  1131
-                                },
-                                {
-                                    "path":  "paper/SOURCE_MAP.md",
-                                    "exists":  true,
-                                    "size_bytes":  5073
-                                },
-                                {
-                                    "path":  "PUBLICATION_PLAN.md",
-                                    "exists":  true,
-                                    "size_bytes":  2441
-                                },
-                                {
-                                    "path":  "pytest.ini",
-                                    "exists":  true,
-                                    "size_bytes":  64
-                                },
-                                {
-                                    "path":  "README.md",
-                                    "exists":  true,
-                                    "size_bytes":  2526
-                                },
-                                {
-                                    "path":  "README_REVIEWER.md",
-                                    "exists":  true,
-                                    "size_bytes":  1261
-                                },
-                                {
-                                    "path":  "REPRODUCE.md",
-                                    "exists":  true,
-                                    "size_bytes":  2009
-                                },
-                                {
-                                    "path":  "requirements.txt",
-                                    "exists":  true,
-                                    "size_bytes":  132
-                                },
-                                {
-                                    "path":  "results/DEGREE_BOUND_CERTIFICATE.json",
-                                    "exists":  true,
-                                    "size_bytes":  2737
-                                },
-                                {
-                                    "path":  "results/DELTA_STRATIFICATION.json",
-                                    "exists":  true,
-                                    "size_bytes":  116011
-                                },
-                                {
-                                    "path":  "results/DIRECTION_LEMMA_CERTIFICATE.json",
-                                    "exists":  true,
-                                    "size_bytes":  134781
-                                },
-                                {
-                                    "path":  "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json",
-                                    "exists":  true,
-                                    "size_bytes":  41683
-                                },
-                                {
-                                    "path":  "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json",
-                                    "exists":  true,
-                                    "size_bytes":  7057
-                                },
-                                {
-                                    "path":  "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json",
-                                    "exists":  true,
-                                    "size_bytes":  13098
-                                },
-                                {
-                                    "path":  "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
-                                    "exists":  true,
-                                    "size_bytes":  8940
-                                },
-                                {
-                                    "path":  "results/ITEM8B_FREENESS_COUNT_REDUCTION.json",
-                                    "exists":  true,
-                                    "size_bytes":  3321
-                                },
-                                {
-                                    "path":  "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json",
-                                    "exists":  true,
-                                    "size_bytes":  9480
-                                },
-                                {
-                                    "path":  "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json",
-                                    "exists":  true,
-                                    "size_bytes":  14665
-                                },
-                                {
-                                    "path":  "results/LEMMA_B_LINE_XOR_DERIVATION.json",
-                                    "exists":  true,
-                                    "size_bytes":  4596
-                                },
-                                {
-                                    "path":  "results/P6_final_verification_gate.json",
-                                    "exists":  true,
-                                    "size_bytes":  10104
-                                },
-                                {
-                                    "path":  "results/STEP10PLUS_CLAUSE_FAMILIES.json",
-                                    "exists":  true,
-                                    "size_bytes":  2279
-                                },
-                                {
-                                    "path":  "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json",
-                                    "exists":  true,
-                                    "size_bytes":  3327
-                                },
-                                {
-                                    "path":  "results/STEP6PLUS_DEFECT_MASK_CLASSES.json",
-                                    "exists":  true,
-                                    "size_bytes":  2814
-                                },
-                                {
-                                    "path":  "results/STEP9PLUS_ERROR_FIBER_PARITY.json",
-                                    "exists":  true,
-                                    "size_bytes":  2337
-                                },
-                                {
-                                    "path":  "scripts/check_public_package.py",
-                                    "exists":  true,
-                                    "size_bytes":  5652
-                                },
-                                {
-                                    "path":  "scripts/run_all_reproducibility_checks.py",
-                                    "exists":  true,
-                                    "size_bytes":  368
-                                },
-                                {
-                                    "path":  "tests/test_public_package.py",
-                                    "exists":  true,
-                                    "size_bytes":  1677
-                                }
-                            ],
-    "public_export_sources":  [
-                                  "paper/REFERENCE_AUDIT.md",
-                                  "paper/PAPER_SOURCE_BACKED_TABLES.json",
-                                  "results/DELTA_STRATIFICATION.json",
-                                  "results/DIRECTION_LEMMA_CERTIFICATE.json",
-                                  "results/DEGREE_BOUND_CERTIFICATE.json",
-                                  "results/LEMMA_B_LINE_XOR_DERIVATION.json",
-                                  "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json",
-                                  "results/STEP9PLUS_ERROR_FIBER_PARITY.json",
-                                  "paper/PAPER_SOURCE_BACKED_TABLES.json",
-                                  "results/STEP6PLUS_DEFECT_MASK_CLASSES.json",
-                                  "results/STEP10PLUS_CLAUSE_FAMILIES.json",
-                                  "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
-                                  "results/ITEM8B_FREENESS_COUNT_REDUCTION.json",
-                                  "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json",
-                                  "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json",
-                                  "results/P6_final_verification_gate.json"
-                              ],
-    "scope_classes":  {
-                          "appendix-only":  [
-                                                {
-                                                    "paper_block":  "Final theorem extraction",
-                                                    "public_wording":  "paper-local",
-                                                    "role":  "theorem/proof seed",
-                                                    "scope":  "appendix-only",
-                                                    "source_artifact":  "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md"
-                                                },
-                                                {
-                                                    "paper_block":  "B3 endpoint transport",
-                                                    "public_wording":  "paper-local finite theorem",
-                                                    "role":  "carrier orbits and payload",
-                                                    "scope":  "appendix-only",
-                                                    "source_artifact":  "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Intrinsic B3 column classification",
-                                                    "public_wording":  "certified column refinement",
-                                                    "role":  "8/8 column profile classification by (signature, M)",
-                                                    "scope":  "appendix-only",
-                                                    "source_artifact":  "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Defect-6 realizability obstruction",
-                                                    "public_wording":  "certified obstruction boundary",
-                                                    "role":  "13/35 arithmetic realization cut and no linear symmetry",
-                                                    "scope":  "appendix-only",
-                                                    "source_artifact":  "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json"
-                                                }
-                                            ],
-                          "development-only":  [
-                                                   {
-                                                       "paper_block":  "B3 selector probe",
-                                                       "public_wording":  "finite selector",
-                                                       "role":  "finite selector probe with record-level fields",
-                                                       "scope":  "development-only",
-                                                       "source_artifact":  "results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json"
-                                                   }
-                                               ],
-                          "public-export":  [
-                                                {
-                                                    "paper_block":  "Bibliography audit",
-                                                    "public_wording":  "context only",
-                                                    "role":  "verified metadata and citation caveats",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "paper/REFERENCE_AUDIT.md"
-                                                },
-                                                {
-                                                    "paper_block":  "Source-backed tables",
-                                                    "public_wording":  "finite-certified summary",
-                                                    "role":  "public table/figure payload summary",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "paper/PAPER_SOURCE_BACKED_TABLES.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Endpoint-24 delta table",
-                                                    "public_wording":  "certified proposition",
-                                                    "role":  "finite endpoint split",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/DELTA_STRATIFICATION.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Direction lemma",
-                                                    "public_wording":  "certified proposition",
-                                                    "role":  "selected-xor direction",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/DIRECTION_LEMMA_CERTIFICATE.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Degree bound",
-                                                    "public_wording":  "certified proposition",
-                                                    "role":  "deg L \u003c= 2",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/DEGREE_BOUND_CERTIFICATE.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Lemma B/Nimm0 finite proof",
-                                                    "public_wording":  "finite proof with citation caveat",
-                                                    "role":  "row/column xor zero",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/LEMMA_B_LINE_XOR_DERIVATION.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Step5+ dichotomy",
-                                                    "public_wording":  "theorem/lemma",
-                                                    "role":  "first-principles defect spine",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Step9+ parity",
-                                                    "public_wording":  "theorem/lemma",
-                                                    "role":  "first-principles error fibers",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/STEP9PLUS_ERROR_FIBER_PARITY.json"
-                                                },
-                                                {
-                                                    "paper_block":  "B3 matrix",
-                                                    "public_wording":  "certified proposition",
-                                                    "role":  "15/49 finite matrix summary",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "paper/PAPER_SOURCE_BACKED_TABLES.json"
-                                                },
-                                                {
-                                                    "paper_block":  "B3 intrinsic/residue split",
-                                                    "public_wording":  "certified proposition",
-                                                    "role":  "six intrinsic classes plus two splits",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/STEP6PLUS_DEFECT_MASK_CLASSES.json"
-                                                },
-                                                {
-                                                    "paper_block":  "B3 clause templates",
-                                                    "public_wording":  "theorem/lemma for templates",
-                                                    "role":  "NF1/NF2/NF3 templates",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/STEP10PLUS_CLAUSE_FAMILIES.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Global T/K freeness",
-                                                    "public_wording":  "finite theorem",
-                                                    "role":  "free quotient",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
-                                                },
-                                                {
-                                                    "paper_block":  "B3 count reduction",
-                                                    "public_wording":  "certified proposition",
-                                                    "role":  "15=60/4",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/ITEM8B_FREENESS_COUNT_REDUCTION.json"
-                                                },
-                                                {
-                                                    "paper_block":  "B2 endpoint package",
-                                                    "public_wording":  "finite theorem",
-                                                    "role":  "B2 32/8 package",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Count-60 collapse",
-                                                    "public_wording":  "finite certified debt reduction",
-                                                    "role":  "kernel and row-degree reduction",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json"
-                                                },
-                                                {
-                                                    "paper_block":  "Claim boundary",
-                                                    "public_wording":  "mandatory guardrail",
-                                                    "role":  "blocked/allowed claims",
-                                                    "scope":  "public-export",
-                                                    "source_artifact":  "results/P6_final_verification_gate.json"
-                                                }
-                                            ]
-                      },
-    "scope_policy_violations":  [
-
-                                ],
-    "scope_rows":  [
-                       {
-                           "paper_block":  "Bibliography audit",
-                           "public_wording":  "context only",
-                           "role":  "verified metadata and citation caveats",
-                           "scope":  "public-export",
-                           "source_artifact":  "paper/REFERENCE_AUDIT.md"
-                       },
-                       {
-                           "paper_block":  "Source-backed tables",
-                           "public_wording":  "finite-certified summary",
-                           "role":  "public table/figure payload summary",
-                           "scope":  "public-export",
-                           "source_artifact":  "paper/PAPER_SOURCE_BACKED_TABLES.json"
-                       },
-                       {
-                           "paper_block":  "Final theorem extraction",
-                           "public_wording":  "paper-local",
-                           "role":  "theorem/proof seed",
-                           "scope":  "appendix-only",
-                           "source_artifact":  "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md"
-                       },
-                       {
-                           "paper_block":  "Endpoint-24 delta table",
-                           "public_wording":  "certified proposition",
-                           "role":  "finite endpoint split",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/DELTA_STRATIFICATION.json"
-                       },
-                       {
-                           "paper_block":  "Direction lemma",
-                           "public_wording":  "certified proposition",
-                           "role":  "selected-xor direction",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/DIRECTION_LEMMA_CERTIFICATE.json"
-                       },
-                       {
-                           "paper_block":  "Degree bound",
-                           "public_wording":  "certified proposition",
-                           "role":  "deg L \u003c= 2",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/DEGREE_BOUND_CERTIFICATE.json"
-                       },
-                       {
-                           "paper_block":  "Lemma B/Nimm0 finite proof",
-                           "public_wording":  "finite proof with citation caveat",
-                           "role":  "row/column xor zero",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/LEMMA_B_LINE_XOR_DERIVATION.json"
-                       },
-                       {
-                           "paper_block":  "Step5+ dichotomy",
-                           "public_wording":  "theorem/lemma",
-                           "role":  "first-principles defect spine",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json"
-                       },
-                       {
-                           "paper_block":  "Step9+ parity",
-                           "public_wording":  "theorem/lemma",
-                           "role":  "first-principles error fibers",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/STEP9PLUS_ERROR_FIBER_PARITY.json"
-                       },
-                       {
-                           "paper_block":  "B3 matrix",
-                           "public_wording":  "certified proposition",
-                           "role":  "15/49 finite matrix summary",
-                           "scope":  "public-export",
-                           "source_artifact":  "paper/PAPER_SOURCE_BACKED_TABLES.json"
-                       },
-                       {
-                           "paper_block":  "B3 intrinsic/residue split",
-                           "public_wording":  "certified proposition",
-                           "role":  "six intrinsic classes plus two splits",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/STEP6PLUS_DEFECT_MASK_CLASSES.json"
-                       },
-                       {
-                           "paper_block":  "B3 clause templates",
-                           "public_wording":  "theorem/lemma for templates",
-                           "role":  "NF1/NF2/NF3 templates",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/STEP10PLUS_CLAUSE_FAMILIES.json"
-                       },
-                       {
-                           "paper_block":  "B3 endpoint transport",
-                           "public_wording":  "paper-local finite theorem",
-                           "role":  "carrier orbits and payload",
-                           "scope":  "appendix-only",
-                           "source_artifact":  "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json"
-                       },
-                       {
-                           "paper_block":  "Global T/K freeness",
-                           "public_wording":  "finite theorem",
-                           "role":  "free quotient",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
-                       },
-                       {
-                           "paper_block":  "B3 count reduction",
-                           "public_wording":  "certified proposition",
-                           "role":  "15=60/4",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/ITEM8B_FREENESS_COUNT_REDUCTION.json"
-                       },
-                       {
-                           "paper_block":  "B3 selector probe",
-                           "public_wording":  "finite selector",
-                           "role":  "finite selector probe with record-level fields",
-                           "scope":  "development-only",
-                           "source_artifact":  "results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json"
-                       },
-                       {
-                           "paper_block":  "B2 endpoint package",
-                           "public_wording":  "finite theorem",
-                           "role":  "B2 32/8 package",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json"
-                       },
-                       {
-                           "paper_block":  "Count-60 collapse",
-                           "public_wording":  "finite certified debt reduction",
-                           "role":  "kernel and row-degree reduction",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json"
-                       },
-                       {
-                           "paper_block":  "Intrinsic B3 column classification",
-                           "public_wording":  "certified column refinement",
-                           "role":  "8/8 column profile classification by (signature, M)",
-                           "scope":  "appendix-only",
-                           "source_artifact":  "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json"
-                       },
-                       {
-                           "paper_block":  "Defect-6 realizability obstruction",
-                           "public_wording":  "certified obstruction boundary",
-                           "role":  "13/35 arithmetic realization cut and no linear symmetry",
-                           "scope":  "appendix-only",
-                           "source_artifact":  "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json"
-                       },
-                       {
-                           "paper_block":  "Claim boundary",
-                           "public_wording":  "mandatory guardrail",
-                           "role":  "blocked/allowed claims",
-                           "scope":  "public-export",
-                           "source_artifact":  "results/P6_final_verification_gate.json"
-                       }
-                   ],
-    "summary":  {
-                    "appendix_only_count":  4,
-                    "development_only_input_count":  5,
-                    "development_only_scope_count":  1,
-                    "final_red_team_required":  false,
-                    "human_release_review_required":  false,
-                    "license_citation_review_required":  false,
-                    "missing_package_files":  [
-
-                                              ],
-                    "missing_recommended_public_package_files":  [
-
-                                                                 ],
-                    "next_gate":  "Commit locally, configure/confirm the GitHub remote URL, then run a clean-clone check before push/tag.",
-                    "paper_package_files_ready":  true,
-                    "papp_standard_docs_ready":  true,
-                    "public_export_count":  16,
-                    "public_export_ready":  true,
-                    "public_package_manifest_ready":  true,
-                    "recommended_status":  "PUBLIC_PACKAGE_RELEASE_CANDIDATE",
-                    "red_team_report_ready":  true,
-                    "red_team_required":  false,
-                    "red_team_required_after_human_release_changes":  false,
-                    "reproduce_file_ready":  true,
-                    "scope_policy_enforced":  true,
-                    "scope_policy_violation_count":  0,
-                    "skeleton_red_team_passed":  true,
-                    "source_map_scope_classes_ready":  true,
-                    "source_scope_row_count":  21,
-                    "workspace_package_files_ready":  true
-                }
+  "appendix_only_sources": [
+    "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
+    "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json",
+    "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json",
+    "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json"
+  ],
+  "blocked_export_patterns": [
+    "data/order4_normal_essential_880.json",
+    "results/L[0-9]*.json",
+    "results/L[0-9]*.md",
+    "paper/*.aux",
+    "paper/*.bbl",
+    "paper/*.blg",
+    "paper/*.log",
+    "paper/*.out"
+  ],
+  "blocked_payload_markers": [
+    "record-level",
+    "record level",
+    "large support-action source",
+    "raw essential-square universe"
+  ],
+  "checks": {
+    "appendix_sources_separated": true,
+    "has_appendix_only_rows": true,
+    "has_development_only_inputs": true,
+    "has_development_only_rows": true,
+    "has_public_export_rows": true,
+    "public_export_ready_is_false_until_final_gate": false,
+    "scope_policy_has_no_violations": true
+  },
+  "development_only_inputs": [
+    {
+      "artifact": "data/order4_normal_essential_880.json",
+      "reason": "raw essential-square universe; not cited directly by the manuscript"
+    },
+    {
+      "artifact": "results/L[0-9]*.json and results/L[0-9]*.md",
+      "reason": "exploratory/intermediate levels superseded by the named paper-facing certificates"
+    },
+    {
+      "artifact": "record-level support/action payload rows inside large JSON artifacts",
+      "reason": "useful for audit, not needed for main public claims"
+    },
+    {
+      "artifact": "results/B3_BILINEAR_SUPPORT_ACTION.json",
+      "reason": "large support-action source with record-level rows; public paper uses paper/PAPER_SOURCE_BACKED_TABLES.json summary"
+    },
+    {
+      "artifact": "local LaTeX auxiliaries *.aux, *.bbl, *.blg, *.log, *.out",
+      "reason": "build outputs, not source"
+    }
+  ],
+  "guardrails": [
+    "This is a public companion release-candidate manifest.",
+    "Do not export development-only artifacts unless SOURCE_MAP.md is deliberately changed.",
+    "Appendix-only artifacts are certificate support, not main public narrative material.",
+    "Run public package checks and a clean-clone check before push/tag."
+  ],
+  "metadata": {
+    "extension": "main",
+    "methodology": "PAPP paper package standard",
+    "package": "affine_defect_boundary_atlas_public_package_plan",
+    "project": "Endpoint-24 Affine-Defect Boundary Atlas"
+  },
+  "paper_package_files": [
+    {
+      "path": ".gitattributes",
+      "exists": true,
+      "size_bytes": 71
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "exists": true,
+      "size_bytes": 317
+    },
+    {
+      "path": ".gitignore",
+      "exists": true,
+      "size_bytes": 319
+    },
+    {
+      "path": "CITATION.cff",
+      "exists": true,
+      "size_bytes": 642
+    },
+    {
+      "path": "data/.gitkeep",
+      "exists": true,
+      "size_bytes": 1
+    },
+    {
+      "path": "docs/CLAIM_BOUNDARY.md",
+      "exists": true,
+      "size_bytes": 2133
+    },
+    {
+      "path": "docs/CLAIM_LEDGER.md",
+      "exists": true,
+      "size_bytes": 3651
+    },
+    {
+      "path": "docs/NORMALIZATION_LOCK.md",
+      "exists": true,
+      "size_bytes": 1808
+    },
+    {
+      "path": "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
+      "exists": true,
+      "size_bytes": 18717
+    },
+    {
+      "path": "docs/PAPER_TO_ENGINE_TRACEABILITY.md",
+      "exists": true,
+      "size_bytes": 2873
+    },
+    {
+      "path": "docs/PROOF_OBLIGATIONS.md",
+      "exists": true,
+      "size_bytes": 2497
+    },
+    {
+      "path": "docs/PUBLIC_CLAIM_BOUNDARY.md",
+      "exists": true,
+      "size_bytes": 1779
+    },
+    {
+      "path": "docs/PUBLIC_RELEASE_CHECKLIST.md",
+      "exists": true,
+      "size_bytes": 898
+    },
+    {
+      "path": "docs/RED_TEAM_REPORT.md",
+      "exists": true,
+      "size_bytes": 2495
+    },
+    {
+      "path": "docs/REFERENCE_AUDIT.md",
+      "exists": true,
+      "size_bytes": 2608
+    },
+    {
+      "path": "docs/SOURCE_LOCK.md",
+      "exists": true,
+      "size_bytes": 2228
+    },
+    {
+      "path": "docs/SOURCE_MAP.md",
+      "exists": true,
+      "size_bytes": 5142
+    },
+    {
+      "path": "LICENSE",
+      "exists": true,
+      "size_bytes": 1073
+    },
+    {
+      "path": "paper/affine_defect_boundary_atlas.pdf",
+      "exists": true,
+      "size_bytes": 408047
+    },
+    {
+      "path": "paper/affine_defect_boundary_atlas.tex",
+      "exists": true,
+      "size_bytes": 3252
+    },
+    {
+      "path": "paper/BUILD.md",
+      "exists": true,
+      "size_bytes": 905
+    },
+    {
+      "path": "paper/CITATION.cff",
+      "exists": true,
+      "size_bytes": 642
+    },
+    {
+      "path": "paper/CLAIM_BOUNDARY.md",
+      "exists": true,
+      "size_bytes": 2133
+    },
+    {
+      "path": "paper/figures/.gitkeep",
+      "exists": true,
+      "size_bytes": 1
+    },
+    {
+      "path": "paper/generated/source_backed_tables.tex",
+      "exists": true,
+      "size_bytes": 6229
+    },
+    {
+      "path": "paper/LICENSE",
+      "exists": true,
+      "size_bytes": 1073
+    },
+    {
+      "path": "paper/PAPER_SOURCE_BACKED_TABLES.json",
+      "exists": true,
+      "size_bytes": 17979
+    },
+    {
+      "path": "paper/PUBLIC_PACKAGE_MANIFEST.json",
+      "exists": true,
+      "size_bytes": 23178
+    },
+    {
+      "path": "paper/README.md",
+      "exists": true,
+      "size_bytes": 1932
+    },
+    {
+      "path": "paper/README_REVIEWER.md",
+      "exists": true,
+      "size_bytes": 1261
+    },
+    {
+      "path": "paper/REFERENCE_AUDIT.md",
+      "exists": true,
+      "size_bytes": 2608
+    },
+    {
+      "path": "paper/refs.bib",
+      "exists": true,
+      "size_bytes": 2524
+    },
+    {
+      "path": "paper/REPRODUCE.md",
+      "exists": true,
+      "size_bytes": 1466
+    },
+    {
+      "path": "paper/requirements.txt",
+      "exists": true,
+      "size_bytes": 132
+    },
+    {
+      "path": "paper/sections/01_introduction.tex",
+      "exists": true,
+      "size_bytes": 2219
+    },
+    {
+      "path": "paper/sections/02_model_and_notation.tex",
+      "exists": true,
+      "size_bytes": 5035
+    },
+    {
+      "path": "paper/sections/03_boundary_theorem.tex",
+      "exists": true,
+      "size_bytes": 10572
+    },
+    {
+      "path": "paper/sections/04_certificate_spine.tex",
+      "exists": true,
+      "size_bytes": 2436
+    },
+    {
+      "path": "paper/sections/05_public_package.tex",
+      "exists": true,
+      "size_bytes": 1131
+    },
+    {
+      "path": "paper/SOURCE_MAP.md",
+      "exists": true,
+      "size_bytes": 5142
+    },
+    {
+      "path": "PUBLICATION_PLAN.md",
+      "exists": true,
+      "size_bytes": 1294
+    },
+    {
+      "path": "pytest.ini",
+      "exists": true,
+      "size_bytes": 64
+    },
+    {
+      "path": "README.md",
+      "exists": true,
+      "size_bytes": 2526
+    },
+    {
+      "path": "README_REVIEWER.md",
+      "exists": true,
+      "size_bytes": 1261
+    },
+    {
+      "path": "REPRODUCE.md",
+      "exists": true,
+      "size_bytes": 2009
+    },
+    {
+      "path": "requirements.txt",
+      "exists": true,
+      "size_bytes": 132
+    },
+    {
+      "path": "results/DEGREE_BOUND_CERTIFICATE.json",
+      "exists": true,
+      "size_bytes": 2737
+    },
+    {
+      "path": "results/DELTA_STRATIFICATION.json",
+      "exists": true,
+      "size_bytes": 116011
+    },
+    {
+      "path": "results/DIRECTION_LEMMA_CERTIFICATE.json",
+      "exists": true,
+      "size_bytes": 134781
+    },
+    {
+      "path": "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json",
+      "exists": true,
+      "size_bytes": 41683
+    },
+    {
+      "path": "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json",
+      "exists": true,
+      "size_bytes": 7057
+    },
+    {
+      "path": "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json",
+      "exists": true,
+      "size_bytes": 13098
+    },
+    {
+      "path": "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+      "exists": true,
+      "size_bytes": 8940
+    },
+    {
+      "path": "results/ITEM8B_FREENESS_COUNT_REDUCTION.json",
+      "exists": true,
+      "size_bytes": 3321
+    },
+    {
+      "path": "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json",
+      "exists": true,
+      "size_bytes": 9480
+    },
+    {
+      "path": "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json",
+      "exists": true,
+      "size_bytes": 14665
+    },
+    {
+      "path": "results/LEMMA_B_LINE_XOR_DERIVATION.json",
+      "exists": true,
+      "size_bytes": 4596
+    },
+    {
+      "path": "results/P6_final_verification_gate.json",
+      "exists": true,
+      "size_bytes": 10104
+    },
+    {
+      "path": "results/STEP10PLUS_CLAUSE_FAMILIES.json",
+      "exists": true,
+      "size_bytes": 2279
+    },
+    {
+      "path": "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json",
+      "exists": true,
+      "size_bytes": 3327
+    },
+    {
+      "path": "results/STEP6PLUS_DEFECT_MASK_CLASSES.json",
+      "exists": true,
+      "size_bytes": 2814
+    },
+    {
+      "path": "results/STEP9PLUS_ERROR_FIBER_PARITY.json",
+      "exists": true,
+      "size_bytes": 2337
+    },
+    {
+      "path": "scripts/check_public_package.py",
+      "exists": true,
+      "size_bytes": 5914
+    },
+    {
+      "path": "scripts/run_all_reproducibility_checks.py",
+      "exists": true,
+      "size_bytes": 379
+    },
+    {
+      "path": "tests/test_public_package.py",
+      "exists": true,
+      "size_bytes": 1617
+    }
+  ],
+  "public_export_sources": [
+    "paper/REFERENCE_AUDIT.md",
+    "paper/PAPER_SOURCE_BACKED_TABLES.json",
+    "results/DELTA_STRATIFICATION.json",
+    "results/DIRECTION_LEMMA_CERTIFICATE.json",
+    "results/DEGREE_BOUND_CERTIFICATE.json",
+    "results/LEMMA_B_LINE_XOR_DERIVATION.json",
+    "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json",
+    "results/STEP9PLUS_ERROR_FIBER_PARITY.json",
+    "paper/PAPER_SOURCE_BACKED_TABLES.json",
+    "results/STEP6PLUS_DEFECT_MASK_CLASSES.json",
+    "results/STEP10PLUS_CLAUSE_FAMILIES.json",
+    "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
+    "results/ITEM8B_FREENESS_COUNT_REDUCTION.json",
+    "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json",
+    "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json",
+    "results/P6_final_verification_gate.json"
+  ],
+  "scope_classes": {
+    "appendix-only": [
+      {
+        "paper_block": "Final theorem extraction",
+        "public_wording": "paper-local",
+        "role": "theorem/proof seed",
+        "scope": "appendix-only",
+        "source_artifact": "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md"
+      },
+      {
+        "paper_block": "B3 endpoint transport",
+        "public_wording": "paper-local finite theorem",
+        "role": "carrier orbits and payload",
+        "scope": "appendix-only",
+        "source_artifact": "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json"
+      },
+      {
+        "paper_block": "Intrinsic B3 column classification",
+        "public_wording": "certified column refinement",
+        "role": "8/8 column profile classification by (signature, M)",
+        "scope": "appendix-only",
+        "source_artifact": "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json"
+      },
+      {
+        "paper_block": "Defect-6 realizability obstruction",
+        "public_wording": "certified obstruction boundary",
+        "role": "13/35 arithmetic realization cut and no linear symmetry",
+        "scope": "appendix-only",
+        "source_artifact": "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json"
+      }
+    ],
+    "development-only": [
+      {
+        "paper_block": "B3 selector probe",
+        "public_wording": "finite selector",
+        "role": "finite selector probe with record-level fields",
+        "scope": "development-only",
+        "source_artifact": "results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json"
+      }
+    ],
+    "public-export": [
+      {
+        "paper_block": "Bibliography audit",
+        "public_wording": "context only",
+        "role": "verified metadata and citation caveats",
+        "scope": "public-export",
+        "source_artifact": "paper/REFERENCE_AUDIT.md"
+      },
+      {
+        "paper_block": "Source-backed tables",
+        "public_wording": "finite-certified summary",
+        "role": "public table/figure payload summary",
+        "scope": "public-export",
+        "source_artifact": "paper/PAPER_SOURCE_BACKED_TABLES.json"
+      },
+      {
+        "paper_block": "Endpoint-24 delta table",
+        "public_wording": "certified proposition",
+        "role": "finite endpoint split",
+        "scope": "public-export",
+        "source_artifact": "results/DELTA_STRATIFICATION.json"
+      },
+      {
+        "paper_block": "Direction lemma",
+        "public_wording": "certified proposition",
+        "role": "selected-xor direction",
+        "scope": "public-export",
+        "source_artifact": "results/DIRECTION_LEMMA_CERTIFICATE.json"
+      },
+      {
+        "paper_block": "Degree bound",
+        "public_wording": "certified proposition",
+        "role": "deg L <= 2",
+        "scope": "public-export",
+        "source_artifact": "results/DEGREE_BOUND_CERTIFICATE.json"
+      },
+      {
+        "paper_block": "Lemma B/Nimm0 finite proof",
+        "public_wording": "finite proof with citation caveat",
+        "role": "row/column xor zero",
+        "scope": "public-export",
+        "source_artifact": "results/LEMMA_B_LINE_XOR_DERIVATION.json"
+      },
+      {
+        "paper_block": "Step5+ dichotomy",
+        "public_wording": "theorem/lemma",
+        "role": "first-principles defect spine",
+        "scope": "public-export",
+        "source_artifact": "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json"
+      },
+      {
+        "paper_block": "Step9+ parity",
+        "public_wording": "theorem/lemma",
+        "role": "first-principles error fibers",
+        "scope": "public-export",
+        "source_artifact": "results/STEP9PLUS_ERROR_FIBER_PARITY.json"
+      },
+      {
+        "paper_block": "B3 matrix",
+        "public_wording": "certified proposition",
+        "role": "15/49 finite matrix summary",
+        "scope": "public-export",
+        "source_artifact": "paper/PAPER_SOURCE_BACKED_TABLES.json"
+      },
+      {
+        "paper_block": "B3 intrinsic/residue split",
+        "public_wording": "certified proposition",
+        "role": "six intrinsic classes plus two splits",
+        "scope": "public-export",
+        "source_artifact": "results/STEP6PLUS_DEFECT_MASK_CLASSES.json"
+      },
+      {
+        "paper_block": "B3 clause templates",
+        "public_wording": "theorem/lemma for templates",
+        "role": "NF1/NF2/NF3 templates",
+        "scope": "public-export",
+        "source_artifact": "results/STEP10PLUS_CLAUSE_FAMILIES.json"
+      },
+      {
+        "paper_block": "Global T/K freeness",
+        "public_wording": "finite theorem",
+        "role": "free quotient",
+        "scope": "public-export",
+        "source_artifact": "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
+      },
+      {
+        "paper_block": "B3 count reduction",
+        "public_wording": "certified proposition",
+        "role": "15=60/4",
+        "scope": "public-export",
+        "source_artifact": "results/ITEM8B_FREENESS_COUNT_REDUCTION.json"
+      },
+      {
+        "paper_block": "B2 endpoint package",
+        "public_wording": "finite theorem",
+        "role": "B2 32/8 package",
+        "scope": "public-export",
+        "source_artifact": "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json"
+      },
+      {
+        "paper_block": "Count-60 collapse",
+        "public_wording": "finite certified debt reduction",
+        "role": "kernel and row-degree reduction",
+        "scope": "public-export",
+        "source_artifact": "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json"
+      },
+      {
+        "paper_block": "Claim boundary",
+        "public_wording": "mandatory guardrail",
+        "role": "blocked/allowed claims",
+        "scope": "public-export",
+        "source_artifact": "results/P6_final_verification_gate.json"
+      }
+    ]
+  },
+  "scope_policy_violations": [],
+  "scope_rows": [
+    {
+      "paper_block": "Bibliography audit",
+      "public_wording": "context only",
+      "role": "verified metadata and citation caveats",
+      "scope": "public-export",
+      "source_artifact": "paper/REFERENCE_AUDIT.md"
+    },
+    {
+      "paper_block": "Source-backed tables",
+      "public_wording": "finite-certified summary",
+      "role": "public table/figure payload summary",
+      "scope": "public-export",
+      "source_artifact": "paper/PAPER_SOURCE_BACKED_TABLES.json"
+    },
+    {
+      "paper_block": "Final theorem extraction",
+      "public_wording": "paper-local",
+      "role": "theorem/proof seed",
+      "scope": "appendix-only",
+      "source_artifact": "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md"
+    },
+    {
+      "paper_block": "Endpoint-24 delta table",
+      "public_wording": "certified proposition",
+      "role": "finite endpoint split",
+      "scope": "public-export",
+      "source_artifact": "results/DELTA_STRATIFICATION.json"
+    },
+    {
+      "paper_block": "Direction lemma",
+      "public_wording": "certified proposition",
+      "role": "selected-xor direction",
+      "scope": "public-export",
+      "source_artifact": "results/DIRECTION_LEMMA_CERTIFICATE.json"
+    },
+    {
+      "paper_block": "Degree bound",
+      "public_wording": "certified proposition",
+      "role": "deg L <= 2",
+      "scope": "public-export",
+      "source_artifact": "results/DEGREE_BOUND_CERTIFICATE.json"
+    },
+    {
+      "paper_block": "Lemma B/Nimm0 finite proof",
+      "public_wording": "finite proof with citation caveat",
+      "role": "row/column xor zero",
+      "scope": "public-export",
+      "source_artifact": "results/LEMMA_B_LINE_XOR_DERIVATION.json"
+    },
+    {
+      "paper_block": "Step5+ dichotomy",
+      "public_wording": "theorem/lemma",
+      "role": "first-principles defect spine",
+      "scope": "public-export",
+      "source_artifact": "results/STEP5PLUS_DELTA_DIM_FIRST_PRINCIPLES.json"
+    },
+    {
+      "paper_block": "Step9+ parity",
+      "public_wording": "theorem/lemma",
+      "role": "first-principles error fibers",
+      "scope": "public-export",
+      "source_artifact": "results/STEP9PLUS_ERROR_FIBER_PARITY.json"
+    },
+    {
+      "paper_block": "B3 matrix",
+      "public_wording": "certified proposition",
+      "role": "15/49 finite matrix summary",
+      "scope": "public-export",
+      "source_artifact": "paper/PAPER_SOURCE_BACKED_TABLES.json"
+    },
+    {
+      "paper_block": "B3 intrinsic/residue split",
+      "public_wording": "certified proposition",
+      "role": "six intrinsic classes plus two splits",
+      "scope": "public-export",
+      "source_artifact": "results/STEP6PLUS_DEFECT_MASK_CLASSES.json"
+    },
+    {
+      "paper_block": "B3 clause templates",
+      "public_wording": "theorem/lemma for templates",
+      "role": "NF1/NF2/NF3 templates",
+      "scope": "public-export",
+      "source_artifact": "results/STEP10PLUS_CLAUSE_FAMILIES.json"
+    },
+    {
+      "paper_block": "B3 endpoint transport",
+      "public_wording": "paper-local finite theorem",
+      "role": "carrier orbits and payload",
+      "scope": "appendix-only",
+      "source_artifact": "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json"
+    },
+    {
+      "paper_block": "Global T/K freeness",
+      "public_wording": "finite theorem",
+      "role": "free quotient",
+      "scope": "public-export",
+      "source_artifact": "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json"
+    },
+    {
+      "paper_block": "B3 count reduction",
+      "public_wording": "certified proposition",
+      "role": "15=60/4",
+      "scope": "public-export",
+      "source_artifact": "results/ITEM8B_FREENESS_COUNT_REDUCTION.json"
+    },
+    {
+      "paper_block": "B3 selector probe",
+      "public_wording": "finite selector",
+      "role": "finite selector probe with record-level fields",
+      "scope": "development-only",
+      "source_artifact": "results/ITEM8C_SELECTOR_DECOUPLING_PROBE.json"
+    },
+    {
+      "paper_block": "B2 endpoint package",
+      "public_wording": "finite theorem",
+      "role": "B2 32/8 package",
+      "scope": "public-export",
+      "source_artifact": "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json"
+    },
+    {
+      "paper_block": "Count-60 collapse",
+      "public_wording": "finite certified debt reduction",
+      "role": "kernel and row-degree reduction",
+      "scope": "public-export",
+      "source_artifact": "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json"
+    },
+    {
+      "paper_block": "Intrinsic B3 column classification",
+      "public_wording": "certified column refinement",
+      "role": "8/8 column profile classification by (signature, M)",
+      "scope": "appendix-only",
+      "source_artifact": "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json"
+    },
+    {
+      "paper_block": "Defect-6 realizability obstruction",
+      "public_wording": "certified obstruction boundary",
+      "role": "13/35 arithmetic realization cut and no linear symmetry",
+      "scope": "appendix-only",
+      "source_artifact": "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json"
+    },
+    {
+      "paper_block": "Claim boundary",
+      "public_wording": "mandatory guardrail",
+      "role": "blocked/allowed claims",
+      "scope": "public-export",
+      "source_artifact": "results/P6_final_verification_gate.json"
+    }
+  ],
+  "summary": {
+    "appendix_only_count": 4,
+    "development_only_input_count": 5,
+    "development_only_scope_count": 1,
+    "final_red_team_required": false,
+    "human_release_review_required": false,
+    "license_citation_review_required": false,
+    "missing_package_files": [],
+    "missing_recommended_public_package_files": [],
+    "next_gate": "Confirm the GitHub remote exists, push main, then run checks from the pushed checkout before tagging.",
+    "paper_package_files_ready": true,
+    "papp_standard_docs_ready": true,
+    "public_export_count": 16,
+    "public_export_ready": true,
+    "public_package_manifest_ready": true,
+    "recommended_status": "PUBLIC_PACKAGE_RELEASE_READY_LOCAL",
+    "red_team_report_ready": true,
+    "red_team_required": false,
+    "red_team_required_after_human_release_changes": false,
+    "reproduce_file_ready": true,
+    "scope_policy_enforced": true,
+    "scope_policy_violation_count": 0,
+    "skeleton_red_team_passed": true,
+    "source_map_scope_classes_ready": true,
+    "source_scope_row_count": 21,
+    "workspace_package_files_ready": true
+  }
 }
