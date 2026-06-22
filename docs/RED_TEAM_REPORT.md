@@ -11,8 +11,7 @@ Reviewers: delegated read-only repo red-team and delegated read-only paper red-t
 
 Local public companion repository: release-ready for first public push.
 
-Remaining operational gate: confirm the GitHub remote exists, push `main`, and
-run the public checks from the pushed checkout before tagging a release.
+Remaining operational gate: publish the repository, then run the public checks from a clean clone before tagging a release.
 
 ## Red-Team Findings And Closure
 
@@ -23,7 +22,7 @@ run the public checks from the pushed checkout before tagging a release.
 | RT-3 | high | `SOURCE_LOCK.md` listed only two appendix-only artifacts while source map/manifest listed four. | Closed: source lock now lists `PAPER_FINAL`, `ITEM7`, `ITEM10`, and `ITEM11` as appendix-only support. |
 | RT-4 | high | `PAPER_WORKSPACE_MANIFEST.json` was stale development metadata. | Closed: removed from the public repo. |
 | RT-5 | medium | Introduction used stale release-draft wording. | Closed: introduction now states the paper directly as a focused companion. |
-| RT-6 | low | `results/public_staging_check.json` can be generated as ignored local residue. | Accepted: public checks are read-only by default; `run_all_reproducibility_checks.py` writes this ignored report only on demand. |
+| RT-6 | low | `results/public_package_check.json` can be generated as ignored local residue. | Accepted: public checks are read-only by default; `run_all_reproducibility_checks.py` writes this ignored report only on demand. |
 | RT-7 | low | Underfull hbox warnings remain in the generated table. | Accepted: no overfull boxes, no unresolved citations, no unresolved references; table content is correct. |
 | RT-8 | high | Internal methodology acronym leaked into public docs and the compiled PDF. | Closed: public-facing wording now uses public/release/package terminology; PDF text scan is clean. |
 | RT-9 | high | Shipped provenance metadata contained private development-workspace paths and absent private source filenames. | Closed: public source maps point to shipped artifacts or explicitly mark private provenance as not shipped. |

@@ -90,7 +90,7 @@ def check_tex_inputs(failures: list[str]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check the public package shape.")
-    parser.add_argument("--write", action="store_true", help="write results/public_staging_check.json")
+    parser.add_argument("--write", action="store_true", help="write results/public_package_check.json")
     args = parser.parse_args()
     failures: list[str] = []
     warnings: list[str] = []
@@ -161,7 +161,7 @@ def main() -> int:
         "file_count": len(all_files),
     }
     if args.write:
-        out = ROOT / "results" / "public_staging_check.json"
+        out = ROOT / "results" / "public_package_check.json"
         out.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
     print(json.dumps(report, indent=2, sort_keys=True))

@@ -19,9 +19,9 @@ public companion package.
 
 - Manuscript: `paper/affine_defect_boundary_atlas.pdf`.
 - Replay target: finite, paper-local endpoint-24 affine-defect atlas.
-- Public export: release candidate; final push/tag requires a clean-checkout
+- Public export: local release-ready; first public repository publication and tag require a clean-checkout
   red-team pass.
-- License/citation: finalized as MIT / `CITATION.cff` for this release candidate.
+- License/citation: finalized as MIT / `CITATION.cff` for this local public package.
 
 ## Main Guardrail
 

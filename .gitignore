@@ -22,4 +22,4 @@ Thumbs.db
 .idea/
 
 # Public checks may rewrite this report.
-results/public_staging_check.json
+results/public_package_check.json

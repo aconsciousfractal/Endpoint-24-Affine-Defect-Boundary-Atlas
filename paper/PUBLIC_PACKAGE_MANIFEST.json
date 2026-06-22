@@ -53,7 +53,7 @@
     }
   ],
   "guardrails": [
-    "This is a public companion release-candidate manifest.",
+    "This is a public companion release-ready local manifest.",
     "Do not export development-only artifacts unless SOURCE_MAP.md is deliberately changed.",
     "Appendix-only artifacts are certificate support, not main public narrative material.",
     "Run public package checks and a clean-clone check before push/tag."
@@ -78,12 +78,12 @@
     {
       "path": ".gitignore",
       "exists": true,
-      "size_bytes": 319
+      "size_bytes": 322
     },
     {
       "path": "CITATION.cff",
       "exists": true,
-      "size_bytes": 642
+      "size_bytes": 660
     },
     {
       "path": "data/.gitkeep",
@@ -123,7 +123,7 @@
     {
       "path": "docs/PUBLIC_CLAIM_BOUNDARY.md",
       "exists": true,
-      "size_bytes": 1779
+      "size_bytes": 1797
     },
     {
       "path": "docs/PUBLIC_RELEASE_CHECKLIST.md",
@@ -133,7 +133,7 @@
     {
       "path": "docs/RED_TEAM_REPORT.md",
       "exists": true,
-      "size_bytes": 3202
+      "size_bytes": 3176
     },
     {
       "path": "docs/REFERENCE_AUDIT.md",
@@ -148,7 +148,7 @@
     {
       "path": "docs/SOURCE_MAP.md",
       "exists": true,
-      "size_bytes": 5325
+      "size_bytes": 5304
     },
     {
       "path": "LICENSE",
@@ -173,7 +173,7 @@
     {
       "path": "paper/CITATION.cff",
       "exists": true,
-      "size_bytes": 642
+      "size_bytes": 660
     },
     {
       "path": "paper/CLAIM_BOUNDARY.md",
@@ -203,7 +203,7 @@
     {
       "path": "paper/PUBLIC_PACKAGE_MANIFEST.json",
       "exists": true,
-      "size_bytes": 23199
+      "size_bytes": 23174
     },
     {
       "path": "paper/README.md",
@@ -213,7 +213,7 @@
     {
       "path": "paper/README_REVIEWER.md",
       "exists": true,
-      "size_bytes": 1261
+      "size_bytes": 1324
     },
     {
       "path": "paper/REFERENCE_AUDIT.md",
@@ -263,12 +263,12 @@
     {
       "path": "paper/SOURCE_MAP.md",
       "exists": true,
-      "size_bytes": 5325
+      "size_bytes": 5304
     },
     {
       "path": "PUBLICATION_PLAN.md",
       "exists": true,
-      "size_bytes": 1294
+      "size_bytes": 1474
     },
     {
       "path": "pytest.ini",
@@ -278,17 +278,17 @@
     {
       "path": "README.md",
       "exists": true,
-      "size_bytes": 2526
+      "size_bytes": 2565
     },
     {
       "path": "README_REVIEWER.md",
       "exists": true,
-      "size_bytes": 1261
+      "size_bytes": 1324
     },
     {
       "path": "REPRODUCE.md",
       "exists": true,
-      "size_bytes": 2009
+      "size_bytes": 2061
     },
     {
       "path": "requirements.txt",
@@ -723,7 +723,7 @@
     "license_citation_review_required": false,
     "missing_package_files": [],
     "missing_recommended_public_package_files": [],
-    "next_gate": "Confirm the GitHub remote exists, push main, then run checks from the pushed checkout before tagging.",
+    "next_gate": "Publish the repository, then run checks from a clean clone before tagging.",
     "paper_package_files_ready": true,
     "standard_docs_ready": true,
     "public_export_count": 16,

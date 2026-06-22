@@ -1,6 +1,6 @@
 # Reproducing The Public Package Checks
 
-This repository is a standalone public companion staging package for the
+This repository is a standalone public companion package for the
 Endpoint-24 affine-defect boundary atlas paper.
 
 ## Environment
@@ -21,13 +21,13 @@ Run the public test suite:
 python -m pytest -q
 ```
 
-Run the bundled staging audit command:
+Run the bundled public-package audit command:
 
 ```bash
 python scripts/run_all_reproducibility_checks.py
 ```
 
-This writes `results/public_staging_check.json` and checks the public package
+This writes `results/public_package_check.json` and checks the public package
 shape. It is intentionally lightweight: the full development workspace and raw
 enumeration inputs are outside the public export.
 
@@ -59,4 +59,4 @@ pdflatex -interaction=nonstopmode -halt-on-error affine_defect_boundary_atlas.te
 The scripts replay public-package checks and inspect curated artifacts. The
 mathematical proof text and claim limits are in the paper and in `docs/`.
 Development-only raw data and record-level exploratory outputs are deliberately
-not part of this public staging package.
+not part of this public package.

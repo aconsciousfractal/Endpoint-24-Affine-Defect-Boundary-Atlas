@@ -59,4 +59,4 @@ reference audit, source-backed table summaries, tests, and the small certificate
 JSON rows marked `public-export`.  `appendix-only` artifacts may be bundled as a
 separate certificate appendix.  `development-only` artifacts stay outside this public package.
 
-Release note: license and citation metadata are finalized for this local public package; update the release date and DOI only when tagging a formal archive.
+Release note: license and citation metadata are finalized for this local public package; update DOI only when tagging a formal archive.

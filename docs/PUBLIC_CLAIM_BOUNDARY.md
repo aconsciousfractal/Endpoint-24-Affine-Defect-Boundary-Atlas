@@ -9,7 +9,7 @@ This file is the public-facing version of `CLAIM_BOUNDARY.md`.
 | B2 is certified as 32 records and 8 orbits under the stated selector. | B2 has a cleaner conceptual shape than B3. | B2 is conceptually complete beyond the finite certificate. |
 | B3 is certified as 60 records, 15 orbits, and a 15/49 support-action matrix in the locked atlas. | The Intrinsic B3 column classification closes the column-profile side, and the Defect-6 realizability obstruction shows the remaining realization cut is integer-arithmetic. | The B3 count 60 or full 15/49 matrix is proved non-enumeratively. |
 | Lemma B / Nimm0 is handled by local finite proof with literature context. | A sharper historical attribution may be worth future checking. | A cited source was verified to state the local row/column nim-sum wording verbatim unless that is separately proved. |
-| The package is a public-release candidate after finalized license/citation metadata and passing package checks. | First push/tag still needs a clean-checkout red-team pass. | This package has already been pushed/tagged from a clean public remote before that final pass. |
+| The package is locally public-release-ready after finalized license/citation metadata, red-team closure, and passing package checks. | First publication/tag still needs a clean-clone verification pass. | This package has already been tagged before clean-clone verification. |
 
 Public claims must be no stronger than `docs/CLAIM_LEDGER.md`, `SOURCE_MAP.md`,
 `REPRODUCE.md`, and `docs/RED_TEAM_REPORT.md` allow.

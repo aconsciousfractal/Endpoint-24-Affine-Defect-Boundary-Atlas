@@ -1,6 +1,6 @@
 # Endpoint-24 Affine-Defect Boundary Atlas
 
-Public companion staging repository for the paper:
+Public companion repository for the paper:
 
 ```text
 Endpoint-24 Affine-Defect Boundary Atlas
@@ -15,7 +15,7 @@ a dump of the development workspace.
 
 ## Status
 
-Public-release candidate. The paper package skeleton, license, citation metadata, and public package checks are in place. Before pushing a public remote, run the final red-team pass from a clean checkout.
+Public-release-ready local companion repository. Use GitHub Desktop to publish the repository, then run the same checks from a clean clone before creating a release tag.
 
 ## Layout
 
@@ -43,13 +43,13 @@ shape is intact, that blocked development artifacts are absent, and that the
 paper metadata/PDF are present. They do not replace the mathematical arguments
 or the finite certificates cited in the paper.
 
-To write a machine-readable staging report:
+To write a machine-readable public-package report:
 
 ```bash
 python scripts/run_all_reproducibility_checks.py
 ```
 
-The report is written to `results/public_staging_check.json`.
+The report is written to `results/public_package_check.json`.
 
 ## Paper
 
