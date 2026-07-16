@@ -78,12 +78,12 @@
     {
       "path": ".gitignore",
       "exists": true,
-      "size_bytes": 322
+      "size_bytes": 319
     },
     {
       "path": "CITATION.cff",
       "exists": true,
-      "size_bytes": 660
+      "size_bytes": 642
     },
     {
       "path": "data/.gitkeep",
@@ -93,37 +93,37 @@
     {
       "path": "docs/CLAIM_BOUNDARY.md",
       "exists": true,
-      "size_bytes": 2207
+      "size_bytes": 2645
     },
     {
       "path": "docs/CLAIM_LEDGER.md",
       "exists": true,
-      "size_bytes": 3703
+      "size_bytes": 4099
     },
     {
       "path": "docs/NORMALIZATION_LOCK.md",
       "exists": true,
-      "size_bytes": 1808
+      "size_bytes": 1819
     },
     {
       "path": "docs/PAPER_FINAL_THEOREM_B1_B2_B3.md",
       "exists": true,
-      "size_bytes": 17690
+      "size_bytes": 17462
     },
     {
       "path": "docs/PAPER_TO_ENGINE_TRACEABILITY.md",
       "exists": true,
-      "size_bytes": 2873
+      "size_bytes": 3026
     },
     {
       "path": "docs/PROOF_OBLIGATIONS.md",
       "exists": true,
-      "size_bytes": 2497
+      "size_bytes": 2850
     },
     {
       "path": "docs/PUBLIC_CLAIM_BOUNDARY.md",
       "exists": true,
-      "size_bytes": 1797
+      "size_bytes": 2103
     },
     {
       "path": "docs/PUBLIC_RELEASE_CHECKLIST.md",
@@ -133,22 +133,22 @@
     {
       "path": "docs/RED_TEAM_REPORT.md",
       "exists": true,
-      "size_bytes": 3176
+      "size_bytes": 3149
     },
     {
       "path": "docs/REFERENCE_AUDIT.md",
       "exists": true,
-      "size_bytes": 2608
+      "size_bytes": 3119
     },
     {
       "path": "docs/SOURCE_LOCK.md",
       "exists": true,
-      "size_bytes": 2299
+      "size_bytes": 2302
     },
     {
       "path": "docs/SOURCE_MAP.md",
       "exists": true,
-      "size_bytes": 5304
+      "size_bytes": 5504
     },
     {
       "path": "LICENSE",
@@ -158,27 +158,27 @@
     {
       "path": "paper/affine_defect_boundary_atlas.pdf",
       "exists": true,
-      "size_bytes": 408062
+      "size_bytes": 491716
     },
     {
       "path": "paper/affine_defect_boundary_atlas.tex",
       "exists": true,
-      "size_bytes": 3252
+      "size_bytes": 3779
     },
     {
       "path": "paper/BUILD.md",
       "exists": true,
-      "size_bytes": 905
+      "size_bytes": 906
     },
     {
       "path": "paper/CITATION.cff",
       "exists": true,
-      "size_bytes": 660
+      "size_bytes": 642
     },
     {
       "path": "paper/CLAIM_BOUNDARY.md",
       "exists": true,
-      "size_bytes": 2207
+      "size_bytes": 2645
     },
     {
       "path": "paper/figures/.gitkeep",
@@ -188,7 +188,7 @@
     {
       "path": "paper/generated/source_backed_tables.tex",
       "exists": true,
-      "size_bytes": 6229
+      "size_bytes": 6220
     },
     {
       "path": "paper/LICENSE",
@@ -198,37 +198,37 @@
     {
       "path": "paper/PAPER_SOURCE_BACKED_TABLES.json",
       "exists": true,
-      "size_bytes": 17977
+      "size_bytes": 17121
     },
     {
       "path": "paper/PUBLIC_PACKAGE_MANIFEST.json",
       "exists": true,
-      "size_bytes": 23174
+      "size_bytes": 23627
     },
     {
       "path": "paper/README.md",
       "exists": true,
-      "size_bytes": 1988
+      "size_bytes": 1861
     },
     {
       "path": "paper/README_REVIEWER.md",
       "exists": true,
-      "size_bytes": 1324
+      "size_bytes": 1364
     },
     {
       "path": "paper/REFERENCE_AUDIT.md",
       "exists": true,
-      "size_bytes": 2608
+      "size_bytes": 3119
     },
     {
       "path": "paper/refs.bib",
       "exists": true,
-      "size_bytes": 2524
+      "size_bytes": 3285
     },
     {
       "path": "paper/REPRODUCE.md",
       "exists": true,
-      "size_bytes": 1466
+      "size_bytes": 1460
     },
     {
       "path": "paper/requirements.txt",
@@ -238,22 +238,22 @@
     {
       "path": "paper/sections/01_introduction.tex",
       "exists": true,
-      "size_bytes": 2219
+      "size_bytes": 2269
     },
     {
       "path": "paper/sections/02_model_and_notation.tex",
       "exists": true,
-      "size_bytes": 5035
+      "size_bytes": 5127
     },
     {
       "path": "paper/sections/03_boundary_theorem.tex",
       "exists": true,
-      "size_bytes": 10572
+      "size_bytes": 12165
     },
     {
       "path": "paper/sections/04_certificate_spine.tex",
       "exists": true,
-      "size_bytes": 2436
+      "size_bytes": 2434
     },
     {
       "path": "paper/sections/05_public_package.tex",
@@ -263,12 +263,12 @@
     {
       "path": "paper/SOURCE_MAP.md",
       "exists": true,
-      "size_bytes": 5304
+      "size_bytes": 5504
     },
     {
       "path": "PUBLICATION_PLAN.md",
       "exists": true,
-      "size_bytes": 1474
+      "size_bytes": 1528
     },
     {
       "path": "pytest.ini",
@@ -278,17 +278,17 @@
     {
       "path": "README.md",
       "exists": true,
-      "size_bytes": 2565
+      "size_bytes": 2825
     },
     {
       "path": "README_REVIEWER.md",
       "exists": true,
-      "size_bytes": 1324
+      "size_bytes": 1378
     },
     {
       "path": "REPRODUCE.md",
       "exists": true,
-      "size_bytes": 2061
+      "size_bytes": 2144
     },
     {
       "path": "requirements.txt",
@@ -303,12 +303,12 @@
     {
       "path": "results/DELTA_STRATIFICATION.json",
       "exists": true,
-      "size_bytes": 116049
+      "size_bytes": 116043
     },
     {
       "path": "results/DIRECTION_LEMMA_CERTIFICATE.json",
       "exists": true,
-      "size_bytes": 134815
+      "size_bytes": 134807
     },
     {
       "path": "results/FULL_ENDPOINT_CONTROL_ATLAS.json",
@@ -318,7 +318,7 @@
     {
       "path": "results/ITEM10_INTRINSIC_COLUMN_CLASSIFICATION.json",
       "exists": true,
-      "size_bytes": 41757
+      "size_bytes": 41749
     },
     {
       "path": "results/ITEM11_DELTA6_REALIZABILITY_OBSTRUCTION.json",
@@ -328,27 +328,27 @@
     {
       "path": "results/ITEM7_PAPER_LOCAL_ENDPOINT_TRANSPORT_PACKAGE.json",
       "exists": true,
-      "size_bytes": 13168
+      "size_bytes": 12855
     },
     {
       "path": "results/ITEM8A_GLOBAL_TK_FREENESS_THEOREM.json",
       "exists": true,
-      "size_bytes": 8976
+      "size_bytes": 8980
     },
     {
       "path": "results/ITEM8B_FREENESS_COUNT_REDUCTION.json",
       "exists": true,
-      "size_bytes": 3371
+      "size_bytes": 3339
     },
     {
       "path": "results/ITEM8D_B2_ENDPOINT_BOUNDARY_PACKAGE.json",
       "exists": true,
-      "size_bytes": 9613
+      "size_bytes": 9573
     },
     {
       "path": "results/ITEM9_COUNT60_COLLAPSE_KERNEL_GEOMETRY.json",
       "exists": true,
-      "size_bytes": 14791
+      "size_bytes": 14743
     },
     {
       "path": "results/LEMMA_B_LINE_XOR_DERIVATION.json",
@@ -358,7 +358,7 @@
     {
       "path": "results/P6_final_verification_gate.json",
       "exists": true,
-      "size_bytes": 10272
+      "size_bytes": 10267
     },
     {
       "path": "results/STEP10PLUS_CLAUSE_FAMILIES.json",
@@ -378,12 +378,12 @@
     {
       "path": "results/STEP9PLUS_ERROR_FIBER_PARITY.json",
       "exists": true,
-      "size_bytes": 2365
+      "size_bytes": 2357
     },
     {
       "path": "scripts/check_public_package.py",
       "exists": true,
-      "size_bytes": 6157
+      "size_bytes": 8584
     },
     {
       "path": "scripts/run_all_reproducibility_checks.py",
@@ -393,7 +393,7 @@
     {
       "path": "tests/test_public_package.py",
       "exists": true,
-      "size_bytes": 1825
+      "size_bytes": 2329
     }
   ],
   "public_export_sources": [

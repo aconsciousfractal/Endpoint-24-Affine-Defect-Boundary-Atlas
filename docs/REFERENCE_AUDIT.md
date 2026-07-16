@@ -19,6 +19,8 @@ name origin are pinned down in that source; Step4 remains the operative proof.
 | `beckCohenCuomoGribelyukMagic` | Crossref title/DOI lookup | title, authors, journal, volume `110`, issue `8`, pages `707--717`, DOI `10.1080/00029890.2003.11920010` | general enumeration context | context |
 | `beckVanHerick4x4Enumeration` | Crossref title/DOI lookup | title, authors, journal, volume `80`, issue `273`, pages `617--621`, DOI `10.1090/S0025-5718-10-02347-1` | order-four enumeration context | context |
 | `takemura880` | arXiv page `2601.06131` | title, author, submitted `2026-01-05`, arXiv DOI `10.48550/arXiv.2601.06131`, primary class `math.GM` | modern 880-square computational context | preprint context |
+| `Duangmoon2022` | Crossref DOI `10.1155/2022/2578562` | title, full author given names, journal `Int. J. Math. Math. Sci.`, volume `2022`, article `2578562`, verified `2026-07-16` | order-4 magic cubes (cubes, not squares), adjacent affine coordinatization | context |
+| `babanskyy24Meet` | GitHub repository URL `https://github.com/aconsciousfractal/The-24-Meet-of-Lo-Shu-and-Durer` + tag `v1.0.0` | title, author, year, URL, tag `v1.0.0`, verified `2026-07-16` | companion order-four repository | context |
 
 ## Corrections Made
 
